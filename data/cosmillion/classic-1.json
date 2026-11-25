@@ -1,0 +1,166 @@
+{
+  "id": "cosmillion-classic-1",
+  "title": "Cosmillion Moonshot Pack 1",
+  "prompts": [
+    {
+      "id": "cm-01",
+      "prompt": "Which of these people have walked on the Moon?",
+      "highlight": "walked on the Moon",
+      "seconds": 18,
+      "options": [
+        { "id": "a", "label": "Neil Armstrong", "correct": true },
+        { "id": "b", "label": "Buzz Aldrin", "correct": true },
+        { "id": "c", "label": "Sally Ride", "correct": false },
+        { "id": "d", "label": "Pete Conrad", "correct": true },
+        { "id": "e", "label": "John Glenn", "correct": false },
+        { "id": "f", "label": "Alan Bean", "correct": true },
+        { "id": "g", "label": "Yuri Gagarin", "correct": false },
+        { "id": "h", "label": "Edgar Mitchell", "correct": true }
+      ]
+    },
+    {
+      "id": "cm-02",
+      "prompt": "Which of these are moons of Jupiter?",
+      "highlight": "moons of Jupiter",
+      "seconds": 16,
+      "options": [
+        { "id": "a", "label": "Europa", "correct": true },
+        { "id": "b", "label": "Titan", "correct": false },
+        { "id": "c", "label": "Ganymede", "correct": true },
+        { "id": "d", "label": "Callisto", "correct": true },
+        { "id": "e", "label": "Io", "correct": true },
+        { "id": "f", "label": "Phobos", "correct": false },
+        { "id": "g", "label": "Enceladus", "correct": false },
+        { "id": "h", "label": "Triton", "correct": false }
+      ]
+    },
+    {
+      "id": "cm-03",
+      "prompt": "Which planets are gas giants in our solar system?",
+      "highlight": "gas giants",
+      "seconds": 15,
+      "options": [
+        { "id": "a", "label": "Jupiter", "correct": true },
+        { "id": "b", "label": "Mars", "correct": false },
+        { "id": "c", "label": "Saturn", "correct": true },
+        { "id": "d", "label": "Venus", "correct": false },
+        { "id": "e", "label": "Uranus", "correct": false },
+        { "id": "f", "label": "Neptune", "correct": false },
+        { "id": "g", "label": "Mercury", "correct": false },
+        { "id": "h", "label": "Earth", "correct": false }
+      ]
+    },
+    {
+      "id": "cm-04",
+      "prompt": "Which of these spacecraft have left the solar system (heliosphere)?",
+      "highlight": "left the solar system",
+      "seconds": 16,
+      "options": [
+        { "id": "a", "label": "Voyager 1", "correct": true },
+        { "id": "b", "label": "Voyager 2", "correct": true },
+        { "id": "c", "label": "Apollo 11", "correct": false },
+        { "id": "d", "label": "Pioneer 10", "correct": true },
+        { "id": "e", "label": "Hubble", "correct": false },
+        { "id": "f", "label": "Pioneer 11", "correct": true },
+        { "id": "g", "label": "ISS", "correct": false },
+        { "id": "h", "label": "Curiosity", "correct": false }
+      ]
+    },
+    {
+      "id": "cm-05",
+      "prompt": "Which of these are real NASA missions?",
+      "highlight": "real NASA missions",
+      "seconds": 16,
+      "options": [
+        { "id": "a", "label": "Apollo", "correct": true },
+        { "id": "b", "label": "Artemis", "correct": true },
+        { "id": "c", "label": "Orion Quest", "correct": false },
+        { "id": "d", "label": "Gemini", "correct": true },
+        { "id": "e", "label": "Mercury", "correct": true },
+        { "id": "f", "label": "Starfall", "correct": false },
+        { "id": "g", "label": "Perseverance", "correct": true },
+        { "id": "h", "label": "Galaxy Run", "correct": false }
+      ]
+    },
+    {
+      "id": "cm-06",
+      "prompt": "Which of these are constellations?",
+      "highlight": "constellations",
+      "seconds": 15,
+      "options": [
+        { "id": "a", "label": "Orion", "correct": true },
+        { "id": "b", "label": "Andromeda", "correct": true },
+        { "id": "c", "label": "Betelgeuse", "correct": false },
+        { "id": "d", "label": "Cassiopeia", "correct": true },
+        { "id": "e", "label": "Sirius", "correct": false },
+        { "id": "f", "label": "Ursa Major", "correct": true },
+        { "id": "g", "label": "Polaris", "correct": false },
+        { "id": "h", "label": "Lyra", "correct": true }
+      ]
+    },
+    {
+      "id": "cm-07",
+      "prompt": "Which moons are larger than Pluto?",
+      "highlight": "larger than Pluto",
+      "seconds": 16,
+      "options": [
+        { "id": "a", "label": "Ganymede", "correct": true },
+        { "id": "b", "label": "Titan", "correct": true },
+        { "id": "c", "label": "Europa", "correct": false },
+        { "id": "d", "label": "Callisto", "correct": true },
+        { "id": "e", "label": "Io", "correct": true },
+        { "id": "f", "label": "Phobos", "correct": false },
+        { "id": "g", "label": "Deimos", "correct": false },
+        { "id": "h", "label": "Moon (Luna)", "correct": false }
+      ]
+    },
+    {
+      "id": "cm-08",
+      "prompt": "Which of these are ice giants?",
+      "highlight": "ice giants",
+      "seconds": 14,
+      "options": [
+        { "id": "a", "label": "Uranus", "correct": true },
+        { "id": "b", "label": "Neptune", "correct": true },
+        { "id": "c", "label": "Jupiter", "correct": false },
+        { "id": "d", "label": "Saturn", "correct": false },
+        { "id": "e", "label": "Mars", "correct": false },
+        { "id": "f", "label": "Venus", "correct": false },
+        { "id": "g", "label": "Mercury", "correct": false },
+        { "id": "h", "label": "Earth", "correct": false }
+      ]
+    },
+    {
+      "id": "cm-09",
+      "prompt": "Which of these orbit the Sun (are planets or dwarf planets)?",
+      "highlight": "orbit the Sun",
+      "seconds": 16,
+      "options": [
+        { "id": "a", "label": "Pluto", "correct": true },
+        { "id": "b", "label": "Ceres", "correct": true },
+        { "id": "c", "label": "Europa", "correct": false },
+        { "id": "d", "label": "Eris", "correct": true },
+        { "id": "e", "label": "Titan", "correct": false },
+        { "id": "f", "label": "Haumea", "correct": true },
+        { "id": "g", "label": "Phobos", "correct": false },
+        { "id": "h", "label": "Makemake", "correct": true }
+      ]
+    },
+    {
+      "id": "cm-10",
+      "prompt": "Which of these are types of galaxies?",
+      "highlight": "types of galaxies",
+      "seconds": 15,
+      "options": [
+        { "id": "a", "label": "Spiral", "correct": true },
+        { "id": "b", "label": "Elliptical", "correct": true },
+        { "id": "c", "label": "Triangular", "correct": false },
+        { "id": "d", "label": "Irregular", "correct": true },
+        { "id": "e", "label": "Lenticular", "correct": true },
+        { "id": "f", "label": "Cubic", "correct": false },
+        { "id": "g", "label": "Barred spiral", "correct": true },
+        { "id": "h", "label": "Hexagonal", "correct": false }
+      ]
+    }
+  ]
+}

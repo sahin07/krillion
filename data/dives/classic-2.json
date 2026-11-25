@@ -1,0 +1,97 @@
+{
+  "id": "classic-2",
+  "title": "The Endless Dive",
+  "diveNumber": 2,
+  "prompts": [
+    {
+      "id": "c2-p1",
+      "prompt": "Name a country in Africa",
+      "answers": [
+        { "label": "Egypt", "aliases": ["egypt"], "points": 10, "tier": "plankton" },
+        { "label": "Nigeria", "aliases": ["nigeria"], "points": 15, "tier": "too_clever" },
+        { "label": "Kenya", "aliases": ["kenya"], "points": 15, "tier": "too_clever" },
+        { "label": "Morocco", "aliases": ["morocco"], "points": 30, "tier": "schooler" },
+        { "label": "Ghana", "aliases": ["ghana"], "points": 30, "tier": "schooler" },
+        { "label": "Ethiopia", "aliases": ["ethiopia"], "points": 60, "tier": "rare" },
+        { "label": "Senegal", "aliases": ["senegal"], "points": 60, "tier": "rare" },
+        { "label": "Botswana", "aliases": ["botswana"], "points": 85, "tier": "deep_cut" },
+        { "label": "Lesotho", "aliases": ["lesotho"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "c2-p2",
+      "prompt": "Name a board game",
+      "answers": [
+        { "label": "Chess", "aliases": ["chess"], "points": 10, "tier": "plankton" },
+        { "label": "Monopoly", "aliases": ["monopoly"], "points": 10, "tier": "plankton" },
+        { "label": "Scrabble", "aliases": ["scrabble"], "points": 15, "tier": "too_clever" },
+        { "label": "Risk", "aliases": ["risk"], "points": 30, "tier": "schooler" },
+        { "label": "Catan", "aliases": ["catan", "settlers of catan", "settlers"], "points": 30, "tier": "schooler" },
+        { "label": "Ticket to Ride", "aliases": ["ticket to ride"], "points": 60, "tier": "rare" },
+        { "label": "Carcassonne", "aliases": ["carcassonne"], "points": 85, "tier": "deep_cut" },
+        { "label": "Azul", "aliases": ["azul"], "points": 85, "tier": "deep_cut" },
+        { "label": "Brass Birmingham", "aliases": ["brass birmingham", "brass: birmingham", "brass"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "c2-p3",
+      "prompt": "Name a programming language",
+      "answers": [
+        { "label": "Python", "aliases": ["python"], "points": 10, "tier": "plankton" },
+        { "label": "JavaScript", "aliases": ["javascript", "js", "ecmascript"], "points": 10, "tier": "plankton" },
+        { "label": "Java", "aliases": ["java"], "points": 15, "tier": "too_clever" },
+        { "label": "C++", "aliases": ["c++", "cpp", "cplusplus"], "points": 30, "tier": "schooler" },
+        { "label": "Rust", "aliases": ["rust"], "points": 30, "tier": "schooler" },
+        { "label": "Go", "aliases": ["go", "golang"], "points": 60, "tier": "rare" },
+        { "label": "Haskell", "aliases": ["haskell"], "points": 85, "tier": "deep_cut" },
+        { "label": "Elixir", "aliases": ["elixir"], "points": 85, "tier": "deep_cut" },
+        { "label": "Zig", "aliases": ["zig"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "c2-p4",
+      "prompt": "Name a sea mammal",
+      "answers": [
+        { "label": "Dolphin", "aliases": ["dolphin"], "points": 10, "tier": "plankton" },
+        { "label": "Whale", "aliases": ["whale"], "points": 10, "tier": "plankton" },
+        { "label": "Seal", "aliases": ["seal"], "points": 15, "tier": "too_clever" },
+        { "label": "Orca", "aliases": ["orca", "killer whale"], "points": 30, "tier": "schooler" },
+        { "label": "Manatee", "aliases": ["manatee", "sea cow"], "points": 60, "tier": "rare" },
+        { "label": "Dugong", "aliases": ["dugong"], "points": 85, "tier": "deep_cut" },
+        { "label": "Narwhal", "aliases": ["narwhal"], "points": 60, "tier": "rare" },
+        { "label": "Vaquita", "aliases": ["vaquita"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Walrus", "aliases": ["walrus"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "c2-p5",
+      "prompt": "Name a spice",
+      "answers": [
+        { "label": "Pepper", "aliases": ["pepper", "black pepper"], "points": 10, "tier": "plankton" },
+        { "label": "Cinnamon", "aliases": ["cinnamon"], "points": 15, "tier": "too_clever" },
+        { "label": "Cumin", "aliases": ["cumin"], "points": 30, "tier": "schooler" },
+        { "label": "Turmeric", "aliases": ["turmeric"], "points": 30, "tier": "schooler" },
+        { "label": "Cardamom", "aliases": ["cardamom", "cardamon"], "points": 60, "tier": "rare" },
+        { "label": "Saffron", "aliases": ["saffron"], "points": 60, "tier": "rare" },
+        { "label": "Fenugreek", "aliases": ["fenugreek"], "points": 85, "tier": "deep_cut" },
+        { "label": "Sumac", "aliases": ["sumac"], "points": 85, "tier": "deep_cut" },
+        { "label": "Grains of Paradise", "aliases": ["grains of paradise", "grain of paradise"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "c2-p6",
+      "prompt": "Name a constellation",
+      "answers": [
+        { "label": "Orion", "aliases": ["orion"], "points": 10, "tier": "plankton" },
+        { "label": "Ursa Major", "aliases": ["ursa major", "big dipper", "great bear"], "points": 15, "tier": "too_clever" },
+        { "label": "Cassiopeia", "aliases": ["cassiopeia"], "points": 30, "tier": "schooler" },
+        { "label": "Scorpius", "aliases": ["scorpius", "scorpio"], "points": 30, "tier": "schooler" },
+        { "label": "Lyra", "aliases": ["lyra"], "points": 60, "tier": "rare" },
+        { "label": "Cygnus", "aliases": ["cygnus"], "points": 60, "tier": "rare" },
+        { "label": "Corvus", "aliases": ["corvus"], "points": 85, "tier": "deep_cut" },
+        { "label": "Delphinus", "aliases": ["delphinus"], "points": 85, "tier": "deep_cut" },
+        { "label": "Antlia", "aliases": ["antlia"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}

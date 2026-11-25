@@ -1,0 +1,591 @@
+{
+  "id": "daily-04",
+  "title": "Daily Dive",
+  "diveNumber": 4,
+  "prompts": [
+    {
+      "id": "d4-p1",
+      "prompt": "Name a musical genre",
+      "answers": [
+        {
+          "label": "Rock",
+          "aliases": [
+            "rock",
+            "rock music"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Jazz",
+          "aliases": [
+            "jazz"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Hip Hop",
+          "aliases": [
+            "hip hop",
+            "hip-hop",
+            "rap"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Flamenco",
+          "aliases": [
+            "flamenco"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Highlife",
+          "aliases": [
+            "highlife"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Mbalax",
+          "aliases": [
+            "mbalax"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Reggae",
+          "aliases": [
+            "reggae"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Blues",
+          "aliases": [
+            "blues"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d4-p2",
+      "prompt": "Name a sea creature with tentacles",
+      "answers": [
+        {
+          "label": "Octopus",
+          "aliases": [
+            "octopus"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Squid",
+          "aliases": [
+            "squid"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Jellyfish",
+          "aliases": [
+            "jellyfish",
+            "jelly fish"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Cuttlefish",
+          "aliases": [
+            "cuttlefish"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Nautilus",
+          "aliases": [
+            "nautilus"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Siphonophore",
+          "aliases": [
+            "siphonophore"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Vampire Squid",
+          "aliases": [
+            "vampire squid"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Anemone",
+          "aliases": [
+            "anemone",
+            "sea anemone"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d4-p3",
+      "prompt": "Name a board game",
+      "answers": [
+        {
+          "label": "Chess",
+          "aliases": [
+            "chess"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Monopoly",
+          "aliases": [
+            "monopoly"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Scrabble",
+          "aliases": [
+            "scrabble"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Go",
+          "aliases": [
+            "go",
+            "baduk",
+            "weiqi"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Carcassonne",
+          "aliases": [
+            "carcassonne"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Azul",
+          "aliases": [
+            "azul"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Tak",
+          "aliases": [
+            "tak"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Backgammon",
+          "aliases": [
+            "backgammon"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d4-p4",
+      "prompt": "Name a mountain",
+      "answers": [
+        {
+          "label": "Everest",
+          "aliases": [
+            "everest",
+            "mount everest"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Kilimanjaro",
+          "aliases": [
+            "kilimanjaro"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Matterhorn",
+          "aliases": [
+            "matterhorn"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Denali",
+          "aliases": [
+            "denali",
+            "mount mckinley"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Aconcagua",
+          "aliases": [
+            "aconcagua"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "K2",
+          "aliases": [
+            "k2"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Nanga Parbat",
+          "aliases": [
+            "nanga parbat"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Kangchenjunga",
+          "aliases": [
+            "kangchenjunga",
+            "kanchenjunga"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    },
+    {
+      "id": "d4-p5",
+      "prompt": "Name a spice",
+      "answers": [
+        {
+          "label": "Pepper",
+          "aliases": [
+            "pepper",
+            "black pepper"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Cinnamon",
+          "aliases": [
+            "cinnamon"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Cumin",
+          "aliases": [
+            "cumin"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Cardamom",
+          "aliases": [
+            "cardamom"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Saffron",
+          "aliases": [
+            "saffron"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Asafoetida",
+          "aliases": [
+            "asafoetida",
+            "hing"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Grains of Paradise",
+          "aliases": [
+            "grains of paradise",
+            "melegueta pepper"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Sumac",
+          "aliases": [
+            "sumac"
+          ],
+          "points": 60,
+          "tier": "rare"
+        }
+      ]
+    },
+    {
+      "id": "d4-p6",
+      "prompt": "Name a dance",
+      "answers": [
+        {
+          "label": "Waltz",
+          "aliases": [
+            "waltz"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Tango",
+          "aliases": [
+            "tango"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Ballet",
+          "aliases": [
+            "ballet"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Flamenco",
+          "aliases": [
+            "flamenco"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Breakdance",
+          "aliases": [
+            "breakdance",
+            "breaking",
+            "b-boying"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Kathak",
+          "aliases": [
+            "kathak"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Capoeira",
+          "aliases": [
+            "capoeira"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Pizzica",
+          "aliases": [
+            "pizzica"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    },
+    {
+      "id": "d4-p7",
+      "prompt": "Name a famous river",
+      "answers": [
+        {
+          "label": "Nile",
+          "aliases": [
+            "nile",
+            "nile river"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Amazon",
+          "aliases": [
+            "amazon",
+            "amazon river"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Mississippi",
+          "aliases": [
+            "mississippi"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Danube",
+          "aliases": [
+            "danube"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Yangtze",
+          "aliases": [
+            "yangtze",
+            "chang jiang"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Mekong",
+          "aliases": [
+            "mekong"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Ob",
+          "aliases": [
+            "ob",
+            "ob river"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Lena",
+          "aliases": [
+            "lena",
+            "lena river"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    },
+    {
+      "id": "d4-p8",
+      "prompt": "Name an insect",
+      "answers": [
+        {
+          "label": "Ant",
+          "aliases": [
+            "ant"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Bee",
+          "aliases": [
+            "bee",
+            "honeybee"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Butterfly",
+          "aliases": [
+            "butterfly"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Dragonfly",
+          "aliases": [
+            "dragonfly"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Praying Mantis",
+          "aliases": [
+            "praying mantis",
+            "mantis"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Stick Insect",
+          "aliases": [
+            "stick insect",
+            "walking stick"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Cicada",
+          "aliases": [
+            "cicada"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Gladiator Bug",
+          "aliases": [
+            "gladiator bug",
+            "mantophasmatodea"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    }
+  ]
+}

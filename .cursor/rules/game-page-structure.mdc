@@ -1,0 +1,56 @@
+---
+description: Standard structure for every KrillionPro game page (play + SEO article + gameplay shots)
+alwaysApply: true
+---
+
+# Game page implementation structure
+
+Site is in **development stage**. Do **not** add SEO alias redirects unless explicitly requested.
+
+Every new / updated game page follows the Home + Daily Challenge + Minecraft pattern:
+
+## Page shell (`app/.../page.tsx`)
+
+1. `Header` + `main` + `Footer`
+2. Playable game component first (above the fold)
+3. SEO article component below the game
+4. Metadata: title, description, keywords, canonical
+5. FAQ JSON-LD when the article exports FAQ items
+
+## Game component
+
+- Mode chrome as needed (Daily / Unlimited / themed)
+- Real playable dive (prompts, timer, submit/pass, reveal, results)
+- Music/SFX via existing dive audio patterns; mute only stops audio
+
+## SEO article component
+
+- Human-tone guide (not thin keyword stuffing)
+- Sections: what it is → how to play → scoring/tiers → tips → FAQ → related games
+- Cross-links to Daily Dive, Unlimited, other modes, home guide
+- Fan-made / trademark disclaimer when the theme needs it (e.g. Minecraft)
+
+## Screenshots (required)
+
+Use `ArticleShot` with **real gameplay** images under `public/screenshots/` — not lobby-only or marketing UI alone.
+
+Capture at least:
+
+1. **Prompt** — question + timer + answer field + Pass/Submit
+2. **Reveal** — valid rare hit (tier + points + depth)
+3. **Miss** — nothing landed / timeout / pass + continue
+4. **Results** — dive complete / score / depth / rundown
+
+Capture rules:
+
+- Prefer full viewport screenshots of the game in play (prompt through results)
+- Avoid clipped HUD-only strips
+- Wire shots into the article next to the matching section
+- Cache-bust with `?v=N` when replacing images
+
+## Do not
+
+- Ship a game page with article text but no gameplay screenshots
+- Reuse the same non-gameplay image for every section
+- Add redirect aliases (`/krillion-unlimited`, typo routes, etc.) until asked
+- Hide unfinished features behind “coming soon” when the brief says to build them

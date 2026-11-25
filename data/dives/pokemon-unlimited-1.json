@@ -1,0 +1,117 @@
+{
+  "id": "pokemon-unlimited-1",
+  "title": "Pokémon Unlimited",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "pk-u1-p1",
+      "prompt": "Name an Electric-type Pokémon",
+      "answers": [
+        { "label": "Pikachu", "aliases": ["pikachu"], "points": 10, "tier": "plankton" },
+        { "label": "Raichu", "aliases": ["raichu"], "points": 15, "tier": "too_clever" },
+        { "label": "Jolteon", "aliases": ["jolteon"], "points": 15, "tier": "too_clever" },
+        { "label": "Luxray", "aliases": ["luxray"], "points": 30, "tier": "schooler" },
+        { "label": "Electivire", "aliases": ["electivire"], "points": 30, "tier": "schooler" },
+        { "label": "Zekrom", "aliases": ["zekrom"], "points": 60, "tier": "rare" },
+        { "label": "Xurkitree", "aliases": ["xurkitree"], "points": 85, "tier": "deep_cut" },
+        { "label": "Pawmot", "aliases": ["pawmot"], "points": 85, "tier": "deep_cut" },
+        { "label": "Iron Hands", "aliases": ["iron hands"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Raging Bolt", "aliases": ["raging bolt"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "pk-u1-p2",
+      "prompt": "Name a Pokémon evolution method or stone",
+      "answers": [
+        { "label": "Fire Stone", "aliases": ["fire stone"], "points": 10, "tier": "plankton" },
+        { "label": "Water Stone", "aliases": ["water stone"], "points": 10, "tier": "plankton" },
+        { "label": "Thunder Stone", "aliases": ["thunder stone", "thunderstone"], "points": 15, "tier": "too_clever" },
+        { "label": "Leaf Stone", "aliases": ["leaf stone"], "points": 15, "tier": "too_clever" },
+        { "label": "Moon Stone", "aliases": ["moon stone"], "points": 30, "tier": "schooler" },
+        { "label": "Friendship", "aliases": ["friendship", "happiness"], "points": 30, "tier": "schooler" },
+        { "label": "Dusk Stone", "aliases": ["dusk stone"], "points": 60, "tier": "rare" },
+        { "label": "Dawn Stone", "aliases": ["dawn stone"], "points": 60, "tier": "rare" },
+        { "label": "Linking Cord", "aliases": ["linking cord"], "points": 85, "tier": "deep_cut" },
+        { "label": "Auspicious Armor", "aliases": ["auspicious armor"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "pk-u1-p3",
+      "prompt": "Name a Pokémon ability",
+      "answers": [
+        { "label": "Levitate", "aliases": ["levitate"], "points": 10, "tier": "plankton" },
+        { "label": "Intimidate", "aliases": ["intimidate"], "points": 15, "tier": "too_clever" },
+        { "label": "Swift Swim", "aliases": ["swift swim"], "points": 15, "tier": "too_clever" },
+        { "label": "Huge Power", "aliases": ["huge power"], "points": 30, "tier": "schooler" },
+        { "label": "Magic Guard", "aliases": ["magic guard"], "points": 60, "tier": "rare" },
+        { "label": "Protean", "aliases": ["protean"], "points": 60, "tier": "rare" },
+        { "label": "Good as Gold", "aliases": ["good as gold"], "points": 85, "tier": "deep_cut" },
+        { "label": "Orichalcum Pulse", "aliases": ["orichalcum pulse"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Hadron Engine", "aliases": ["hadron engine"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "pk-u1-p4",
+      "prompt": "Name a Pokémon status condition",
+      "answers": [
+        { "label": "Burn", "aliases": ["burn", "burned"], "points": 10, "tier": "plankton" },
+        { "label": "Paralysis", "aliases": ["paralysis", "paralyzed", "paralyse"], "points": 10, "tier": "plankton" },
+        { "label": "Poison", "aliases": ["poison", "poisoned"], "points": 15, "tier": "too_clever" },
+        { "label": "Sleep", "aliases": ["sleep", "asleep"], "points": 15, "tier": "too_clever" },
+        { "label": "Freeze", "aliases": ["freeze", "frozen"], "points": 30, "tier": "schooler" },
+        { "label": "Confusion", "aliases": ["confusion", "confused"], "points": 30, "tier": "schooler" },
+        { "label": "Badly Poisoned", "aliases": ["badly poisoned", "toxic", "badly poison"], "points": 60, "tier": "rare" },
+        { "label": "Infatuation", "aliases": ["infatuation", "attract", "infatuated"], "points": 85, "tier": "deep_cut" },
+        { "label": "Drowsy", "aliases": ["drowsy", "drowsiness"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "pk-u1-p5",
+      "prompt": "Name a Pokémon game or remake title",
+      "answers": [
+        { "label": "Red", "aliases": ["red", "pokemon red", "pokémon red"], "points": 10, "tier": "plankton" },
+        { "label": "Blue", "aliases": ["blue", "pokemon blue", "pokémon blue"], "points": 10, "tier": "plankton" },
+        { "label": "Gold", "aliases": ["gold", "pokemon gold"], "points": 15, "tier": "too_clever" },
+        { "label": "Silver", "aliases": ["silver", "pokemon silver"], "points": 15, "tier": "too_clever" },
+        { "label": "Emerald", "aliases": ["emerald", "pokemon emerald"], "points": 30, "tier": "schooler" },
+        { "label": "Platinum", "aliases": ["platinum", "pokemon platinum"], "points": 30, "tier": "schooler" },
+        { "label": "Omega Ruby", "aliases": ["omega ruby", "or"], "points": 60, "tier": "rare" },
+        { "label": "Ultra Sun", "aliases": ["ultra sun"], "points": 85, "tier": "deep_cut" },
+        { "label": "Legends: Arceus", "aliases": ["legends arceus", "legends: arceus", "arceus"], "points": 85, "tier": "deep_cut" },
+        { "label": "Scarlet", "aliases": ["scarlet", "pokemon scarlet"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "pk-u1-p6",
+      "prompt": "Name a Pokémon character who is not a Gym Leader",
+      "answers": [
+        { "label": "Ash", "aliases": ["ash", "ash ketchum"], "points": 10, "tier": "plankton" },
+        { "label": "Professor Oak", "aliases": ["professor oak", "oak"], "points": 15, "tier": "too_clever" },
+        { "label": "Team Rocket", "aliases": ["team rocket", "jessie", "james"], "points": 15, "tier": "too_clever" },
+        { "label": "Red", "aliases": ["red"], "points": 30, "tier": "schooler" },
+        { "label": "Blue", "aliases": ["blue", "green"], "points": 30, "tier": "schooler" },
+        { "label": "N", "aliases": ["n", "natural harmonia gropius"], "points": 60, "tier": "rare" },
+        { "label": "Lillie", "aliases": ["lillie"], "points": 60, "tier": "rare" },
+        { "label": "Nemona", "aliases": ["nemona"], "points": 85, "tier": "deep_cut" },
+        { "label": "Arven", "aliases": ["arven"], "points": 85, "tier": "deep_cut" },
+        { "label": "Penny", "aliases": ["penny"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "pk-u1-p7",
+      "prompt": "Name a Pokémon habitat or location type",
+      "answers": [
+        { "label": "Cave", "aliases": ["cave"], "points": 10, "tier": "plankton" },
+        { "label": "Forest", "aliases": ["forest"], "points": 10, "tier": "plankton" },
+        { "label": "Route", "aliases": ["route"], "points": 15, "tier": "too_clever" },
+        { "label": "Safari Zone", "aliases": ["safari zone"], "points": 30, "tier": "schooler" },
+        { "label": "Victory Road", "aliases": ["victory road"], "points": 30, "tier": "schooler" },
+        { "label": "Power Plant", "aliases": ["power plant"], "points": 60, "tier": "rare" },
+        { "label": "Area Zero", "aliases": ["area zero"], "points": 85, "tier": "deep_cut" },
+        { "label": "Terra Raid Den", "aliases": ["tera raid den", "raid den"], "points": 85, "tier": "deep_cut" },
+        { "label": "Kitakami", "aliases": ["kitakami"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Blueberry Academy", "aliases": ["blueberry academy"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}

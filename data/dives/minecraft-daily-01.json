@@ -1,0 +1,113 @@
+{
+  "id": "minecraft-daily-01",
+  "title": "Minecraft Daily Dive",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "mc-d1-p1",
+      "prompt": "Name a hostile mob in Minecraft",
+      "answers": [
+        { "label": "Creeper", "aliases": ["creeper"], "points": 10, "tier": "plankton" },
+        { "label": "Zombie", "aliases": ["zombie"], "points": 10, "tier": "plankton" },
+        { "label": "Skeleton", "aliases": ["skeleton"], "points": 10, "tier": "plankton" },
+        { "label": "Spider", "aliases": ["spider"], "points": 15, "tier": "too_clever" },
+        { "label": "Enderman", "aliases": ["enderman", "endermen"], "points": 15, "tier": "too_clever" },
+        { "label": "Witch", "aliases": ["witch"], "points": 30, "tier": "schooler" },
+        { "label": "Pillager", "aliases": ["pillager"], "points": 30, "tier": "schooler" },
+        { "label": "Warden", "aliases": ["warden"], "points": 60, "tier": "rare" },
+        { "label": "Breeze", "aliases": ["breeze"], "points": 85, "tier": "deep_cut" },
+        { "label": "Illusioner", "aliases": ["illusioner"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "mc-d1-p2",
+      "prompt": "Name a biome in Minecraft",
+      "answers": [
+        { "label": "Plains", "aliases": ["plains", "plain"], "points": 10, "tier": "plankton" },
+        { "label": "Forest", "aliases": ["forest"], "points": 10, "tier": "plankton" },
+        { "label": "Desert", "aliases": ["desert"], "points": 15, "tier": "too_clever" },
+        { "label": "Jungle", "aliases": ["jungle"], "points": 15, "tier": "too_clever" },
+        { "label": "Badlands", "aliases": ["badlands", "mesa"], "points": 30, "tier": "schooler" },
+        { "label": "Mangrove Swamp", "aliases": ["mangrove swamp", "mangrove"], "points": 60, "tier": "rare" },
+        { "label": "Cherry Grove", "aliases": ["cherry grove"], "points": 60, "tier": "rare" },
+        { "label": "Pale Garden", "aliases": ["pale garden"], "points": 85, "tier": "deep_cut" },
+        { "label": "Eroded Badlands", "aliases": ["eroded badlands"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "mc-d1-p3",
+      "prompt": "Name a block in Minecraft",
+      "answers": [
+        { "label": "Dirt", "aliases": ["dirt"], "points": 10, "tier": "plankton" },
+        { "label": "Stone", "aliases": ["stone"], "points": 10, "tier": "plankton" },
+        { "label": "Cobblestone", "aliases": ["cobblestone", "cobble"], "points": 15, "tier": "too_clever" },
+        { "label": "Obsidian", "aliases": ["obsidian"], "points": 15, "tier": "too_clever" },
+        { "label": "Sculk", "aliases": ["sculk"], "points": 30, "tier": "schooler" },
+        { "label": "Amethyst Block", "aliases": ["amethyst block", "amethyst"], "points": 60, "tier": "rare" },
+        { "label": "Reinforced Deepslate", "aliases": ["reinforced deepslate"], "points": 85, "tier": "deep_cut" },
+        { "label": "Sculk Catalyst", "aliases": ["sculk catalyst"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "mc-d1-p4",
+      "prompt": "Name an enchantment in Minecraft",
+      "answers": [
+        { "label": "Sharpness", "aliases": ["sharpness"], "points": 10, "tier": "plankton" },
+        { "label": "Protection", "aliases": ["protection"], "points": 10, "tier": "plankton" },
+        { "label": "Fortune", "aliases": ["fortune"], "points": 15, "tier": "too_clever" },
+        { "label": "Mending", "aliases": ["mending"], "points": 15, "tier": "too_clever" },
+        { "label": "Silk Touch", "aliases": ["silk touch"], "points": 30, "tier": "schooler" },
+        { "label": "Swift Sneak", "aliases": ["swift sneak"], "points": 60, "tier": "rare" },
+        { "label": "Soul Speed", "aliases": ["soul speed"], "points": 60, "tier": "rare" },
+        { "label": "Wind Burst", "aliases": ["wind burst"], "points": 85, "tier": "deep_cut" },
+        { "label": "Lunge", "aliases": ["lunge"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "mc-d1-p5",
+      "prompt": "Name something found in the Nether",
+      "answers": [
+        { "label": "Netherrack", "aliases": ["netherrack"], "points": 10, "tier": "plankton" },
+        { "label": "Lava", "aliases": ["lava"], "points": 10, "tier": "plankton" },
+        { "label": "Glowstone", "aliases": ["glowstone"], "points": 15, "tier": "too_clever" },
+        { "label": "Nether Quartz", "aliases": ["nether quartz", "quartz"], "points": 15, "tier": "too_clever" },
+        { "label": "Ancient Debris", "aliases": ["ancient debris"], "points": 30, "tier": "schooler" },
+        { "label": "Shroomlight", "aliases": ["shroomlight"], "points": 60, "tier": "rare" },
+        { "label": "Basalt Delta", "aliases": ["basalt delta", "basalt deltas"], "points": 60, "tier": "rare" },
+        { "label": "Crimson Fungus", "aliases": ["crimson fungus"], "points": 85, "tier": "deep_cut" },
+        { "label": "Chiseled Nether Bricks", "aliases": ["chiseled nether bricks"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "mc-d1-p6",
+      "prompt": "Name a structure you can find in a Minecraft world",
+      "answers": [
+        { "label": "Village", "aliases": ["village"], "points": 10, "tier": "plankton" },
+        { "label": "Dungeon", "aliases": ["dungeon"], "points": 15, "tier": "too_clever" },
+        { "label": "Temple", "aliases": ["temple", "desert temple", "jungle temple"], "points": 15, "tier": "too_clever" },
+        { "label": "Stronghold", "aliases": ["stronghold"], "points": 30, "tier": "schooler" },
+        { "label": "Ancient City", "aliases": ["ancient city"], "points": 60, "tier": "rare" },
+        { "label": "Trial Chambers", "aliases": ["trial chambers", "trial chamber"], "points": 60, "tier": "rare" },
+        { "label": "Bastion Remnant", "aliases": ["bastion remnant", "bastion"], "points": 85, "tier": "deep_cut" },
+        { "label": "Ocean Monument", "aliases": ["ocean monument", "monument"], "points": 30, "tier": "schooler" },
+        { "label": "Trail Ruins", "aliases": ["trail ruins"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "mc-d1-p7",
+      "prompt": "Name a Minecraft ore or mineral",
+      "answers": [
+        { "label": "Coal", "aliases": ["coal", "coal ore"], "points": 10, "tier": "plankton" },
+        { "label": "Iron", "aliases": ["iron", "iron ore"], "points": 10, "tier": "plankton" },
+        { "label": "Diamond", "aliases": ["diamond", "diamond ore"], "points": 10, "tier": "plankton" },
+        { "label": "Gold", "aliases": ["gold", "gold ore"], "points": 15, "tier": "too_clever" },
+        { "label": "Emerald", "aliases": ["emerald", "emerald ore"], "points": 15, "tier": "too_clever" },
+        { "label": "Lapis Lazuli", "aliases": ["lapis lazuli", "lapis", "lapis ore"], "points": 30, "tier": "schooler" },
+        { "label": "Netherite", "aliases": ["netherite", "netherite scrap"], "points": 30, "tier": "schooler" },
+        { "label": "Copper", "aliases": ["copper", "copper ore"], "points": 60, "tier": "rare" },
+        { "label": "Echo Shard", "aliases": ["echo shard"], "points": 85, "tier": "deep_cut" },
+        { "label": "Calcite", "aliases": ["calcite"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}

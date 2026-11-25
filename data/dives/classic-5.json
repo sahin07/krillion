@@ -1,0 +1,97 @@
+{
+  "id": "classic-5",
+  "title": "The Endless Dive",
+  "diveNumber": 5,
+  "prompts": [
+    {
+      "id": "c5-p1",
+      "prompt": "Name a deep-sea creature",
+      "answers": [
+        { "label": "Anglerfish", "aliases": ["anglerfish", "angler fish", "angler"], "points": 30, "tier": "schooler" },
+        { "label": "Giant Squid", "aliases": ["giant squid"], "points": 30, "tier": "schooler" },
+        { "label": "Jellyfish", "aliases": ["jellyfish", "jelly fish"], "points": 10, "tier": "plankton" },
+        { "label": "Blobfish", "aliases": ["blobfish", "blob fish"], "points": 60, "tier": "rare" },
+        { "label": "Vampire Squid", "aliases": ["vampire squid"], "points": 85, "tier": "deep_cut" },
+        { "label": "Dumbo Octopus", "aliases": ["dumbo octopus", "grimpoteuthis"], "points": 85, "tier": "deep_cut" },
+        { "label": "Frilled Shark", "aliases": ["frilled shark"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Coelacanth", "aliases": ["coelacanth"], "points": 60, "tier": "rare" },
+        { "label": "Shark", "aliases": ["shark"], "points": 10, "tier": "plankton" }
+      ]
+    },
+    {
+      "id": "c5-p2",
+      "prompt": "Name a unit of measurement",
+      "answers": [
+        { "label": "Meter", "aliases": ["meter", "metre", "m"], "points": 10, "tier": "plankton" },
+        { "label": "Kilogram", "aliases": ["kilogram", "kg", "kilo"], "points": 10, "tier": "plankton" },
+        { "label": "Mile", "aliases": ["mile"], "points": 15, "tier": "too_clever" },
+        { "label": "Light-year", "aliases": ["light-year", "light year", "lightyear"], "points": 30, "tier": "schooler" },
+        { "label": "Parsec", "aliases": ["parsec"], "points": 60, "tier": "rare" },
+        { "label": "Fathom", "aliases": ["fathom"], "points": 60, "tier": "rare" },
+        { "label": "Ångström", "aliases": ["angstrom", "ångström", "angstroms"], "points": 85, "tier": "deep_cut" },
+        { "label": "Barn", "aliases": ["barn"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Nautical Mile", "aliases": ["nautical mile", "nm"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "c5-p3",
+      "prompt": "Name a famous ship or boat",
+      "answers": [
+        { "label": "Titanic", "aliases": ["titanic"], "points": 10, "tier": "plankton" },
+        { "label": "Mayflower", "aliases": ["mayflower"], "points": 30, "tier": "schooler" },
+        { "label": "Santa Maria", "aliases": ["santa maria"], "points": 30, "tier": "schooler" },
+        { "label": "Bismarck", "aliases": ["bismarck"], "points": 60, "tier": "rare" },
+        { "label": "USS Enterprise", "aliases": ["uss enterprise", "enterprise"], "points": 15, "tier": "too_clever" },
+        { "label": "Cutty Sark", "aliases": ["cutty sark"], "points": 85, "tier": "deep_cut" },
+        { "label": "Kon-Tiki", "aliases": ["kon-tiki", "kontiki", "kon tiki"], "points": 85, "tier": "deep_cut" },
+        { "label": "Fram", "aliases": ["fram"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Queen Mary", "aliases": ["queen mary", "rms queen mary"], "points": 60, "tier": "rare" }
+      ]
+    },
+    {
+      "id": "c5-p4",
+      "prompt": "Name a cloud type",
+      "answers": [
+        { "label": "Cumulus", "aliases": ["cumulus"], "points": 15, "tier": "too_clever" },
+        { "label": "Cirrus", "aliases": ["cirrus"], "points": 30, "tier": "schooler" },
+        { "label": "Stratus", "aliases": ["stratus"], "points": 30, "tier": "schooler" },
+        { "label": "Nimbus", "aliases": ["nimbus", "rain cloud"], "points": 10, "tier": "plankton" },
+        { "label": "Cumulonimbus", "aliases": ["cumulonimbus"], "points": 60, "tier": "rare" },
+        { "label": "Altocumulus", "aliases": ["altocumulus"], "points": 85, "tier": "deep_cut" },
+        { "label": "Cirrostratus", "aliases": ["cirrostratus"], "points": 85, "tier": "deep_cut" },
+        { "label": "Mammatus", "aliases": ["mammatus", "mammatocumulus"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Fog", "aliases": ["fog"], "points": 10, "tier": "plankton" }
+      ]
+    },
+    {
+      "id": "c5-p5",
+      "prompt": "Name a video game console",
+      "answers": [
+        { "label": "PlayStation", "aliases": ["playstation", "ps5", "ps4", "ps"], "points": 10, "tier": "plankton" },
+        { "label": "Xbox", "aliases": ["xbox", "xbox series x", "xbox one"], "points": 10, "tier": "plankton" },
+        { "label": "Nintendo Switch", "aliases": ["nintendo switch", "switch"], "points": 15, "tier": "too_clever" },
+        { "label": "Wii", "aliases": ["wii", "nintendo wii"], "points": 30, "tier": "schooler" },
+        { "label": "GameCube", "aliases": ["gamecube", "nintendo gamecube"], "points": 60, "tier": "rare" },
+        { "label": "Dreamcast", "aliases": ["dreamcast", "sega dreamcast"], "points": 60, "tier": "rare" },
+        { "label": "Neo Geo", "aliases": ["neo geo", "neogeo", "aes"], "points": 85, "tier": "deep_cut" },
+        { "label": "PC Engine", "aliases": ["pc engine", "turbografx", "turbografx-16"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Nintendo 64", "aliases": ["nintendo 64", "n64"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "c5-p6",
+      "prompt": "Name a gemstone",
+      "answers": [
+        { "label": "Diamond", "aliases": ["diamond"], "points": 10, "tier": "plankton" },
+        { "label": "Ruby", "aliases": ["ruby"], "points": 15, "tier": "too_clever" },
+        { "label": "Emerald", "aliases": ["emerald"], "points": 15, "tier": "too_clever" },
+        { "label": "Sapphire", "aliases": ["sapphire"], "points": 30, "tier": "schooler" },
+        { "label": "Amethyst", "aliases": ["amethyst"], "points": 30, "tier": "schooler" },
+        { "label": "Opal", "aliases": ["opal"], "points": 60, "tier": "rare" },
+        { "label": "Peridot", "aliases": ["peridot"], "points": 85, "tier": "deep_cut" },
+        { "label": "Tanzanite", "aliases": ["tanzanite"], "points": 85, "tier": "deep_cut" },
+        { "label": "Alexandrite", "aliases": ["alexandrite"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}

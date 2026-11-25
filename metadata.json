@@ -1,0 +1,6 @@
+{
+  "name": "KrillionPro",
+  "description": "Play KrillionPro for fun daily games, trivia, guessing challenges and brain games. Explore new challenges, test your knowledge and compete for better scores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

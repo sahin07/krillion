@@ -1,0 +1,101 @@
+{
+  "id": "great-ape-1",
+  "title": "Great Ape Krillion · Jungle Rarity Challenge",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "ga-1-p1",
+      "prompt": "Name a species of great ape",
+      "answers": [
+        { "label": "Gorilla", "aliases": ["gorilla", "gorillas"], "points": 10, "tier": "plankton" },
+        { "label": "Chimpanzee", "aliases": ["chimpanzee", "chimpanzees", "chimp", "chimps", "pan troglodytes"], "points": 10, "tier": "plankton" },
+        { "label": "Orangutan", "aliases": ["orangutan", "orangutans", "orang-utan", "orang utan"], "points": 20, "tier": "too_clever" },
+        { "label": "Bonobo", "aliases": ["bonobo", "bonobos", "pygmy chimpanzee", "pan paniscus"], "points": 40, "tier": "schooler" },
+        { "label": "Eastern gorilla", "aliases": ["eastern gorilla", "gorilla beringei"], "points": 60, "tier": "rare" },
+        { "label": "Western gorilla", "aliases": ["western gorilla", "gorilla gorilla"], "points": 60, "tier": "rare" },
+        { "label": "Bornean orangutan", "aliases": ["bornean orangutan", "borneo orangutan", "pongo pygmaeus"], "points": 80, "tier": "deep_cut" },
+        { "label": "Sumatran orangutan", "aliases": ["sumatran orangutan", "sumatra orangutan", "pongo abelii"], "points": 80, "tier": "deep_cut" },
+        { "label": "Tapanuli orangutan", "aliases": ["tapanuli orangutan", "pongo tapanuliensis"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Human", "aliases": ["human", "humans", "homo sapiens", "person", "people"], "points": 40, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "ga-1-p2",
+      "prompt": "Name a type of gorilla",
+      "answers": [
+        { "label": "Mountain gorilla", "aliases": ["mountain gorilla", "mountain"], "points": 10, "tier": "plankton" },
+        { "label": "Western gorilla", "aliases": ["western gorilla", "gorilla gorilla"], "points": 20, "tier": "too_clever" },
+        { "label": "Eastern gorilla", "aliases": ["eastern gorilla", "gorilla beringei"], "points": 40, "tier": "schooler" },
+        { "label": "Western lowland gorilla", "aliases": ["western lowland gorilla", "lowland gorilla"], "points": 40, "tier": "schooler" },
+        { "label": "Eastern lowland gorilla", "aliases": ["eastern lowland gorilla", "grauer's gorilla", "grauers gorilla"], "points": 60, "tier": "rare" },
+        { "label": "Cross River gorilla", "aliases": ["cross river gorilla", "cross-river gorilla", "gorilla gorilla diehli"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Silverback", "aliases": ["silverback", "silverback gorilla"], "points": 20, "tier": "too_clever" }
+      ]
+    },
+    {
+      "id": "ga-1-p3",
+      "prompt": "Name a type of orangutan",
+      "answers": [
+        { "label": "Orangutan", "aliases": ["orangutan", "orang-utan"], "points": 10, "tier": "plankton" },
+        { "label": "Bornean orangutan", "aliases": ["bornean orangutan", "borneo orangutan", "pongo pygmaeus"], "points": 20, "tier": "too_clever" },
+        { "label": "Sumatran orangutan", "aliases": ["sumatran orangutan", "sumatra orangutan", "pongo abelii"], "points": 40, "tier": "schooler" },
+        { "label": "Tapanuli orangutan", "aliases": ["tapanuli orangutan", "pongo tapanuliensis"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Pongo", "aliases": ["pongo"], "points": 60, "tier": "rare" },
+        { "label": "Pongo abelii", "aliases": ["pongo abelii"], "points": 80, "tier": "deep_cut" },
+        { "label": "Pongo pygmaeus", "aliases": ["pongo pygmaeus"], "points": 80, "tier": "deep_cut" }
+      ]
+    },
+    {
+      "id": "ga-1-p4",
+      "prompt": "Name a chimpanzee species or subspecies",
+      "answers": [
+        { "label": "Chimpanzee", "aliases": ["chimpanzee", "chimp", "chimps", "common chimpanzee"], "points": 10, "tier": "plankton" },
+        { "label": "Pan troglodytes", "aliases": ["pan troglodytes"], "points": 40, "tier": "schooler" },
+        { "label": "Western chimpanzee", "aliases": ["western chimpanzee", "pan troglodytes verus"], "points": 60, "tier": "rare" },
+        { "label": "Central chimpanzee", "aliases": ["central chimpanzee", "pan troglodytes troglodytes"], "points": 80, "tier": "deep_cut" },
+        { "label": "Eastern chimpanzee", "aliases": ["eastern chimpanzee", "pan troglodytes schweinfurthii"], "points": 80, "tier": "deep_cut" },
+        { "label": "Nigeria-Cameroon chimpanzee", "aliases": ["nigeria-cameroon chimpanzee", "nigeria cameroon chimpanzee", "pan troglodytes ellioti"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Bonobo", "aliases": ["bonobo", "pygmy chimpanzee"], "points": 20, "tier": "too_clever" }
+      ]
+    },
+    {
+      "id": "ga-1-p5",
+      "prompt": "Name something unique about bonobos",
+      "answers": [
+        { "label": "Matriarchal", "aliases": ["matriarchal", "matriarchy", "female led", "female-led"], "points": 40, "tier": "schooler" },
+        { "label": "Pygmy chimpanzee", "aliases": ["pygmy chimpanzee", "pygmy chimp"], "points": 20, "tier": "too_clever" },
+        { "label": "Congo", "aliases": ["congo", "congo basin", "democratic republic of congo", "drc"], "points": 20, "tier": "too_clever" },
+        { "label": "Pan paniscus", "aliases": ["pan paniscus"], "points": 60, "tier": "rare" },
+        { "label": "Peaceful", "aliases": ["peaceful", "less aggressive", "cooperation"], "points": 10, "tier": "plankton" },
+        { "label": "Congo River", "aliases": ["congo river", "south of the congo river"], "points": 80, "tier": "deep_cut" },
+        { "label": "Sexual behavior", "aliases": ["sexual behavior", "sexual behaviour", "sociosexual", "conflict resolution"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "ga-1-p6",
+      "prompt": "Name a great ape known for using tools",
+      "answers": [
+        { "label": "Chimpanzee", "aliases": ["chimpanzee", "chimp", "chimps"], "points": 10, "tier": "plankton" },
+        { "label": "Orangutan", "aliases": ["orangutan", "orangutans"], "points": 20, "tier": "too_clever" },
+        { "label": "Bonobo", "aliases": ["bonobo", "bonobos"], "points": 40, "tier": "schooler" },
+        { "label": "Gorilla", "aliases": ["gorilla", "gorillas"], "points": 40, "tier": "schooler" },
+        { "label": "Sumatran orangutan", "aliases": ["sumatran orangutan"], "points": 60, "tier": "rare" },
+        { "label": "Western chimpanzee", "aliases": ["western chimpanzee", "pan troglodytes verus"], "points": 80, "tier": "deep_cut" },
+        { "label": "Nigeria-Cameroon chimpanzee", "aliases": ["nigeria-cameroon chimpanzee", "nigeria cameroon chimpanzee", "pan troglodytes ellioti"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "ga-1-p7",
+      "prompt": "Name a genus of great ape",
+      "answers": [
+        { "label": "Gorilla", "aliases": ["gorilla", "genus gorilla"], "points": 10, "tier": "plankton" },
+        { "label": "Pan", "aliases": ["pan", "genus pan"], "points": 40, "tier": "schooler" },
+        { "label": "Pongo", "aliases": ["pongo", "genus pongo"], "points": 40, "tier": "schooler" },
+        { "label": "Homo", "aliases": ["homo", "genus homo", "humans", "human"], "points": 60, "tier": "rare" },
+        { "label": "Pan troglodytes", "aliases": ["pan troglodytes"], "points": 80, "tier": "deep_cut" },
+        { "label": "Pan paniscus", "aliases": ["pan paniscus"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Pongo tapanuliensis", "aliases": ["pongo tapanuliensis"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}

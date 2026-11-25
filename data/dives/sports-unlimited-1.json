@@ -1,0 +1,108 @@
+{
+  "id": "sports-unlimited-1",
+  "title": "Sports Unlimited",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "sp-u1-p1",
+      "prompt": "Name an NBA coach (any era)",
+      "answers": [
+        { "label": "Phil Jackson", "aliases": ["phil jackson", "zen master"], "points": 10, "tier": "plankton" },
+        { "label": "Gregg Popovich", "aliases": ["popovich", "gregg popovich", "pop"], "points": 15, "tier": "too_clever" },
+        { "label": "Pat Riley", "aliases": ["pat riley", "riley"], "points": 15, "tier": "too_clever" },
+        { "label": "Steve Kerr", "aliases": ["steve kerr", "kerr"], "points": 30, "tier": "schooler" },
+        { "label": "Erik Spoelstra", "aliases": ["spoelstra", "erik spoelstra", "spo"], "points": 30, "tier": "schooler" },
+        { "label": "Rick Carlisle", "aliases": ["rick carlisle", "carlisle"], "points": 60, "tier": "rare" },
+        { "label": "Nick Nurse", "aliases": ["nick nurse", "nurse"], "points": 85, "tier": "deep_cut" },
+        { "label": "Joe Mazzulla", "aliases": ["joe mazzulla", "mazzulla"], "points": 85, "tier": "deep_cut" },
+        { "label": "Ime Udoka", "aliases": ["ime udoka", "udoka"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sp-u1-p2",
+      "prompt": "Name an NBA Draft lottery or draft-related term",
+      "answers": [
+        { "label": "Lottery", "aliases": ["lottery", "draft lottery"], "points": 10, "tier": "plankton" },
+        { "label": "Number one pick", "aliases": ["number one pick", "1st overall", "first overall"], "points": 15, "tier": "too_clever" },
+        { "label": "Two-way contract", "aliases": ["two-way", "two way contract", "two-way contract"], "points": 30, "tier": "schooler" },
+        { "label": "G League", "aliases": ["g league", "g-league", "d-league"], "points": 30, "tier": "schooler" },
+        { "label": "Combine", "aliases": ["combine", "nba combine", "draft combine"], "points": 60, "tier": "rare" },
+        { "label": "Green room", "aliases": ["green room"], "points": 85, "tier": "deep_cut" },
+        { "label": "Second-round pick", "aliases": ["second round pick", "second-round pick", "2nd round"], "points": 60, "tier": "rare" },
+        { "label": "Draft-and-stash", "aliases": ["draft and stash", "draft-and-stash"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sp-u1-p3",
+      "prompt": "Name a basketball shoe brand or signature line",
+      "answers": [
+        { "label": "Nike", "aliases": ["nike"], "points": 10, "tier": "plankton" },
+        { "label": "Jordan", "aliases": ["jordan", "air jordan", "jumpman"], "points": 10, "tier": "plankton" },
+        { "label": "Adidas", "aliases": ["adidas"], "points": 15, "tier": "too_clever" },
+        { "label": "Under Armour", "aliases": ["under armour", "ua"], "points": 30, "tier": "schooler" },
+        { "label": "Puma", "aliases": ["puma"], "points": 30, "tier": "schooler" },
+        { "label": "New Balance", "aliases": ["new balance", "nb"], "points": 60, "tier": "rare" },
+        { "label": "Li-Ning", "aliases": ["li-ning", "lining", "li ning"], "points": 85, "tier": "deep_cut" },
+        { "label": "Anta", "aliases": ["anta"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sp-u1-p4",
+      "prompt": "Name an international basketball competition or league",
+      "answers": [
+        { "label": "Olympics", "aliases": ["olympics", "olympic basketball"], "points": 10, "tier": "plankton" },
+        { "label": "FIBA World Cup", "aliases": ["fiba", "fiba world cup", "world cup"], "points": 15, "tier": "too_clever" },
+        { "label": "EuroLeague", "aliases": ["euroleague", "euro league"], "points": 30, "tier": "schooler" },
+        { "label": "NCAA", "aliases": ["ncaa", "march madness", "college basketball"], "points": 15, "tier": "too_clever" },
+        { "label": "WNBA", "aliases": ["wnba"], "points": 30, "tier": "schooler" },
+        { "label": "NBL", "aliases": ["nbl", "australian nbl"], "points": 60, "tier": "rare" },
+        { "label": "CBA", "aliases": ["cba", "chinese basketball association"], "points": 85, "tier": "deep_cut" },
+        { "label": "BBL", "aliases": ["bbl", "british basketball league"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sp-u1-p5",
+      "prompt": "Name an NBA rule or violation",
+      "answers": [
+        { "label": "Foul", "aliases": ["foul", "personal foul"], "points": 10, "tier": "plankton" },
+        { "label": "Traveling", "aliases": ["traveling", "travel"], "points": 10, "tier": "plankton" },
+        { "label": "Double dribble", "aliases": ["double dribble"], "points": 15, "tier": "too_clever" },
+        { "label": "Shot clock", "aliases": ["shot clock", "24 second clock"], "points": 15, "tier": "too_clever" },
+        { "label": "Three seconds", "aliases": ["three seconds", "3 seconds", "lane violation"], "points": 30, "tier": "schooler" },
+        { "label": "Flagrant foul", "aliases": ["flagrant", "flagrant foul"], "points": 30, "tier": "schooler" },
+        { "label": "Clear path foul", "aliases": ["clear path", "clear path foul"], "points": 60, "tier": "rare" },
+        { "label": "Defensive three seconds", "aliases": ["defensive three seconds", "defensive 3 seconds"], "points": 85, "tier": "deep_cut" },
+        { "label": "Carry", "aliases": ["carry", "palming"], "points": 60, "tier": "rare" },
+        { "label": "Goaltending", "aliases": ["goaltending"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sp-u1-p6",
+      "prompt": "Name a Super Bowl or NFL-adjacent term (sports crossover)",
+      "answers": [
+        { "label": "Touchdown", "aliases": ["touchdown", "td"], "points": 10, "tier": "plankton" },
+        { "label": "Quarterback", "aliases": ["quarterback", "qb"], "points": 10, "tier": "plankton" },
+        { "label": "Interception", "aliases": ["interception", "pick", "int"], "points": 15, "tier": "too_clever" },
+        { "label": "Field goal", "aliases": ["field goal", "fg"], "points": 15, "tier": "too_clever" },
+        { "label": "Blitz", "aliases": ["blitz"], "points": 30, "tier": "schooler" },
+        { "label": "Hail Mary", "aliases": ["hail mary"], "points": 60, "tier": "rare" },
+        { "label": "Nickel package", "aliases": ["nickel", "nickel package"], "points": 85, "tier": "deep_cut" },
+        { "label": "Cover 2", "aliases": ["cover 2", "cover two"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sp-u1-p7",
+      "prompt": "Name a basketball position",
+      "answers": [
+        { "label": "Point guard", "aliases": ["point guard", "pg", "point"], "points": 10, "tier": "plankton" },
+        { "label": "Shooting guard", "aliases": ["shooting guard", "sg", "two"], "points": 10, "tier": "plankton" },
+        { "label": "Small forward", "aliases": ["small forward", "sf", "three"], "points": 15, "tier": "too_clever" },
+        { "label": "Power forward", "aliases": ["power forward", "pf", "four"], "points": 15, "tier": "too_clever" },
+        { "label": "Center", "aliases": ["center", "c", "five"], "points": 15, "tier": "too_clever" },
+        { "label": "Combo guard", "aliases": ["combo guard"], "points": 60, "tier": "rare" },
+        { "label": "Stretch four", "aliases": ["stretch four", "stretch 4", "stretch pf"], "points": 85, "tier": "deep_cut" },
+        { "label": "Point forward", "aliases": ["point forward"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}

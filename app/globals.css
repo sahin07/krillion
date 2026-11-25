@@ -1,0 +1,1036 @@
+@import "tailwindcss";
+
+.scanlines {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.035) 0px,
+    rgba(255, 255, 255, 0.035) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  mix-blend-mode: soft-light;
+}
+
+.scanlines::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 45%,
+    rgba(2, 6, 23, 0.35) 100%
+  );
+  pointer-events: none;
+}
+
+/* ---- Fixed sea surface waves ---- */
+.sea-wave-strip {
+  height: 100%;
+  width: 200%;
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent 0 6px,
+    rgba(165, 243, 252, 0.95) 6px 10px,
+    transparent 10px 16px,
+    rgba(103, 232, 249, 0.75) 16px 20px,
+    transparent 20px 28px,
+    rgba(56, 189, 248, 0.85) 28px 32px,
+    transparent 32px 40px
+  );
+  image-rendering: pixelated;
+}
+
+.sea-wave-strip--a {
+  animation: sea-wave-scroll 2.8s linear infinite;
+}
+
+.sea-wave-strip--b {
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent 0 8px,
+    rgba(125, 211, 252, 0.7) 8px 11px,
+    transparent 11px 20px,
+    rgba(186, 230, 253, 0.55) 20px 23px,
+    transparent 23px 34px
+  );
+  animation: sea-wave-scroll-rev 4.2s linear infinite;
+}
+
+.sea-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(165, 243, 252, 0.18),
+    transparent,
+    rgba(125, 211, 252, 0.14),
+    transparent
+  );
+  background-size: 220% 100%;
+  animation: sea-shimmer-move 5.5s ease-in-out infinite;
+}
+
+@keyframes sea-wave-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes sea-wave-scroll-rev {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes sea-shimmer-move {
+  0%,
+  100% {
+    background-position: 0% 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+/* ---- Ships ---- */
+.ship-bob {
+  animation: ship-bob 2.4s ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+.ship-bob-slow {
+  animation: ship-bob 3.6s ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+@keyframes ship-bob {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-1.4deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(1.6deg);
+  }
+}
+
+.ship-flag {
+  transform-origin: bottom left;
+  animation: ship-flag-flutter 0.55s ease-in-out infinite;
+}
+
+@keyframes ship-flag-flutter {
+  0%,
+  100% {
+    transform: skewX(0deg) scaleX(1);
+  }
+  50% {
+    transform: skewX(18deg) scaleX(0.82);
+  }
+}
+
+.ship-wake {
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(186, 230, 253, 0.55) 0 2px,
+    transparent 2px 5px
+  );
+  animation: ship-wake-pulse 0.9s ease-in-out infinite;
+}
+
+.ship-wake--soft {
+  animation-duration: 1.3s;
+}
+
+@keyframes ship-wake-pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scaleX(0.85);
+  }
+  50% {
+    opacity: 0.75;
+    transform: scaleX(1.05);
+  }
+}
+
+/* ---- Atmosphere ---- */
+.sea-bubble {
+  animation-name: sea-bubble-rise;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sea-bubble-rise {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-72vh) translateX(10px);
+    opacity: 0;
+  }
+}
+
+.sea-star {
+  animation: sea-star-twinkle 2.8s ease-in-out infinite;
+}
+
+@keyframes sea-star-twinkle {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.35);
+  }
+}
+
+.sea-ray {
+  animation: sea-ray-sway 8s ease-in-out infinite;
+  filter: blur(1px);
+}
+
+.sea-ray--b {
+  animation-duration: 10s;
+  animation-delay: -2s;
+}
+
+.sea-ray--c {
+  animation-duration: 9s;
+  animation-delay: -4s;
+}
+
+@keyframes sea-ray-sway {
+  0%,
+  100% {
+    transform: skewX(-12deg) translateX(0);
+    opacity: 0.7;
+  }
+  50% {
+    transform: skewX(-8deg) translateX(18px);
+    opacity: 1;
+  }
+}
+
+.moon-glow {
+  animation: moon-pulse 5s ease-in-out infinite;
+}
+
+@keyframes moon-pulse {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 10px rgba(253, 230, 138, 0.25));
+  }
+  50% {
+    filter: drop-shadow(0 0 22px rgba(253, 230, 138, 0.5));
+  }
+}
+
+/* ---- Daily Dive pixel ocean theme ---- */
+.daily-dive-kenburns {
+  animation: daily-dive-kenburns 28s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes daily-dive-kenburns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.08) translate(-1.5%, 1%);
+  }
+}
+
+.daily-dive-rays {
+  background: linear-gradient(
+    118deg,
+    transparent 0%,
+    transparent 38%,
+    rgba(125, 211, 252, 0.07) 42%,
+    transparent 46%,
+    transparent 52%,
+    rgba(165, 243, 252, 0.1) 56%,
+    transparent 62%,
+    transparent 100%
+  );
+  background-size: 180% 180%;
+  mix-blend-mode: screen;
+  animation: daily-dive-rays-drift 10s ease-in-out infinite;
+}
+
+@keyframes daily-dive-rays-drift {
+  0%,
+  100% {
+    background-position: 30% 0%;
+    opacity: 0.55;
+  }
+  50% {
+    background-position: 55% 10%;
+    opacity: 0.95;
+  }
+}
+
+.daily-dive-caustics {
+  background-image:
+    radial-gradient(ellipse 40% 20% at 20% 30%, rgba(103, 232, 249, 0.12), transparent 55%),
+    radial-gradient(ellipse 35% 18% at 70% 25%, rgba(167, 139, 250, 0.1), transparent 50%),
+    radial-gradient(ellipse 45% 22% at 50% 55%, rgba(34, 211, 238, 0.08), transparent 60%);
+  background-size: 140% 140%;
+  mix-blend-mode: soft-light;
+  animation: daily-dive-caustics-shift 14s ease-in-out infinite;
+}
+
+@keyframes daily-dive-caustics-shift {
+  0%,
+  100% {
+    background-position: 0% 20%, 100% 0%, 50% 40%;
+  }
+  50% {
+    background-position: 40% 0%, 60% 30%, 30% 60%;
+  }
+}
+
+/* —— Stranger Things: Hawkins scene + motion overlays —— */
+.st-kenburns {
+  animation: st-kenburns 28s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes st-kenburns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.08) translate(-1.5%, 1%);
+  }
+}
+
+.st-storm-pulse {
+  background: radial-gradient(
+    ellipse 55% 50% at 78% 28%,
+    rgba(220, 38, 38, 0.38) 0%,
+    rgba(185, 28, 28, 0.18) 35%,
+    transparent 70%
+  );
+  animation: st-storm-pulse 7s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
+
+@keyframes st-storm-pulse {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+.st-moon-wash {
+  background: radial-gradient(
+    ellipse 50% 45% at 22% 22%,
+    rgba(147, 197, 253, 0.16) 0%,
+    rgba(59, 130, 246, 0.06) 40%,
+    transparent 70%
+  );
+  animation: st-moon-wash 10s ease-in-out infinite alternate;
+  mix-blend-mode: soft-light;
+}
+
+@keyframes st-moon-wash {
+  0% {
+    opacity: 0.55;
+  }
+  100% {
+    opacity: 0.95;
+  }
+}
+
+.st-fog {
+  background: linear-gradient(
+    to top,
+    rgba(15, 10, 25, 0.55) 0%,
+    rgba(40, 50, 80, 0.22) 40%,
+    transparent 100%
+  );
+  animation: st-fog-drift 16s ease-in-out infinite alternate;
+  filter: blur(8px);
+}
+
+@keyframes st-fog-drift {
+  0% {
+    transform: translateX(-3%);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateX(4%);
+    opacity: 1;
+  }
+}
+
+.st-vine-glow {
+  background:
+    radial-gradient(ellipse 35% 40% at 8% 75%, rgba(239, 68, 68, 0.35), transparent 60%),
+    radial-gradient(ellipse 30% 35% at 92% 80%, rgba(220, 38, 38, 0.28), transparent 55%);
+  animation: st-vine-glow 5.5s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
+
+@keyframes st-vine-glow {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.st-spore {
+  animation-name: st-spore-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes st-spore-fall {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  8% {
+    opacity: 0.85;
+  }
+  100% {
+    transform: translateY(110vh) translateX(18px);
+    opacity: 0;
+  }
+}
+
+.st-ember {
+  animation-name: st-ember-float;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  box-shadow: 0 0 10px rgba(251, 146, 60, 0.9);
+}
+
+@keyframes st-ember-float {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(-22px) scale(1.5);
+    opacity: 1;
+  }
+}
+
+.st-scan {
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.1) 2px,
+    rgba(0, 0, 0, 0.1) 4px
+  );
+}
+
+.st-hud-chip {
+  clip-path: polygon(10% 0, 90% 0, 100% 28%, 100% 72%, 90% 100%, 10% 100%, 0 72%, 0 28%);
+  box-shadow:
+    0 0 0 2px rgba(239, 68, 68, 0.85),
+    0 0 14px rgba(239, 68, 68, 0.55),
+    0 0 28px rgba(220, 38, 38, 0.35);
+}
+
+.st-meter-frame {
+  clip-path: polygon(12% 0, 88% 0, 100% 10%, 100% 90%, 88% 100%, 12% 100%, 0 90%, 0 10%);
+  box-shadow:
+    0 0 0 2px rgba(34, 211, 238, 0.9),
+    0 0 16px rgba(34, 211, 238, 0.45),
+    0 0 28px rgba(6, 182, 212, 0.25);
+}
+
+.st-question-card {
+  box-shadow:
+    0 0 0 2px rgba(239, 68, 68, 0.95),
+    0 0 18px rgba(239, 68, 68, 0.55),
+    0 0 36px rgba(220, 38, 38, 0.35),
+    inset 0 0 40px rgba(0, 0, 0, 0.45);
+  background:
+    linear-gradient(rgba(8, 4, 10, 0.82), rgba(8, 4, 10, 0.82)),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 6px,
+      rgba(239, 68, 68, 0.04) 6px,
+      rgba(239, 68, 68, 0.04) 7px
+    );
+}
+
+.st-answer-field {
+  box-shadow:
+    0 0 0 2px rgba(34, 211, 238, 0.95),
+    0 0 18px rgba(34, 211, 238, 0.55),
+    0 0 32px rgba(6, 182, 212, 0.3);
+}
+
+.st-submit-pill {
+  box-shadow:
+    0 0 0 1px rgba(252, 165, 165, 0.5),
+    0 0 22px rgba(239, 68, 68, 0.65),
+    0 0 40px rgba(220, 38, 38, 0.4);
+}
+
+/* —— Science Krillion: futuristic lab + cyan HUD —— */
+.sci-kenburns {
+  animation: sci-kenburns 32s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes sci-kenburns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.07) translate(1%, -1%);
+  }
+}
+
+.sci-glow {
+  background:
+    radial-gradient(ellipse 45% 35% at 50% 45%, rgba(34, 211, 238, 0.28), transparent 60%),
+    radial-gradient(ellipse 35% 30% at 75% 25%, rgba(59, 130, 246, 0.2), transparent 55%);
+  animation: sci-glow-pulse 10s ease-in-out infinite;
+  mix-blend-mode: soft-light;
+}
+
+@keyframes sci-glow-pulse {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 0.95;
+  }
+}
+
+.sci-particle {
+  animation-name: sci-particle-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sci-particle-fall {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.95;
+  }
+  100% {
+    transform: translateY(110vh) translateX(-14px);
+    opacity: 0;
+  }
+}
+
+.sci-hud-chip {
+  clip-path: polygon(8% 0, 92% 0, 100% 30%, 100% 70%, 92% 100%, 8% 100%, 0 70%, 0 30%);
+  box-shadow:
+    0 0 0 2px rgba(34, 211, 238, 0.9),
+    0 0 14px rgba(6, 182, 212, 0.45),
+    0 0 24px rgba(59, 130, 246, 0.25);
+}
+
+.sci-meter-frame {
+  clip-path: polygon(12% 0, 88% 0, 100% 10%, 100% 90%, 88% 100%, 12% 100%, 0 90%, 0 10%);
+  box-shadow:
+    0 0 0 2px rgba(165, 243, 252, 0.95),
+    0 0 16px rgba(34, 211, 238, 0.45),
+    0 0 28px rgba(59, 130, 246, 0.3);
+}
+
+.sci-question-card {
+  box-shadow:
+    0 0 0 2px rgba(34, 211, 238, 0.85),
+    0 0 0 4px rgba(59, 130, 246, 0.35),
+    0 0 22px rgba(6, 182, 212, 0.4),
+    inset 0 0 40px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(rgba(6, 20, 40, 0.82), rgba(2, 8, 16, 0.88));
+}
+
+.sci-answer-field {
+  box-shadow:
+    0 0 0 2px rgba(165, 243, 252, 0.9),
+    0 0 16px rgba(34, 211, 238, 0.4),
+    0 0 28px rgba(59, 130, 246, 0.25);
+}
+
+.sci-submit-pill {
+  box-shadow:
+    0 0 0 1px rgba(207, 250, 254, 0.45),
+    0 0 22px rgba(34, 211, 238, 0.65),
+    0 0 36px rgba(59, 130, 246, 0.3);
+}
+
+/* —— Medical Krillion: clinical lab + sky HUD —— */
+.med-kenburns {
+  animation: med-kenburns 32s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes med-kenburns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.07) translate(-1%, 1%);
+  }
+}
+
+.med-glow {
+  background:
+    radial-gradient(ellipse 42% 34% at 50% 42%, rgba(56, 189, 248, 0.3), transparent 60%),
+    radial-gradient(ellipse 32% 28% at 72% 28%, rgba(45, 212, 191, 0.18), transparent 55%);
+  animation: med-glow-pulse 10s ease-in-out infinite;
+  mix-blend-mode: soft-light;
+}
+
+@keyframes med-glow-pulse {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 0.95;
+  }
+}
+
+.med-particle {
+  animation-name: med-particle-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes med-particle-fall {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.95;
+  }
+  100% {
+    transform: translateY(110vh) translateX(12px);
+    opacity: 0;
+  }
+}
+
+.med-hud-chip {
+  clip-path: polygon(8% 0, 92% 0, 100% 30%, 100% 70%, 92% 100%, 8% 100%, 0 70%, 0 30%);
+  box-shadow:
+    0 0 0 2px rgba(56, 189, 248, 0.9),
+    0 0 14px rgba(14, 165, 233, 0.45),
+    0 0 24px rgba(45, 212, 191, 0.22);
+}
+
+.med-meter-frame {
+  clip-path: polygon(12% 0, 88% 0, 100% 10%, 100% 90%, 88% 100%, 12% 100%, 0 90%, 0 10%);
+  box-shadow:
+    0 0 0 2px rgba(186, 230, 253, 0.95),
+    0 0 16px rgba(56, 189, 248, 0.45),
+    0 0 28px rgba(45, 212, 191, 0.28);
+}
+
+.med-question-card {
+  box-shadow:
+    0 0 0 2px rgba(56, 189, 248, 0.85),
+    0 0 0 4px rgba(14, 165, 233, 0.32),
+    0 0 22px rgba(45, 212, 191, 0.35),
+    inset 0 0 40px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(rgba(4, 18, 31, 0.84), rgba(2, 8, 16, 0.9));
+}
+
+.med-answer-field {
+  box-shadow:
+    0 0 0 2px rgba(186, 230, 253, 0.9),
+    0 0 16px rgba(56, 189, 248, 0.4),
+    0 0 28px rgba(45, 212, 191, 0.22);
+}
+
+.med-submit-pill {
+  box-shadow:
+    0 0 0 1px rgba(224, 242, 254, 0.45),
+    0 0 22px rgba(56, 189, 248, 0.65),
+    0 0 36px rgba(45, 212, 191, 0.28);
+}
+
+/* —— Wordplay Krillion: fantasy wonderland + violet HUD —— */
+.wp-kenburns {
+  animation: wp-kenburns 32s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes wp-kenburns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.07) translate(-1.2%, 1%);
+  }
+}
+
+.wp-glow {
+  background:
+    radial-gradient(ellipse 45% 35% at 50% 70%, rgba(251, 191, 36, 0.28), transparent 60%),
+    radial-gradient(ellipse 40% 30% at 75% 25%, rgba(167, 139, 250, 0.2), transparent 55%);
+  animation: wp-glow-pulse 10s ease-in-out infinite;
+  mix-blend-mode: soft-light;
+}
+
+@keyframes wp-glow-pulse {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 0.95;
+  }
+}
+
+.wp-spark {
+  animation-name: wp-spark-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wp-spark-fall {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.95;
+  }
+  100% {
+    transform: translateY(110vh) translateX(18px);
+    opacity: 0;
+  }
+}
+
+.wp-hud-chip {
+  clip-path: polygon(8% 0, 92% 0, 100% 30%, 100% 70%, 92% 100%, 8% 100%, 0 70%, 0 30%);
+  box-shadow:
+    0 0 0 2px rgba(167, 139, 250, 0.9),
+    0 0 14px rgba(139, 92, 246, 0.45),
+    0 0 24px rgba(251, 191, 36, 0.2);
+}
+
+.wp-meter-frame {
+  clip-path: polygon(12% 0, 88% 0, 100% 10%, 100% 90%, 88% 100%, 12% 100%, 0 90%, 0 10%);
+  box-shadow:
+    0 0 0 2px rgba(196, 181, 253, 0.95),
+    0 0 16px rgba(139, 92, 246, 0.45),
+    0 0 28px rgba(251, 191, 36, 0.25);
+}
+
+.wp-question-card {
+  box-shadow:
+    0 0 0 2px rgba(180, 83, 9, 0.55),
+    0 0 0 4px rgba(167, 139, 250, 0.35),
+    0 0 22px rgba(139, 92, 246, 0.35),
+    inset 0 0 40px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(rgba(42, 26, 74, 0.82), rgba(26, 15, 48, 0.86));
+}
+
+.wp-answer-field {
+  box-shadow:
+    0 0 0 2px rgba(196, 181, 253, 0.9),
+    0 0 16px rgba(167, 139, 250, 0.4),
+    0 0 28px rgba(251, 191, 36, 0.2);
+}
+
+.wp-submit-pill {
+  box-shadow:
+    0 0 0 1px rgba(237, 233, 254, 0.45),
+    0 0 22px rgba(139, 92, 246, 0.65),
+    0 0 36px rgba(251, 191, 36, 0.25);
+}
+
+/* —— Animal Krillion: jungle safari + wood HUD —— */
+.ak-kenburns {
+  animation: ak-kenburns 32s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes ak-kenburns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.06) translate(-1%, 1%);
+  }
+}
+
+.ak-sunhaze {
+  background:
+    radial-gradient(ellipse 55% 40% at 55% 18%, rgba(253, 224, 71, 0.22), transparent 60%),
+    radial-gradient(ellipse 40% 30% at 20% 40%, rgba(132, 204, 22, 0.14), transparent 55%);
+  animation: ak-sunhaze-pulse 10s ease-in-out infinite;
+  mix-blend-mode: soft-light;
+}
+
+@keyframes ak-sunhaze-pulse {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 0.95;
+  }
+}
+
+.ak-canopy {
+  background: radial-gradient(
+    ellipse 70% 45% at 50% 100%,
+    rgba(22, 101, 52, 0.35),
+    transparent 65%
+  );
+  animation: ak-canopy-drift 16s ease-in-out infinite alternate;
+}
+
+@keyframes ak-canopy-drift {
+  0% {
+    opacity: 0.65;
+    transform: translateX(-2%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(2%);
+  }
+}
+
+.ak-leaf {
+  animation-name: ak-leaf-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ak-leaf-fall {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(110vh) translateX(28px) rotate(140deg);
+    opacity: 0;
+  }
+}
+
+.ak-hud-chip {
+  clip-path: polygon(8% 0, 92% 0, 100% 30%, 100% 70%, 92% 100%, 8% 100%, 0 70%, 0 30%);
+  box-shadow:
+    0 0 0 2px rgba(163, 230, 53, 0.85),
+    0 0 14px rgba(101, 163, 13, 0.45),
+    0 0 24px rgba(234, 179, 8, 0.2);
+}
+
+.ak-meter-frame {
+  clip-path: polygon(12% 0, 88% 0, 100% 10%, 100% 90%, 88% 100%, 12% 100%, 0 90%, 0 10%);
+  box-shadow:
+    0 0 0 2px rgba(132, 204, 22, 0.95),
+    0 0 16px rgba(101, 163, 13, 0.45),
+    0 0 28px rgba(234, 179, 8, 0.25);
+}
+
+.ak-question-card {
+  box-shadow:
+    0 0 0 2px rgba(180, 83, 9, 0.55),
+    0 0 0 4px rgba(163, 230, 53, 0.35),
+    0 0 22px rgba(101, 163, 13, 0.35),
+    inset 0 0 40px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(rgba(15, 40, 28, 0.78), rgba(12, 32, 22, 0.82));
+}
+
+.ak-answer-field {
+  box-shadow:
+    0 0 0 2px rgba(163, 230, 53, 0.9),
+    0 0 16px rgba(132, 204, 22, 0.4),
+    0 0 28px rgba(234, 179, 8, 0.2);
+}
+
+.ak-submit-pill {
+  box-shadow:
+    0 0 0 1px rgba(236, 252, 203, 0.45),
+    0 0 22px rgba(101, 163, 13, 0.65),
+    0 0 36px rgba(234, 179, 8, 0.3);
+}
+
+/* —— Farflung: cosmic scene + neon HUD —— */
+.ff-kenburns {
+  animation: ff-kenburns 30s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes ff-kenburns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.07) translate(1.2%, -1%);
+  }
+}
+
+.ff-nebula {
+  background:
+    radial-gradient(ellipse 50% 40% at 70% 20%, rgba(192, 132, 252, 0.28), transparent 60%),
+    radial-gradient(ellipse 40% 35% at 20% 30%, rgba(34, 211, 238, 0.18), transparent 55%);
+  animation: ff-nebula-pulse 9s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
+
+@keyframes ff-nebula-pulse {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 0.95;
+  }
+}
+
+.ff-glow {
+  background: radial-gradient(
+    ellipse 60% 40% at 50% 85%,
+    rgba(139, 92, 246, 0.25),
+    transparent 65%
+  );
+  animation: ff-glow-drift 14s ease-in-out infinite alternate;
+}
+
+@keyframes ff-glow-drift {
+  0% {
+    opacity: 0.6;
+    transform: translateX(-2%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(3%);
+  }
+}
+
+.ff-star {
+  animation-name: ff-star-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ff-star-fall {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.95;
+  }
+  100% {
+    transform: translateY(110vh) translateX(-12px);
+    opacity: 0;
+  }
+}
+
+.ff-hud-chip {
+  clip-path: polygon(10% 0, 90% 0, 100% 28%, 100% 72%, 90% 100%, 10% 100%, 0 72%, 0 28%);
+  box-shadow:
+    0 0 0 2px rgba(167, 139, 250, 0.9),
+    0 0 16px rgba(139, 92, 246, 0.5),
+    0 0 28px rgba(34, 211, 238, 0.25);
+}
+
+.ff-meter-frame {
+  clip-path: polygon(12% 0, 88% 0, 100% 10%, 100% 90%, 88% 100%, 12% 100%, 0 90%, 0 10%);
+  box-shadow:
+    0 0 0 2px rgba(34, 211, 238, 0.95),
+    0 0 16px rgba(34, 211, 238, 0.45),
+    0 0 28px rgba(168, 85, 247, 0.3);
+}
+
+.ff-question-card {
+  box-shadow:
+    0 0 0 2px rgba(167, 139, 250, 0.95),
+    0 0 20px rgba(139, 92, 246, 0.5),
+    0 0 36px rgba(34, 211, 238, 0.25),
+    inset 0 0 40px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(rgba(10, 6, 28, 0.82), rgba(10, 6, 28, 0.82));
+}
+
+.ff-answer-field {
+  box-shadow:
+    0 0 0 2px rgba(34, 211, 238, 0.95),
+    0 0 18px rgba(34, 211, 238, 0.5),
+    0 0 32px rgba(168, 85, 247, 0.25);
+}
+
+.ff-submit-pill {
+  box-shadow:
+    0 0 0 1px rgba(233, 213, 255, 0.45),
+    0 0 24px rgba(168, 85, 247, 0.65),
+    0 0 40px rgba(217, 70, 239, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sea-wave-strip--a,
+  .sea-wave-strip--b,
+  .sea-shimmer,
+  .ship-bob,
+  .ship-bob-slow,
+  .ship-flag,
+  .ship-wake,
+  .sea-bubble,
+  .sea-star,
+  .sea-ray,
+  .moon-glow,
+  .daily-dive-kenburns,
+  .daily-dive-rays,
+  .daily-dive-caustics,
+  .st-kenburns,
+  .st-storm-pulse,
+  .st-moon-wash,
+  .st-fog,
+  .st-vine-glow,
+  .st-spore,
+  .st-ember,
+  .ff-kenburns,
+  .ff-nebula,
+  .ff-glow,
+  .ff-star,
+  .ak-kenburns,
+  .ak-sunhaze,
+  .ak-canopy,
+  .ak-leaf,
+  .wp-kenburns,
+  .wp-glow,
+  .wp-spark,
+  .sci-kenburns,
+  .sci-glow,
+  .sci-particle,
+  .med-kenburns,
+  .med-glow,
+  .med-particle {
+    animation: none !important;
+  }
+}

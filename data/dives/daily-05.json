@@ -1,0 +1,589 @@
+{
+  "id": "daily-05",
+  "title": "Daily Dive",
+  "diveNumber": 5,
+  "prompts": [
+    {
+      "id": "d5-p1",
+      "prompt": "Name a cold dessert",
+      "answers": [
+        {
+          "label": "Ice Cream",
+          "aliases": [
+            "ice cream",
+            "icecream"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Sorbet",
+          "aliases": [
+            "sorbet"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Gelato",
+          "aliases": [
+            "gelato"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Granita",
+          "aliases": [
+            "granita"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Parfait",
+          "aliases": [
+            "parfait"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Semifreddo",
+          "aliases": [
+            "semifreddo"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Kulfi",
+          "aliases": [
+            "kulfi"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Dondurma",
+          "aliases": [
+            "dondurma"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    },
+    {
+      "id": "d5-p2",
+      "prompt": "Name a mythical creature",
+      "answers": [
+        {
+          "label": "Dragon",
+          "aliases": [
+            "dragon"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Unicorn",
+          "aliases": [
+            "unicorn"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Phoenix",
+          "aliases": [
+            "phoenix"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Griffin",
+          "aliases": [
+            "griffin",
+            "gryphon"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Kraken",
+          "aliases": [
+            "kraken"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Baku",
+          "aliases": [
+            "baku"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Qilin",
+          "aliases": [
+            "qilin",
+            "kirin"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Basilisk",
+          "aliases": [
+            "basilisk"
+          ],
+          "points": 60,
+          "tier": "rare"
+        }
+      ]
+    },
+    {
+      "id": "d5-p3",
+      "prompt": "Name a programming language",
+      "answers": [
+        {
+          "label": "Python",
+          "aliases": [
+            "python"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "JavaScript",
+          "aliases": [
+            "javascript",
+            "js"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Java",
+          "aliases": [
+            "java"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Rust",
+          "aliases": [
+            "rust"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Haskell",
+          "aliases": [
+            "haskell"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Erlang",
+          "aliases": [
+            "erlang"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Zig",
+          "aliases": [
+            "zig"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Brainfuck",
+          "aliases": [
+            "brainfuck"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    },
+    {
+      "id": "d5-p4",
+      "prompt": "Name a ocean current",
+      "answers": [
+        {
+          "label": "Gulf Stream",
+          "aliases": [
+            "gulf stream"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Kuroshio",
+          "aliases": [
+            "kuroshio",
+            "japan current"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Humboldt",
+          "aliases": [
+            "humboldt",
+            "peru current"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Agulhas",
+          "aliases": [
+            "agulhas"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Benguela",
+          "aliases": [
+            "benguela"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Antarctic Circumpolar",
+          "aliases": [
+            "antarctic circumpolar",
+            "acc"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Canary Current",
+          "aliases": [
+            "canary current"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "California Current",
+          "aliases": [
+            "california current"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d5-p5",
+      "prompt": "Name a cheese",
+      "answers": [
+        {
+          "label": "Cheddar",
+          "aliases": [
+            "cheddar"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Mozzarella",
+          "aliases": [
+            "mozzarella"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Brie",
+          "aliases": [
+            "brie"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Gouda",
+          "aliases": [
+            "gouda"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Roquefort",
+          "aliases": [
+            "roquefort"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Comté",
+          "aliases": [
+            "comte",
+            "comté"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Stilton",
+          "aliases": [
+            "stilton"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Vacherin Mont dOr",
+          "aliases": [
+            "vacherin",
+            "vacherin mont dor",
+            "mont dor"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    },
+    {
+      "id": "d5-p6",
+      "prompt": "Name a famous explorer",
+      "answers": [
+        {
+          "label": "Columbus",
+          "aliases": [
+            "columbus",
+            "christopher columbus"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Magellan",
+          "aliases": [
+            "magellan",
+            "ferdinand magellan"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Marco Polo",
+          "aliases": [
+            "marco polo"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Shackleton",
+          "aliases": [
+            "shackleton",
+            "ernest shackleton"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Ibn Battuta",
+          "aliases": [
+            "ibn battuta"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Zheng He",
+          "aliases": [
+            "zheng he",
+            "cheng ho"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Mary Kingsley",
+          "aliases": [
+            "mary kingsley"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Amundsen",
+          "aliases": [
+            "amundsen",
+            "roald amundsen"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d5-p7",
+      "prompt": "Name a deep-sea animal",
+      "answers": [
+        {
+          "label": "Anglerfish",
+          "aliases": [
+            "anglerfish",
+            "angler fish"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Giant Squid",
+          "aliases": [
+            "giant squid"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Blobfish",
+          "aliases": [
+            "blobfish"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Viperfish",
+          "aliases": [
+            "viperfish"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Dumbo Octopus",
+          "aliases": [
+            "dumbo octopus"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Goblin Shark",
+          "aliases": [
+            "goblin shark"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Barreleye",
+          "aliases": [
+            "barreleye",
+            "macropinna"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Hagfish",
+          "aliases": [
+            "hagfish"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d5-p8",
+      "prompt": "Name a weather phenomenon",
+      "answers": [
+        {
+          "label": "Rain",
+          "aliases": [
+            "rain"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Thunderstorm",
+          "aliases": [
+            "thunderstorm",
+            "thunder storm"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Tornado",
+          "aliases": [
+            "tornado"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Hurricane",
+          "aliases": [
+            "hurricane",
+            "typhoon",
+            "cyclone"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Aurora",
+          "aliases": [
+            "aurora",
+            "northern lights",
+            "aurora borealis"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Derecho",
+          "aliases": [
+            "derecho"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Haboob",
+          "aliases": [
+            "haboob"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Thundersnow",
+          "aliases": [
+            "thundersnow"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    }
+  ]
+}

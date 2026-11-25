@@ -1,0 +1,574 @@
+{
+  "id": "daily-03",
+  "title": "Daily Dive",
+  "diveNumber": 3,
+  "prompts": [
+    {
+      "id": "d3-p1",
+      "prompt": "Name a vegetable",
+      "answers": [
+        {
+          "label": "Carrot",
+          "aliases": [
+            "carrot"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Potato",
+          "aliases": [
+            "potato"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Broccoli",
+          "aliases": [
+            "broccoli"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Kale",
+          "aliases": [
+            "kale"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Kohlrabi",
+          "aliases": [
+            "kohlrabi"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Salsify",
+          "aliases": [
+            "salsify"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Cardoon",
+          "aliases": [
+            "cardoon"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Fennel",
+          "aliases": [
+            "fennel"
+          ],
+          "points": 60,
+          "tier": "rare"
+        }
+      ]
+    },
+    {
+      "id": "d3-p2",
+      "prompt": "Name a planet or dwarf planet",
+      "answers": [
+        {
+          "label": "Earth",
+          "aliases": [
+            "earth"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Mars",
+          "aliases": [
+            "mars"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Pluto",
+          "aliases": [
+            "pluto"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Neptune",
+          "aliases": [
+            "neptune"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Ceres",
+          "aliases": [
+            "ceres"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Eris",
+          "aliases": [
+            "eris"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Makemake",
+          "aliases": [
+            "makemake"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Haumea",
+          "aliases": [
+            "haumea"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        }
+      ]
+    },
+    {
+      "id": "d3-p3",
+      "prompt": "Name a string instrument",
+      "answers": [
+        {
+          "label": "Guitar",
+          "aliases": [
+            "guitar"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Violin",
+          "aliases": [
+            "violin"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Cello",
+          "aliases": [
+            "cello",
+            "violoncello"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Harp",
+          "aliases": [
+            "harp"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Mandolin",
+          "aliases": [
+            "mandolin"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Erhu",
+          "aliases": [
+            "erhu"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Hardanger Fiddle",
+          "aliases": [
+            "hardanger fiddle",
+            "hardingfele"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Banjo",
+          "aliases": [
+            "banjo"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d3-p4",
+      "prompt": "Name a desert animal",
+      "answers": [
+        {
+          "label": "Camel",
+          "aliases": [
+            "camel",
+            "dromedary"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Snake",
+          "aliases": [
+            "snake"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Lizard",
+          "aliases": [
+            "lizard"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Fennec Fox",
+          "aliases": [
+            "fennec fox",
+            "fennec"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Addax",
+          "aliases": [
+            "addax"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Thorny Devil",
+          "aliases": [
+            "thorny devil",
+            "moloch"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Scorpion",
+          "aliases": [
+            "scorpion"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Meerkat",
+          "aliases": [
+            "meerkat"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d3-p5",
+      "prompt": "Name a famous scientist",
+      "answers": [
+        {
+          "label": "Einstein",
+          "aliases": [
+            "einstein",
+            "albert einstein"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Newton",
+          "aliases": [
+            "newton",
+            "isaac newton"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Darwin",
+          "aliases": [
+            "darwin",
+            "charles darwin"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Curie",
+          "aliases": [
+            "curie",
+            "marie curie"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Hawking",
+          "aliases": [
+            "hawking",
+            "stephen hawking"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Hypatia",
+          "aliases": [
+            "hypatia"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Ibn al-Haytham",
+          "aliases": [
+            "ibn al-haytham",
+            "alhazen",
+            "al haytham"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Tesla",
+          "aliases": [
+            "tesla",
+            "nikola tesla"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d3-p6",
+      "prompt": "Name a type of pasta",
+      "answers": [
+        {
+          "label": "Spaghetti",
+          "aliases": [
+            "spaghetti"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Penne",
+          "aliases": [
+            "penne"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Fusilli",
+          "aliases": [
+            "fusilli"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Orecchiette",
+          "aliases": [
+            "orecchiette"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Trofie",
+          "aliases": [
+            "trofie"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Busiate",
+          "aliases": [
+            "busiate"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Rigatoni",
+          "aliases": [
+            "rigatoni"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d3-p7",
+      "prompt": "Name a sea god or goddess from mythology",
+      "answers": [
+        {
+          "label": "Poseidon",
+          "aliases": [
+            "poseidon"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Neptune",
+          "aliases": [
+            "neptune"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Amphitrite",
+          "aliases": [
+            "amphitrite"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Njord",
+          "aliases": [
+            "njord",
+            "njörðr"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Tangaroa",
+          "aliases": [
+            "tangaroa"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Yam",
+          "aliases": [
+            "yam",
+            "yamm"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Triton",
+          "aliases": [
+            "triton"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Thalassa",
+          "aliases": [
+            "thalassa"
+          ],
+          "points": 60,
+          "tier": "rare"
+        }
+      ]
+    },
+    {
+      "id": "d3-p8",
+      "prompt": "Name a gemstone",
+      "answers": [
+        {
+          "label": "Diamond",
+          "aliases": [
+            "diamond"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Ruby",
+          "aliases": [
+            "ruby"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Emerald",
+          "aliases": [
+            "emerald"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Sapphire",
+          "aliases": [
+            "sapphire"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Tourmaline",
+          "aliases": [
+            "tourmaline"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Alexandrite",
+          "aliases": [
+            "alexandrite"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Painite",
+          "aliases": [
+            "painite"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Opal",
+          "aliases": [
+            "opal"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    }
+  ]
+}

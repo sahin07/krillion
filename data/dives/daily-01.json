@@ -1,0 +1,628 @@
+{
+  "id": "daily-01",
+  "title": "Daily Dive",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "d1-p1",
+      "prompt": "Name something found in the ocean",
+      "answers": [
+        {
+          "label": "Fish",
+          "aliases": [
+            "fish"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Water",
+          "aliases": [
+            "water",
+            "sea water",
+            "seawater"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Coral",
+          "aliases": [
+            "coral",
+            "coral reef"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Kelp",
+          "aliases": [
+            "kelp",
+            "seaweed"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Shipwreck",
+          "aliases": [
+            "shipwreck",
+            "wreck"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Hydrothermal Vent",
+          "aliases": [
+            "hydrothermal vent",
+            "black smoker"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Manganese Nodule",
+          "aliases": [
+            "manganese nodule",
+            "polymetallic nodule"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Whale Fall",
+          "aliases": [
+            "whale fall"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Seamount",
+          "aliases": [
+            "seamount"
+          ],
+          "points": 60,
+          "tier": "rare"
+        }
+      ]
+    },
+    {
+      "id": "d1-p2",
+      "prompt": "Name a color",
+      "answers": [
+        {
+          "label": "Blue",
+          "aliases": [
+            "blue"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Red",
+          "aliases": [
+            "red"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Turquoise",
+          "aliases": [
+            "turquoise"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Indigo",
+          "aliases": [
+            "indigo"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Chartreuse",
+          "aliases": [
+            "chartreuse"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Cerulean",
+          "aliases": [
+            "cerulean"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Periwinkle",
+          "aliases": [
+            "periwinkle"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Glaucous",
+          "aliases": [
+            "glaucous"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Magenta",
+          "aliases": [
+            "magenta"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        }
+      ]
+    },
+    {
+      "id": "d1-p3",
+      "prompt": "Name a tool",
+      "answers": [
+        {
+          "label": "Hammer",
+          "aliases": [
+            "hammer"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Screwdriver",
+          "aliases": [
+            "screwdriver"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Wrench",
+          "aliases": [
+            "wrench",
+            "spanner"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Chisel",
+          "aliases": [
+            "chisel"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Torque Wrench",
+          "aliases": [
+            "torque wrench"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Adze",
+          "aliases": [
+            "adze"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Drawknife",
+          "aliases": [
+            "drawknife",
+            "draw knife"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Level",
+          "aliases": [
+            "level",
+            "spirit level"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d1-p4",
+      "prompt": "Name a mammal that lives in water at least part of the time",
+      "answers": [
+        {
+          "label": "Dolphin",
+          "aliases": [
+            "dolphin"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Whale",
+          "aliases": [
+            "whale"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Otter",
+          "aliases": [
+            "otter",
+            "sea otter",
+            "river otter"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Beaver",
+          "aliases": [
+            "beaver"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Platypus",
+          "aliases": [
+            "platypus"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Hippopotamus",
+          "aliases": [
+            "hippopotamus",
+            "hippo"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Capybara",
+          "aliases": [
+            "capybara"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Desman",
+          "aliases": [
+            "desman",
+            "russian desman",
+            "pyrenean desman"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Manatee",
+          "aliases": [
+            "manatee"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        }
+      ]
+    },
+    {
+      "id": "d1-p5",
+      "prompt": "Name a fruit that is typically red",
+      "answers": [
+        {
+          "label": "Apple",
+          "aliases": [
+            "apple",
+            "red apple"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Strawberry",
+          "aliases": [
+            "strawberry"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Cherry",
+          "aliases": [
+            "cherry"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Watermelon",
+          "aliases": [
+            "watermelon"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Pomegranate",
+          "aliases": [
+            "pomegranate"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Raspberry",
+          "aliases": [
+            "raspberry"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Lingonberry",
+          "aliases": [
+            "lingonberry"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Miracle Fruit",
+          "aliases": [
+            "miracle fruit",
+            "synsepalum"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Blood Orange",
+          "aliases": [
+            "blood orange"
+          ],
+          "points": 60,
+          "tier": "rare"
+        }
+      ]
+    },
+    {
+      "id": "d1-p6",
+      "prompt": "Name a famous bridge",
+      "answers": [
+        {
+          "label": "Golden Gate Bridge",
+          "aliases": [
+            "golden gate",
+            "golden gate bridge"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Brooklyn Bridge",
+          "aliases": [
+            "brooklyn bridge"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "London Bridge",
+          "aliases": [
+            "london bridge",
+            "tower bridge"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Sydney Harbour Bridge",
+          "aliases": [
+            "sydney harbour bridge",
+            "sydney harbor bridge",
+            "harbour bridge"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Rialto Bridge",
+          "aliases": [
+            "rialto bridge",
+            "rialto"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Ponte Vecchio",
+          "aliases": [
+            "ponte vecchio"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Millau Viaduct",
+          "aliases": [
+            "millau viaduct",
+            "millau"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Akashi Kaikyo Bridge",
+          "aliases": [
+            "akashi kaikyo",
+            "akashi kaikyo bridge",
+            "pearl bridge"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    },
+    {
+      "id": "d1-p7",
+      "prompt": "Name a type of cloud",
+      "answers": [
+        {
+          "label": "Cumulus",
+          "aliases": [
+            "cumulus"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Cirrus",
+          "aliases": [
+            "cirrus"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Stratus",
+          "aliases": [
+            "stratus"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Nimbus",
+          "aliases": [
+            "nimbus",
+            "nimbostratus"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Cumulonimbus",
+          "aliases": [
+            "cumulonimbus"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Altocumulus",
+          "aliases": [
+            "altocumulus"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Cirrostratus",
+          "aliases": [
+            "cirrostratus"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Noctilucent",
+          "aliases": [
+            "noctilucent",
+            "night shining"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    },
+    {
+      "id": "d1-p8",
+      "prompt": "Name a tree",
+      "answers": [
+        {
+          "label": "Oak",
+          "aliases": [
+            "oak"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Pine",
+          "aliases": [
+            "pine"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Maple",
+          "aliases": [
+            "maple"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Birch",
+          "aliases": [
+            "birch"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Baobab",
+          "aliases": [
+            "baobab"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Wollemi Pine",
+          "aliases": [
+            "wollemi pine",
+            "wollemi"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Dragon Blood Tree",
+          "aliases": [
+            "dragon blood tree",
+            "dracaena cinnabari"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Cedar",
+          "aliases": [
+            "cedar"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    }
+  ]
+}

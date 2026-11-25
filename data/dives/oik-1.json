@@ -1,0 +1,114 @@
+{
+  "id": "oik-1",
+  "title": "One in a Krillion Dive",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "oik-1-p1",
+      "prompt": "Name something found in the deep ocean",
+      "answers": [
+        { "label": "Fish", "aliases": ["fish"], "points": 10, "tier": "plankton" },
+        { "label": "Shark", "aliases": ["shark"], "points": 15, "tier": "too_clever" },
+        { "label": "Whale", "aliases": ["whale"], "points": 15, "tier": "too_clever" },
+        { "label": "Octopus", "aliases": ["octopus", "octopi"], "points": 30, "tier": "schooler" },
+        { "label": "Anglerfish", "aliases": ["anglerfish", "angler fish", "angler"], "points": 60, "tier": "rare" },
+        { "label": "Hydrothermal vent", "aliases": ["hydrothermal vent", "vent", "black smoker"], "points": 85, "tier": "deep_cut" },
+        { "label": "Giant isopod", "aliases": ["giant isopod", "isopod"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Coral", "aliases": ["coral", "deep sea coral"], "points": 30, "tier": "schooler" },
+        { "label": "Squid", "aliases": ["squid", "giant squid", "colossal squid"], "points": 60, "tier": "rare" }
+      ]
+    },
+    {
+      "id": "oik-1-p2",
+      "prompt": "Name a color",
+      "answers": [
+        { "label": "Blue", "aliases": ["blue"], "points": 10, "tier": "plankton" },
+        { "label": "Red", "aliases": ["red"], "points": 10, "tier": "plankton" },
+        { "label": "Green", "aliases": ["green"], "points": 10, "tier": "plankton" },
+        { "label": "Purple", "aliases": ["purple", "violet"], "points": 15, "tier": "too_clever" },
+        { "label": "Teal", "aliases": ["teal"], "points": 30, "tier": "schooler" },
+        { "label": "Chartreuse", "aliases": ["chartreuse"], "points": 85, "tier": "deep_cut" },
+        { "label": "Vermilion", "aliases": ["vermilion", "vermillion"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Indigo", "aliases": ["indigo"], "points": 60, "tier": "rare" },
+        { "label": "Magenta", "aliases": ["magenta"], "points": 60, "tier": "rare" }
+      ]
+    },
+    {
+      "id": "oik-1-p3",
+      "prompt": "Name a bird",
+      "answers": [
+        { "label": "Eagle", "aliases": ["eagle"], "points": 10, "tier": "plankton" },
+        { "label": "Crow", "aliases": ["crow"], "points": 15, "tier": "too_clever" },
+        { "label": "Flamingo", "aliases": ["flamingo"], "points": 15, "tier": "too_clever" },
+        { "label": "Owl", "aliases": ["owl"], "points": 30, "tier": "schooler" },
+        { "label": "Albatross", "aliases": ["albatross"], "points": 60, "tier": "rare" },
+        { "label": "Kakapo", "aliases": ["kakapo"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Kiwi", "aliases": ["kiwi", "kiwi bird"], "points": 85, "tier": "deep_cut" },
+        { "label": "Puffin", "aliases": ["puffin"], "points": 60, "tier": "rare" },
+        { "label": "Sparrow", "aliases": ["sparrow"], "points": 10, "tier": "plankton" }
+      ]
+    },
+    {
+      "id": "oik-1-p4",
+      "prompt": "Name a musical instrument",
+      "answers": [
+        { "label": "Guitar", "aliases": ["guitar"], "points": 10, "tier": "plankton" },
+        { "label": "Piano", "aliases": ["piano"], "points": 10, "tier": "plankton" },
+        { "label": "Drums", "aliases": ["drums", "drum"], "points": 15, "tier": "too_clever" },
+        { "label": "Violin", "aliases": ["violin"], "points": 30, "tier": "schooler" },
+        { "label": "Oud", "aliases": ["oud"], "points": 60, "tier": "rare" },
+        { "label": "Hang Drum", "aliases": ["hang drum", "handpan", "hang"], "points": 85, "tier": "deep_cut" },
+        { "label": "Theremin", "aliases": ["theremin"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Bassoon", "aliases": ["bassoon"], "points": 60, "tier": "rare" },
+        { "label": "Saxophone", "aliases": ["saxophone", "sax"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "oik-1-p5",
+      "prompt": "Name a shark",
+      "answers": [
+        { "label": "Shark", "aliases": ["shark"], "points": 10, "tier": "plankton" },
+        { "label": "Great White", "aliases": ["great white", "great white shark", "white shark"], "points": 15, "tier": "too_clever" },
+        { "label": "Hammerhead", "aliases": ["hammerhead", "hammerhead shark"], "points": 30, "tier": "schooler" },
+        { "label": "Whale Shark", "aliases": ["whale shark"], "points": 60, "tier": "rare" },
+        { "label": "Thresher Shark", "aliases": ["thresher", "thresher shark"], "points": 85, "tier": "deep_cut" },
+        { "label": "Goblin Shark", "aliases": ["goblin shark"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Mako", "aliases": ["mako", "mako shark"], "points": 60, "tier": "rare" },
+        { "label": "Tiger Shark", "aliases": ["tiger shark"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "oik-1-p6",
+      "prompt": "Name a tropical fruit",
+      "answers": [
+        { "label": "Banana", "aliases": ["banana"], "points": 10, "tier": "plankton" },
+        { "label": "Mango", "aliases": ["mango"], "points": 15, "tier": "too_clever" },
+        { "label": "Pineapple", "aliases": ["pineapple"], "points": 15, "tier": "too_clever" },
+        { "label": "Papaya", "aliases": ["papaya", "pawpaw"], "points": 30, "tier": "schooler" },
+        { "label": "Dragon Fruit", "aliases": ["dragon fruit", "dragonfruit", "pitaya"], "points": 60, "tier": "rare" },
+        { "label": "Rambutan", "aliases": ["rambutan"], "points": 85, "tier": "deep_cut" },
+        { "label": "Durian", "aliases": ["durian"], "points": 60, "tier": "rare" },
+        { "label": "Salak", "aliases": ["salak", "snake fruit", "snakefruit"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Coconut", "aliases": ["coconut"], "points": 10, "tier": "plankton" }
+      ]
+    },
+    {
+      "id": "oik-1-p7",
+      "prompt": "Name a great ape",
+      "answers": [
+        { "label": "Gorilla", "aliases": ["gorilla"], "points": 10, "tier": "plankton" },
+        { "label": "Chimpanzee", "aliases": ["chimpanzee", "chimp"], "points": 15, "tier": "too_clever" },
+        { "label": "Orangutan", "aliases": ["orangutan", "orang utan", "orangutang"], "points": 30, "tier": "schooler" },
+        { "label": "Human", "aliases": ["human", "homo sapiens"], "points": 60, "tier": "rare" },
+        { "label": "Bonobo", "aliases": ["bonobo"], "points": 85, "tier": "deep_cut" },
+        {
+          "label": "Eastern Lowland Gorilla",
+          "aliases": ["eastern lowland gorilla", "grauers gorilla", "grauer's gorilla"],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        { "label": "Gibbon", "aliases": ["gibbon"], "points": 30, "tier": "schooler" }
+      ]
+    }
+  ]
+}

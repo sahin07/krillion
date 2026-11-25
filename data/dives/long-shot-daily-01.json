@@ -1,0 +1,108 @@
+{
+  "id": "long-shot-daily-01",
+  "title": "Long Shot Daily",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "ls-d1-p1",
+      "prompt": "Name a basketball shot or scoring move",
+      "answers": [
+        { "label": "Three-pointer", "aliases": ["three", "three pointer", "3 pointer", "3pt", "trey"], "points": 10, "tier": "plankton" },
+        { "label": "Layup", "aliases": ["layup", "lay-up"], "points": 10, "tier": "plankton" },
+        { "label": "Dunk", "aliases": ["dunk", "slam dunk", "slam"], "points": 15, "tier": "too_clever" },
+        { "label": "Free throw", "aliases": ["free throw", "foul shot", "ft"], "points": 15, "tier": "too_clever" },
+        { "label": "Floater", "aliases": ["floater", "tear drop", "teardrop"], "points": 30, "tier": "schooler" },
+        { "label": "Fadeaway", "aliases": ["fadeaway", "fade away", "fade"], "points": 30, "tier": "schooler" },
+        { "label": "Bank shot", "aliases": ["bank shot", "bank"], "points": 60, "tier": "rare" },
+        { "label": "Hook shot", "aliases": ["hook shot", "hook", "skyhook"], "points": 85, "tier": "deep_cut" },
+        { "label": "Half-court heave", "aliases": ["half court", "half-court", "heave", "buzzer heave", "logo three"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "ls-d1-p2",
+      "prompt": "Name an NBA player known for deep range",
+      "answers": [
+        { "label": "Stephen Curry", "aliases": ["curry", "stephen curry", "steph curry", "steph"], "points": 10, "tier": "plankton" },
+        { "label": "Damian Lillard", "aliases": ["lillard", "damian lillard", "dame"], "points": 15, "tier": "too_clever" },
+        { "label": "Klay Thompson", "aliases": ["klay", "klay thompson", "thompson"], "points": 15, "tier": "too_clever" },
+        { "label": "Ray Allen", "aliases": ["ray allen", "allen"], "points": 30, "tier": "schooler" },
+        { "label": "Reggie Miller", "aliases": ["reggie miller", "miller"], "points": 30, "tier": "schooler" },
+        { "label": "Trae Young", "aliases": ["trae", "trae young"], "points": 60, "tier": "rare" },
+        { "label": "Buddy Hield", "aliases": ["buddy hield", "hield"], "points": 85, "tier": "deep_cut" },
+        { "label": "Duncan Robinson", "aliases": ["duncan robinson", "robinson"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "ls-d1-p3",
+      "prompt": "Name a sports underdog or long-shot story",
+      "answers": [
+        { "label": "Miracle on Ice", "aliases": ["miracle on ice", "1980 olympics", "usa hockey 1980"], "points": 15, "tier": "too_clever" },
+        { "label": "Leicester City", "aliases": ["leicester", "leicester city", "foxes"], "points": 30, "tier": "schooler" },
+        { "label": "Buster Douglas", "aliases": ["buster douglas", "douglas", "douglas vs tyson"], "points": 60, "tier": "rare" },
+        { "label": "2004 Red Sox", "aliases": ["2004 red sox", "red sox comeback", "boston red sox 2004"], "points": 60, "tier": "rare" },
+        { "label": "Villanova 1985", "aliases": ["villanova 1985", "villanova vs georgetown", "nova 85"], "points": 85, "tier": "deep_cut" },
+        { "label": "Appalachian State 2007", "aliases": ["appalachian state", "app state", "app state michigan"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "USA", "aliases": ["usa", "team usa"], "points": 10, "tier": "plankton" },
+        { "label": "Underdog", "aliases": ["underdog", "cinderella"], "points": 10, "tier": "plankton" }
+      ]
+    },
+    {
+      "id": "ls-d1-p4",
+      "prompt": "Name a basketball statistic tied to shooting",
+      "answers": [
+        { "label": "Points", "aliases": ["points", "ppg"], "points": 10, "tier": "plankton" },
+        { "label": "Field goal %", "aliases": ["fg%", "field goal percentage", "field goal", "fg"], "points": 15, "tier": "too_clever" },
+        { "label": "Three-point %", "aliases": ["3p%", "three point percentage", "three point %", "3pt%"], "points": 15, "tier": "too_clever" },
+        { "label": "True Shooting %", "aliases": ["true shooting", "ts%", "true shooting percentage"], "points": 60, "tier": "rare" },
+        { "label": "Effective FG%", "aliases": ["efg%", "effective field goal", "effective fg"], "points": 85, "tier": "deep_cut" },
+        { "label": "Catch-and-shoot %", "aliases": ["catch and shoot", "c&s", "catch-and-shoot"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Assists", "aliases": ["assists", "apg"], "points": 30, "tier": "schooler" },
+        { "label": "Usage rate", "aliases": ["usage", "usage rate", "usg%"], "points": 60, "tier": "rare" }
+      ]
+    },
+    {
+      "id": "ls-d1-p5",
+      "prompt": "Name a sport where a long shot is literal",
+      "answers": [
+        { "label": "Basketball", "aliases": ["basketball", "nba", "hoops"], "points": 10, "tier": "plankton" },
+        { "label": "Soccer", "aliases": ["soccer", "football"], "points": 10, "tier": "plankton" },
+        { "label": "Hockey", "aliases": ["hockey", "ice hockey", "nhl"], "points": 15, "tier": "too_clever" },
+        { "label": "Golf", "aliases": ["golf", "pga"], "points": 15, "tier": "too_clever" },
+        { "label": "Archery", "aliases": ["archery"], "points": 30, "tier": "schooler" },
+        { "label": "Curling", "aliases": ["curling"], "points": 60, "tier": "rare" },
+        { "label": "Billiards", "aliases": ["billiards", "pool", "snooker"], "points": 60, "tier": "rare" },
+        { "label": "Biathlon", "aliases": ["biathlon"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Croquet", "aliases": ["croquet"], "points": 85, "tier": "deep_cut" }
+      ]
+    },
+    {
+      "id": "ls-d1-p6",
+      "prompt": "Name a bold sports strategy or set play",
+      "answers": [
+        { "label": "Full-court press", "aliases": ["full court press", "full-court press", "press"], "points": 15, "tier": "too_clever" },
+        { "label": "Zone defense", "aliases": ["zone", "zone defense"], "points": 10, "tier": "plankton" },
+        { "label": "Pick and roll", "aliases": ["pick and roll", "pnr", "pick-and-roll"], "points": 10, "tier": "plankton" },
+        { "label": "Hack-a-Shaq", "aliases": ["hack a shaq", "hack-a-shaq", "intentional foul"], "points": 30, "tier": "schooler" },
+        { "label": "Small ball", "aliases": ["small ball", "death lineup"], "points": 30, "tier": "schooler" },
+        { "label": "Corner three diet", "aliases": ["corner three", "corner 3s", "corner threes"], "points": 60, "tier": "rare" },
+        { "label": "Five-out offense", "aliases": ["five out", "5-out", "five-out"], "points": 85, "tier": "deep_cut" },
+        { "label": "Horn play", "aliases": ["horns", "horn set", "horns set"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "ls-d1-p7",
+      "prompt": "Name a clutch sports moment type",
+      "answers": [
+        { "label": "Buzzer beater", "aliases": ["buzzer beater", "buzzer-beater", "buzzer"], "points": 10, "tier": "plankton" },
+        { "label": "Game winner", "aliases": ["game winner", "game-winner", "gw"], "points": 15, "tier": "too_clever" },
+        { "label": "Overtime", "aliases": ["overtime", "ot"], "points": 15, "tier": "too_clever" },
+        { "label": "Hail Mary", "aliases": ["hail mary", "hail-mary"], "points": 30, "tier": "schooler" },
+        { "label": "Walk-off", "aliases": ["walk off", "walk-off", "walkoff"], "points": 30, "tier": "schooler" },
+        { "label": "Alley-oop", "aliases": ["alley oop", "alley-oop", "lob"], "points": 60, "tier": "rare" },
+        { "label": "And-one", "aliases": ["and one", "and-one", "and 1"], "points": 60, "tier": "rare" },
+        { "label": "Four-point play", "aliases": ["four point play", "4 point play", "four-point play"], "points": 85, "tier": "deep_cut" },
+        { "label": "Putback jam", "aliases": ["putback", "put-back", "putback dunk", "putback jam"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}

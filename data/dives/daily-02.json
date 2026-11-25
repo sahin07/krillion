@@ -1,0 +1,608 @@
+{
+  "id": "daily-02",
+  "title": "Daily Dive",
+  "diveNumber": 2,
+  "prompts": [
+    {
+      "id": "d2-p1",
+      "prompt": "Name an animal that can swim",
+      "answers": [
+        {
+          "label": "Dog",
+          "aliases": [
+            "dog"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Dolphin",
+          "aliases": [
+            "dolphin"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Fish",
+          "aliases": [
+            "fish"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Axolotl",
+          "aliases": [
+            "axolotl"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Mudskipper",
+          "aliases": [
+            "mudskipper"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Penguin",
+          "aliases": [
+            "penguin"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Platypus",
+          "aliases": [
+            "platypus"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Olm",
+          "aliases": [
+            "olm",
+            "proteus"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Seal",
+          "aliases": [
+            "seal"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d2-p2",
+      "prompt": "Name a metal",
+      "answers": [
+        {
+          "label": "Iron",
+          "aliases": [
+            "iron"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Gold",
+          "aliases": [
+            "gold"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Copper",
+          "aliases": [
+            "copper"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Titanium",
+          "aliases": [
+            "titanium"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Tungsten",
+          "aliases": [
+            "tungsten",
+            "wolfram"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Vanadium",
+          "aliases": [
+            "vanadium"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Rhenium",
+          "aliases": [
+            "rhenium"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Platinum",
+          "aliases": [
+            "platinum"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d2-p3",
+      "prompt": "Name a language",
+      "answers": [
+        {
+          "label": "English",
+          "aliases": [
+            "english"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Spanish",
+          "aliases": [
+            "spanish",
+            "español",
+            "espanol"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Mandarin",
+          "aliases": [
+            "mandarin",
+            "chinese",
+            "mandarin chinese"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Swahili",
+          "aliases": [
+            "swahili",
+            "kiswahili"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Basque",
+          "aliases": [
+            "basque",
+            "euskara"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Quechua",
+          "aliases": [
+            "quechua"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Ainu",
+          "aliases": [
+            "ainu"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Finnish",
+          "aliases": [
+            "finnish"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d2-p4",
+      "prompt": "Name a sport played with a ball",
+      "answers": [
+        {
+          "label": "Soccer",
+          "aliases": [
+            "soccer",
+            "football",
+            "association football"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Basketball",
+          "aliases": [
+            "basketball"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Tennis",
+          "aliases": [
+            "tennis"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Volleyball",
+          "aliases": [
+            "volleyball"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Lacrosse",
+          "aliases": [
+            "lacrosse"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Sepak Takraw",
+          "aliases": [
+            "sepak takraw",
+            "takraw"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Jai Alai",
+          "aliases": [
+            "jai alai"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Handball",
+          "aliases": [
+            "handball"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Polo",
+          "aliases": [
+            "polo",
+            "water polo"
+          ],
+          "points": 60,
+          "tier": "rare"
+        }
+      ]
+    },
+    {
+      "id": "d2-p5",
+      "prompt": "Name a constellation",
+      "answers": [
+        {
+          "label": "Orion",
+          "aliases": [
+            "orion"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Ursa Major",
+          "aliases": [
+            "ursa major",
+            "big dipper"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Cassiopeia",
+          "aliases": [
+            "cassiopeia"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Lyra",
+          "aliases": [
+            "lyra"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Phoenix",
+          "aliases": [
+            "phoenix"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Horologium",
+          "aliases": [
+            "horologium"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Scorpius",
+          "aliases": [
+            "scorpius",
+            "scorpio"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d2-p6",
+      "prompt": "Name a cooking method",
+      "answers": [
+        {
+          "label": "Boil",
+          "aliases": [
+            "boil",
+            "boiling"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Fry",
+          "aliases": [
+            "fry",
+            "frying",
+            "deep fry"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Bake",
+          "aliases": [
+            "bake",
+            "baking"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Grill",
+          "aliases": [
+            "grill",
+            "grilling"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Braise",
+          "aliases": [
+            "braise",
+            "braising"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Sous Vide",
+          "aliases": [
+            "sous vide",
+            "sous-vide"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Confite",
+          "aliases": [
+            "confit",
+            "confite"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Cryoconcentration",
+          "aliases": [
+            "cryoconcentration"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Smoke",
+          "aliases": [
+            "smoke",
+            "smoking"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d2-p7",
+      "prompt": "Name a unit of time",
+      "answers": [
+        {
+          "label": "Second",
+          "aliases": [
+            "second",
+            "sec"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Minute",
+          "aliases": [
+            "minute"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Hour",
+          "aliases": [
+            "hour"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Fortnight",
+          "aliases": [
+            "fortnight"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Lustrum",
+          "aliases": [
+            "lustrum"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Jiffy",
+          "aliases": [
+            "jiffy"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Shake",
+          "aliases": [
+            "shake"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Decade",
+          "aliases": [
+            "decade"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "d2-p8",
+      "prompt": "Name a bird that cannot fly",
+      "answers": [
+        {
+          "label": "Penguin",
+          "aliases": [
+            "penguin"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Ostrich",
+          "aliases": [
+            "ostrich"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Emu",
+          "aliases": [
+            "emu"
+          ],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Kiwi",
+          "aliases": [
+            "kiwi"
+          ],
+          "points": 30,
+          "tier": "schooler"
+        },
+        {
+          "label": "Cassowary",
+          "aliases": [
+            "cassowary"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Kakapo",
+          "aliases": [
+            "kakapo"
+          ],
+          "points": 85,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Steamer Duck",
+          "aliases": [
+            "steamer duck",
+            "flightless steamer duck"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Rhea",
+          "aliases": [
+            "rhea"
+          ],
+          "points": 60,
+          "tier": "rare"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "medical-1",
+  "title": "Medical Krillion · Research Mission",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "med-1-p1",
+      "prompt": "Name a bone found in the human wrist",
+      "answers": [
+        { "label": "Scaphoid", "aliases": ["scaphoid", "scaphoid bone", "navicular bone of wrist"], "points": 10, "tier": "plankton" },
+        { "label": "Lunate", "aliases": ["lunate", "lunate bone", "semilunar bone"], "points": 20, "tier": "too_clever" },
+        { "label": "Capitate", "aliases": ["capitate", "capitate bone", "os magnum"], "points": 40, "tier": "schooler" },
+        { "label": "Hamate", "aliases": ["hamate", "hamate bone", "unciform", "unciform bone"], "points": 60, "tier": "rare" },
+        { "label": "Trapezium", "aliases": ["trapezium", "trapezium bone", "greater multangular"], "points": 60, "tier": "rare" },
+        { "label": "Trapezoid", "aliases": ["trapezoid", "trapezoid bone", "lesser multangular"], "points": 80, "tier": "deep_cut" },
+        { "label": "Triquetrum", "aliases": ["triquetrum", "triquetral", "triquetral bone", "triangular bone"], "points": 80, "tier": "deep_cut" },
+        { "label": "Pisiform", "aliases": ["pisiform", "pisiform bone"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "med-1-p2",
+      "prompt": "Name a hormone produced by the human body",
+      "answers": [
+        { "label": "Insulin", "aliases": ["insulin"], "points": 10, "tier": "plankton" },
+        { "label": "Adrenaline", "aliases": ["adrenaline", "epinephrine"], "points": 10, "tier": "plankton" },
+        { "label": "Cortisol", "aliases": ["cortisol", "hydrocortisone"], "points": 20, "tier": "too_clever" },
+        { "label": "Melatonin", "aliases": ["melatonin"], "points": 20, "tier": "too_clever" },
+        { "label": "Oxytocin", "aliases": ["oxytocin"], "points": 40, "tier": "schooler" },
+        { "label": "Aldosterone", "aliases": ["aldosterone"], "points": 60, "tier": "rare" },
+        { "label": "Ghrelin", "aliases": ["ghrelin"], "points": 80, "tier": "deep_cut" },
+        { "label": "Inhibin", "aliases": ["inhibin", "inhibin a", "inhibin b"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "med-1-p3",
+      "prompt": "Name a medical imaging test or clinical instrument",
+      "answers": [
+        { "label": "X-ray", "aliases": ["x-ray", "xray", "radiograph", "plain film"], "points": 10, "tier": "plankton" },
+        { "label": "MRI", "aliases": ["mri", "magnetic resonance imaging", "mr imaging"], "points": 10, "tier": "plankton" },
+        { "label": "CT scan", "aliases": ["ct", "ct scan", "cat scan", "computed tomography"], "points": 20, "tier": "too_clever" },
+        { "label": "Ultrasound", "aliases": ["ultrasound", "sonogram", "sonography", "echography"], "points": 20, "tier": "too_clever" },
+        { "label": "Endoscope", "aliases": ["endoscope", "endoscopy"], "points": 40, "tier": "schooler" },
+        { "label": "Spirometer", "aliases": ["spirometer", "spirometry"], "points": 60, "tier": "rare" },
+        { "label": "Otoscope", "aliases": ["otoscope", "auriscope"], "points": 60, "tier": "rare" },
+        { "label": "Sphygmomanometer", "aliases": ["sphygmomanometer", "blood pressure cuff", "bp cuff"], "points": 80, "tier": "deep_cut" },
+        { "label": "Laryngoscope", "aliases": ["laryngoscope"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "med-1-p4",
+      "prompt": "Name a drug class or type of medication",
+      "answers": [
+        { "label": "Antibiotic", "aliases": ["antibiotic", "antibiotics", "antibacterial"], "points": 10, "tier": "plankton" },
+        { "label": "Painkiller", "aliases": ["painkiller", "painkillers", "analgesic", "analgesics"], "points": 10, "tier": "plankton" },
+        { "label": "Antihistamine", "aliases": ["antihistamine", "antihistamines"], "points": 20, "tier": "too_clever" },
+        { "label": "Beta blocker", "aliases": ["beta blocker", "beta-blocker", "beta blockers", "beta-blockers"], "points": 40, "tier": "schooler" },
+        { "label": "ACE inhibitor", "aliases": ["ace inhibitor", "ace inhibitors", "angiotensin converting enzyme inhibitor"], "points": 60, "tier": "rare" },
+        { "label": "SSRI", "aliases": ["ssri", "ssris", "selective serotonin reuptake inhibitor"], "points": 60, "tier": "rare" },
+        { "label": "Macrolide", "aliases": ["macrolide", "macrolides", "macrolide antibiotic"], "points": 80, "tier": "deep_cut" },
+        { "label": "Inotrope", "aliases": ["inotrope", "inotropes", "positive inotrope"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "med-1-p5",
+      "prompt": "Name a medical specialty or department",
+      "answers": [
+        { "label": "Cardiology", "aliases": ["cardiology", "cardiologist"], "points": 10, "tier": "plankton" },
+        { "label": "Pediatrics", "aliases": ["pediatrics", "paediatrics", "pediatrician", "paediatrician"], "points": 10, "tier": "plankton" },
+        { "label": "Neurology", "aliases": ["neurology", "neurologist"], "points": 20, "tier": "too_clever" },
+        { "label": "Oncology", "aliases": ["oncology", "oncologist"], "points": 20, "tier": "too_clever" },
+        { "label": "Nephrology", "aliases": ["nephrology", "nephrologist"], "points": 40, "tier": "schooler" },
+        { "label": "Rheumatology", "aliases": ["rheumatology", "rheumatologist"], "points": 60, "tier": "rare" },
+        { "label": "Hepatology", "aliases": ["hepatology", "hepatologist"], "points": 80, "tier": "deep_cut" },
+        { "label": "Phlebology", "aliases": ["phlebology", "phlebologist", "vein medicine"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "med-1-p6",
+      "prompt": "Name a muscle of the human body",
+      "answers": [
+        { "label": "Biceps", "aliases": ["biceps", "bicep", "biceps brachii"], "points": 10, "tier": "plankton" },
+        { "label": "Quadriceps", "aliases": ["quadriceps", "quads", "quadriceps femoris"], "points": 10, "tier": "plankton" },
+        { "label": "Deltoid", "aliases": ["deltoid", "deltoids"], "points": 20, "tier": "too_clever" },
+        { "label": "Gastrocnemius", "aliases": ["gastrocnemius", "gastroc", "calf muscle"], "points": 40, "tier": "schooler" },
+        { "label": "Soleus", "aliases": ["soleus"], "points": 60, "tier": "rare" },
+        { "label": "Sartorius", "aliases": ["sartorius"], "points": 80, "tier": "deep_cut" },
+        { "label": "Anconeus", "aliases": ["anconeus"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Plantaris", "aliases": ["plantaris"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "med-1-p7",
+      "prompt": "Name a type of blood cell or blood component",
+      "answers": [
+        { "label": "Red blood cell", "aliases": ["red blood cell", "rbc", "erythrocyte", "erythrocytes", "red blood cells"], "points": 10, "tier": "plankton" },
+        { "label": "White blood cell", "aliases": ["white blood cell", "wbc", "leukocyte", "leucocyte", "white blood cells"], "points": 10, "tier": "plankton" },
+        { "label": "Platelet", "aliases": ["platelet", "platelets", "thrombocyte", "thrombocytes"], "points": 20, "tier": "too_clever" },
+        { "label": "Plasma", "aliases": ["plasma", "blood plasma"], "points": 20, "tier": "too_clever" },
+        { "label": "Neutrophil", "aliases": ["neutrophil", "neutrophils"], "points": 40, "tier": "schooler" },
+        { "label": "Lymphocyte", "aliases": ["lymphocyte", "lymphocytes"], "points": 40, "tier": "schooler" },
+        { "label": "Eosinophil", "aliases": ["eosinophil", "eosinophils"], "points": 60, "tier": "rare" },
+        { "label": "Basophil", "aliases": ["basophil", "basophils"], "points": 80, "tier": "deep_cut" },
+        { "label": "Reticulocyte", "aliases": ["reticulocyte", "reticulocytes"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}

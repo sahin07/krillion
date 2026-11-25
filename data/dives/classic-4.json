@@ -1,0 +1,95 @@
+{
+  "id": "classic-4",
+  "title": "The Endless Dive",
+  "diveNumber": 4,
+  "prompts": [
+    {
+      "id": "c4-p1",
+      "prompt": "Name a capital city in Asia",
+      "answers": [
+        { "label": "Tokyo", "aliases": ["tokyo"], "points": 10, "tier": "plankton" },
+        { "label": "Beijing", "aliases": ["beijing", "peking"], "points": 15, "tier": "too_clever" },
+        { "label": "Seoul", "aliases": ["seoul"], "points": 15, "tier": "too_clever" },
+        { "label": "Bangkok", "aliases": ["bangkok"], "points": 30, "tier": "schooler" },
+        { "label": "Jakarta", "aliases": ["jakarta"], "points": 30, "tier": "schooler" },
+        { "label": "Hanoi", "aliases": ["hanoi", "ha noi"], "points": 60, "tier": "rare" },
+        { "label": "Ulaanbaatar", "aliases": ["ulaanbaatar", "ulan bator"], "points": 85, "tier": "deep_cut" },
+        { "label": "Thimphu", "aliases": ["thimphu"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Kathmandu", "aliases": ["kathmandu", "katmandu"], "points": 60, "tier": "rare" }
+      ]
+    },
+    {
+      "id": "c4-p2",
+      "prompt": "Name a type of pasta",
+      "answers": [
+        { "label": "Spaghetti", "aliases": ["spaghetti"], "points": 10, "tier": "plankton" },
+        { "label": "Penne", "aliases": ["penne"], "points": 15, "tier": "too_clever" },
+        { "label": "Fettuccine", "aliases": ["fettuccine", "fettuccini"], "points": 30, "tier": "schooler" },
+        { "label": "Rigatoni", "aliases": ["rigatoni"], "points": 30, "tier": "schooler" },
+        { "label": "Orecchiette", "aliases": ["orecchiette"], "points": 60, "tier": "rare" },
+        { "label": "Cavatappi", "aliases": ["cavatappi"], "points": 60, "tier": "rare" },
+        { "label": "Trofie", "aliases": ["trofie"], "points": 85, "tier": "deep_cut" },
+        { "label": "Busiate", "aliases": ["busiate"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Farfalle", "aliases": ["farfalle", "bowtie", "bow tie"], "points": 15, "tier": "too_clever" }
+      ]
+    },
+    {
+      "id": "c4-p3",
+      "prompt": "Name a Nobel Prize category",
+      "answers": [
+        { "label": "Peace", "aliases": ["peace", "nobel peace prize"], "points": 10, "tier": "plankton" },
+        { "label": "Literature", "aliases": ["literature"], "points": 15, "tier": "too_clever" },
+        { "label": "Physics", "aliases": ["physics"], "points": 15, "tier": "too_clever" },
+        { "label": "Chemistry", "aliases": ["chemistry"], "points": 30, "tier": "schooler" },
+        { "label": "Medicine", "aliases": ["medicine", "physiology or medicine", "physiology"], "points": 30, "tier": "schooler" },
+        { "label": "Economics", "aliases": ["economics", "economic sciences"], "points": 60, "tier": "rare" },
+        { "label": "Sveriges Riksbank Prize", "aliases": ["sveriges riksbank prize", "bank of sweden prize"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "c4-p4",
+      "prompt": "Name a moon of Jupiter or Saturn",
+      "answers": [
+        { "label": "Europa", "aliases": ["europa"], "points": 30, "tier": "schooler" },
+        { "label": "Io", "aliases": ["io"], "points": 30, "tier": "schooler" },
+        { "label": "Ganymede", "aliases": ["ganymede"], "points": 60, "tier": "rare" },
+        { "label": "Callisto", "aliases": ["callisto"], "points": 60, "tier": "rare" },
+        { "label": "Titan", "aliases": ["titan"], "points": 15, "tier": "too_clever" },
+        { "label": "Enceladus", "aliases": ["enceladus"], "points": 85, "tier": "deep_cut" },
+        { "label": "Mimas", "aliases": ["mimas"], "points": 85, "tier": "deep_cut" },
+        { "label": "Hyperion", "aliases": ["hyperion"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Moon", "aliases": ["moon", "the moon"], "points": 10, "tier": "plankton" }
+      ]
+    },
+    {
+      "id": "c4-p5",
+      "prompt": "Name a famous scientist",
+      "answers": [
+        { "label": "Einstein", "aliases": ["einstein", "albert einstein"], "points": 10, "tier": "plankton" },
+        { "label": "Newton", "aliases": ["newton", "isaac newton"], "points": 10, "tier": "plankton" },
+        { "label": "Darwin", "aliases": ["darwin", "charles darwin"], "points": 15, "tier": "too_clever" },
+        { "label": "Curie", "aliases": ["curie", "marie curie"], "points": 15, "tier": "too_clever" },
+        { "label": "Tesla", "aliases": ["tesla", "nikola tesla"], "points": 30, "tier": "schooler" },
+        { "label": "Feynman", "aliases": ["feynman", "richard feynman"], "points": 60, "tier": "rare" },
+        { "label": "Faraday", "aliases": ["faraday", "michael faraday"], "points": 60, "tier": "rare" },
+        { "label": "Emmy Noether", "aliases": ["emmy noether", "noether"], "points": 85, "tier": "deep_cut" },
+        { "label": "Srinivasa Ramanujan", "aliases": ["ramanujan", "srinivasa ramanujan"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "c4-p6",
+      "prompt": "Name a dance style",
+      "answers": [
+        { "label": "Ballet", "aliases": ["ballet"], "points": 10, "tier": "plankton" },
+        { "label": "Hip Hop", "aliases": ["hip hop", "hip-hop", "hiphop"], "points": 15, "tier": "too_clever" },
+        { "label": "Salsa", "aliases": ["salsa"], "points": 15, "tier": "too_clever" },
+        { "label": "Tango", "aliases": ["tango"], "points": 30, "tier": "schooler" },
+        { "label": "Flamenco", "aliases": ["flamenco"], "points": 30, "tier": "schooler" },
+        { "label": "Kathak", "aliases": ["kathak"], "points": 60, "tier": "rare" },
+        { "label": "Breakdance", "aliases": ["breakdance", "breaking", "b-boying"], "points": 30, "tier": "schooler" },
+        { "label": "Krumping", "aliases": ["krumping", "krump"], "points": 85, "tier": "deep_cut" },
+        { "label": "Vogue", "aliases": ["vogue", "voguing"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}

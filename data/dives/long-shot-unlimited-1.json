@@ -1,0 +1,105 @@
+{
+  "id": "long-shot-unlimited-1",
+  "title": "Long Shot Unlimited 1",
+  "diveNumber": 101,
+  "prompts": [
+    {
+      "id": "ls-u1-p1",
+      "prompt": "Name an NBA arena",
+      "answers": [
+        { "label": "Madison Square Garden", "aliases": ["msg", "madison square garden", "the garden"], "points": 10, "tier": "plankton" },
+        { "label": "Crypto.com Arena", "aliases": ["crypto.com arena", "staples center", "staples"], "points": 15, "tier": "too_clever" },
+        { "label": "Chase Center", "aliases": ["chase center", "chase"], "points": 30, "tier": "schooler" },
+        { "label": "Ball Arena", "aliases": ["ball arena", "pepsi center"], "points": 60, "tier": "rare" },
+        { "label": "Gainbridge Fieldhouse", "aliases": ["gainbridge", "gainbridge fieldhouse", "bankers life"], "points": 85, "tier": "deep_cut" },
+        { "label": "Smoothie King Center", "aliases": ["smoothie king", "smoothie king center"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "United Center", "aliases": ["united center", "uc"], "points": 15, "tier": "too_clever" },
+        { "label": "TD Garden", "aliases": ["td garden", "boston garden"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "ls-u1-p2",
+      "prompt": "Name a March Madness Cinderella or underdog",
+      "answers": [
+        { "label": "Cinderella", "aliases": ["cinderella", "cinderella team"], "points": 10, "tier": "plankton" },
+        { "label": "15-seed", "aliases": ["15 seed", "15-seed", "fifteen seed"], "points": 15, "tier": "too_clever" },
+        { "label": "George Mason 2006", "aliases": ["george mason", "george mason 2006"], "points": 60, "tier": "rare" },
+        { "label": "VCU 2011", "aliases": ["vcu", "vcu 2011"], "points": 60, "tier": "rare" },
+        { "label": "Loyola Chicago 2018", "aliases": ["loyola chicago", "loyola 2018", "sister jean"], "points": 85, "tier": "deep_cut" },
+        { "label": "Florida Gulf Coast", "aliases": ["fgcu", "florida gulf coast", "dunk city"], "points": 85, "tier": "deep_cut" },
+        { "label": "Saint Peter's 2022", "aliases": ["saint peters", "saint peter's", "st peters", "peacocks"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "UConn", "aliases": ["uconn", "connecticut"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "ls-u1-p3",
+      "prompt": "Name a soccer long-range goal style",
+      "answers": [
+        { "label": "Free kick", "aliases": ["free kick", "free-kick"], "points": 10, "tier": "plankton" },
+        { "label": "Volley", "aliases": ["volley"], "points": 15, "tier": "too_clever" },
+        { "label": "Bicycle kick", "aliases": ["bicycle kick", "overhead kick", "bicycle"], "points": 30, "tier": "schooler" },
+        { "label": "Olympic goal", "aliases": ["olympic goal", "corner olympic"], "points": 85, "tier": "deep_cut" },
+        { "label": "Rabona", "aliases": ["rabona"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Chip", "aliases": ["chip", "lob", "chipped finish"], "points": 30, "tier": "schooler" },
+        { "label": "Screamer", "aliases": ["screamer", "worldie", "long-range screamer"], "points": 60, "tier": "rare" },
+        { "label": "Penalty", "aliases": ["penalty", "pk", "pen"], "points": 10, "tier": "plankton" }
+      ]
+    },
+    {
+      "id": "ls-u1-p4",
+      "prompt": "Name a golf shot from distance",
+      "answers": [
+        { "label": "Drive", "aliases": ["drive", "tee shot", "driver"], "points": 10, "tier": "plankton" },
+        { "label": "Iron", "aliases": ["iron", "long iron"], "points": 15, "tier": "too_clever" },
+        { "label": "Approach", "aliases": ["approach", "approach shot"], "points": 15, "tier": "too_clever" },
+        { "label": "Fairway wood", "aliases": ["fairway wood", "3 wood", "5 wood"], "points": 30, "tier": "schooler" },
+        { "label": "Punch shot", "aliases": ["punch", "punch shot", "knockdown"], "points": 60, "tier": "rare" },
+        { "label": "Stinger", "aliases": ["stinger"], "points": 85, "tier": "deep_cut" },
+        { "label": "Albatross", "aliases": ["albatross", "double eagle"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Eagle", "aliases": ["eagle"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "ls-u1-p5",
+      "prompt": "Name a hockey scoring chance from distance",
+      "answers": [
+        { "label": "Slap shot", "aliases": ["slap shot", "slapshot", "slap"], "points": 10, "tier": "plankton" },
+        { "label": "Wrist shot", "aliases": ["wrist shot", "wrist"], "points": 15, "tier": "too_clever" },
+        { "label": "One-timer", "aliases": ["one timer", "one-timer"], "points": 15, "tier": "too_clever" },
+        { "label": "Snap shot", "aliases": ["snap shot", "snapshot"], "points": 30, "tier": "schooler" },
+        { "label": "Point shot", "aliases": ["point shot", "from the point"], "points": 60, "tier": "rare" },
+        { "label": "Clapper", "aliases": ["clapper"], "points": 85, "tier": "deep_cut" },
+        { "label": "Bar down", "aliases": ["bar down", "bar-down", "shelf"], "points": 60, "tier": "rare" },
+        { "label": "Between-the-legs", "aliases": ["between the legs", "michigan", "lacrosse goal"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "ls-u1-p6",
+      "prompt": "Name a football (NFL) deep-ball term",
+      "answers": [
+        { "label": "Hail Mary", "aliases": ["hail mary", "hail-mary"], "points": 10, "tier": "plankton" },
+        { "label": "Bomb", "aliases": ["bomb", "deep bomb", "go ball"], "points": 15, "tier": "too_clever" },
+        { "label": "Deep post", "aliases": ["deep post", "post route"], "points": 30, "tier": "schooler" },
+        { "label": "Go route", "aliases": ["go route", "fly route", "streak"], "points": 30, "tier": "schooler" },
+        { "label": "Fade", "aliases": ["fade", "back-shoulder fade", "corner fade"], "points": 60, "tier": "rare" },
+        { "label": "Seam ball", "aliases": ["seam", "seam ball", "deep seam"], "points": 85, "tier": "deep_cut" },
+        { "label": "Moonball", "aliases": ["moonball", "moon ball"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Touchdown", "aliases": ["touchdown", "td"], "points": 10, "tier": "plankton" }
+      ]
+    },
+    {
+      "id": "ls-u1-p7",
+      "prompt": "Name a rare basketball advanced metric",
+      "answers": [
+        { "label": "PER", "aliases": ["per", "player efficiency rating"], "points": 15, "tier": "too_clever" },
+        { "label": "Plus-minus", "aliases": ["plus minus", "plus-minus", "+/-"], "points": 10, "tier": "plankton" },
+        { "label": "VORP", "aliases": ["vorp", "value over replacement player"], "points": 60, "tier": "rare" },
+        { "label": "BPM", "aliases": ["bpm", "box plus minus"], "points": 60, "tier": "rare" },
+        { "label": "PIPM", "aliases": ["pipm"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "LEBRON", "aliases": ["lebron metric", "lebron (metric)"], "points": 85, "tier": "deep_cut" },
+        { "label": "RAPTOR", "aliases": ["raptor"], "points": 85, "tier": "deep_cut" },
+        { "label": "Win shares", "aliases": ["win shares", "ws"], "points": 30, "tier": "schooler" }
+      ]
+    }
+  ]
+}

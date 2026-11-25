@@ -1,0 +1,112 @@
+{
+  "id": "stranger-things-1",
+  "title": "Stranger Things Krillion · Upside Down Challenge",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "st-1-p1",
+      "prompt": "Name a place you might find in a small Midwestern mystery town",
+      "answers": [
+        { "label": "High school", "aliases": ["high school", "school"], "points": 10, "tier": "plankton" },
+        { "label": "Arcade", "aliases": ["arcade", "video arcade"], "points": 15, "tier": "too_clever" },
+        { "label": "Police station", "aliases": ["police station", "sheriff station"], "points": 15, "tier": "too_clever" },
+        { "label": "Trailer park", "aliases": ["trailer park", "trailer"], "points": 30, "tier": "schooler" },
+        { "label": "Quarry", "aliases": ["quarry", "the quarry"], "points": 60, "tier": "rare" },
+        { "label": "Radio shack", "aliases": ["radio shack", "electronics store"], "points": 60, "tier": "rare" },
+        { "label": "Starcourt-style mall", "aliases": ["mall", "shopping mall", "starcourt"], "points": 85, "tier": "deep_cut" },
+        { "label": "Pumpkin patch", "aliases": ["pumpkin patch"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Library", "aliases": ["library", "public library"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "st-1-p2",
+      "prompt": "Name a supernatural creature type from horror or sci-fi",
+      "answers": [
+        { "label": "Monster", "aliases": ["monster"], "points": 10, "tier": "plankton" },
+        { "label": "Ghost", "aliases": ["ghost", "spirit"], "points": 10, "tier": "plankton" },
+        { "label": "Alien", "aliases": ["alien", "extraterrestrial"], "points": 15, "tier": "too_clever" },
+        { "label": "Vampire", "aliases": ["vampire"], "points": 15, "tier": "too_clever" },
+        { "label": "Shapeshifter", "aliases": ["shapeshifter", "shape shifter"], "points": 30, "tier": "schooler" },
+        { "label": "Mind flayer-like entity", "aliases": ["mind flayer", "mindflayer", "hive mind"], "points": 60, "tier": "rare" },
+        { "label": "Demogorgon-like beast", "aliases": ["demogorgon", "demo"], "points": 60, "tier": "rare" },
+        { "label": "Shadow tendril", "aliases": ["tendril", "shadow tendril", "vine monster"], "points": 85, "tier": "deep_cut" },
+        { "label": "Psychic parasite", "aliases": ["psychic parasite", "brain parasite"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "st-1-p3",
+      "prompt": "Name something you might find in a secret government lab",
+      "answers": [
+        { "label": "Scientist", "aliases": ["scientist", "scientists"], "points": 10, "tier": "plankton" },
+        { "label": "Test tubes", "aliases": ["test tubes", "test tube"], "points": 15, "tier": "too_clever" },
+        { "label": "Security cameras", "aliases": ["cameras", "security cameras"], "points": 15, "tier": "too_clever" },
+        { "label": "Observation room", "aliases": ["observation room", "observation deck"], "points": 30, "tier": "schooler" },
+        { "label": "Isolation tank", "aliases": ["isolation tank", "sensory deprivation tank"], "points": 60, "tier": "rare" },
+        { "label": "Containment chamber", "aliases": ["containment chamber", "containment"], "points": 60, "tier": "rare" },
+        { "label": "Subject file cabinet", "aliases": ["file cabinet", "subject files", "case files"], "points": 85, "tier": "deep_cut" },
+        { "label": "Gate monitoring console", "aliases": ["gate console", "rift monitor", "portal monitor"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Hazmat suits", "aliases": ["hazmat", "hazmat suits"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "st-1-p4",
+      "prompt": "Name a classic 1980s object or gadget",
+      "answers": [
+        { "label": "Walkman", "aliases": ["walkman", "cassette walkman"], "points": 10, "tier": "plankton" },
+        { "label": "VHS tape", "aliases": ["vhs", "vhs tape", "videocassette"], "points": 15, "tier": "too_clever" },
+        { "label": "Boombox", "aliases": ["boombox", "boom box"], "points": 15, "tier": "too_clever" },
+        { "label": "Polaroid camera", "aliases": ["polaroid", "polaroid camera"], "points": 30, "tier": "schooler" },
+        { "label": "Speak & Spell", "aliases": ["speak and spell", "speak & spell"], "points": 60, "tier": "rare" },
+        { "label": "Ham radio", "aliases": ["ham radio", "cb radio", "walkie talkie", "walkie-talkie"], "points": 60, "tier": "rare" },
+        { "label": "Lite-Brite", "aliases": ["lite brite", "lite-brite"], "points": 85, "tier": "deep_cut" },
+        { "label": "Teddy Ruxpin", "aliases": ["teddy ruxpin"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Rubik's Cube", "aliases": ["rubiks cube", "rubik's cube", "rubix cube"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "st-1-p5",
+      "prompt": "Name a way to describe an alternate dimension",
+      "answers": [
+        { "label": "Parallel world", "aliases": ["parallel world", "parallel universe"], "points": 10, "tier": "plankton" },
+        { "label": "Another dimension", "aliases": ["another dimension", "other dimension"], "points": 10, "tier": "plankton" },
+        { "label": "Mirror world", "aliases": ["mirror world", "mirror universe"], "points": 15, "tier": "too_clever" },
+        { "label": "Shadow realm", "aliases": ["shadow realm", "shadow world"], "points": 30, "tier": "schooler" },
+        { "label": "Upside-down plane", "aliases": ["upside down", "upside-down", "the upside down"], "points": 60, "tier": "rare" },
+        { "label": "Rift space", "aliases": ["rift", "rift space", "the rift"], "points": 60, "tier": "rare" },
+        { "label": "Nether-adjacent void", "aliases": ["void", "the void", "nether void"], "points": 85, "tier": "deep_cut" },
+        { "label": "Echoing darkscape", "aliases": ["darkscape", "echoing darkscape", "dark echo"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Dream world", "aliases": ["dream world", "dreamscape"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "st-1-p6",
+      "prompt": "Name a survival tool for a night-time supernatural emergency",
+      "answers": [
+        { "label": "Flashlight", "aliases": ["flashlight", "torch"], "points": 10, "tier": "plankton" },
+        { "label": "Baseball bat", "aliases": ["bat", "baseball bat"], "points": 15, "tier": "too_clever" },
+        { "label": "First aid kit", "aliases": ["first aid", "first aid kit"], "points": 15, "tier": "too_clever" },
+        { "label": "Walkie-talkie", "aliases": ["walkie", "walkie talkie", "walkie-talkie"], "points": 30, "tier": "schooler" },
+        { "label": "Salt circle supplies", "aliases": ["salt", "salt circle"], "points": 60, "tier": "rare" },
+        { "label": "Christmas lights", "aliases": ["christmas lights", "string lights", "fairy lights"], "points": 60, "tier": "rare" },
+        { "label": "Nail bat", "aliases": ["nail bat", "spiked bat"], "points": 85, "tier": "deep_cut" },
+        { "label": "EMF reader", "aliases": ["emf", "emf reader", "emf meter"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Matches", "aliases": ["matches", "lighter"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "st-1-p7",
+      "prompt": "Name a mysterious experiment or research theme",
+      "answers": [
+        { "label": "Mind control", "aliases": ["mind control"], "points": 10, "tier": "plankton" },
+        { "label": "Telepathy", "aliases": ["telepathy", "mind reading"], "points": 15, "tier": "too_clever" },
+        { "label": "Teleportation", "aliases": ["teleportation", "teleport"], "points": 15, "tier": "too_clever" },
+        { "label": "Psychokinesis", "aliases": ["psychokinesis", "telekinesis"], "points": 30, "tier": "schooler" },
+        { "label": "Dimensional gate research", "aliases": ["gate research", "portal research", "dimensional gate"], "points": 60, "tier": "rare" },
+        { "label": "Sensory deprivation trials", "aliases": ["sensory deprivation", "isolation trials"], "points": 85, "tier": "deep_cut" },
+        { "label": "Remote viewing program", "aliases": ["remote viewing", "remote view"], "points": 85, "tier": "deep_cut" },
+        { "label": "Child psychic cohort study", "aliases": ["psychic children", "child psychic study", "cohort study"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Cloning", "aliases": ["cloning", "clone research"], "points": 30, "tier": "schooler" }
+      ]
+    }
+  ]
+}

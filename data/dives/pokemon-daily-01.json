@@ -1,0 +1,121 @@
+{
+  "id": "pokemon-daily-01",
+  "title": "Pokémon Daily",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "pk-d1-p1",
+      "prompt": "Name a Pokémon starter",
+      "answers": [
+        { "label": "Pikachu", "aliases": ["pikachu"], "points": 10, "tier": "plankton" },
+        { "label": "Charmander", "aliases": ["charmander"], "points": 10, "tier": "plankton" },
+        { "label": "Squirtle", "aliases": ["squirtle"], "points": 10, "tier": "plankton" },
+        { "label": "Bulbasaur", "aliases": ["bulbasaur"], "points": 15, "tier": "too_clever" },
+        { "label": "Eevee", "aliases": ["eevee"], "points": 15, "tier": "too_clever" },
+        { "label": "Torchic", "aliases": ["torchic"], "points": 30, "tier": "schooler" },
+        { "label": "Mudkip", "aliases": ["mudkip"], "points": 30, "tier": "schooler" },
+        { "label": "Froakie", "aliases": ["froakie"], "points": 60, "tier": "rare" },
+        { "label": "Sprigatito", "aliases": ["sprigatito"], "points": 85, "tier": "deep_cut" },
+        { "label": "Fuecoco", "aliases": ["fuecoco"], "points": 85, "tier": "deep_cut" },
+        { "label": "Quaxly", "aliases": ["quaxly"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "pk-d1-p2",
+      "prompt": "Name a Pokémon type",
+      "answers": [
+        { "label": "Fire", "aliases": ["fire", "fire type"], "points": 10, "tier": "plankton" },
+        { "label": "Water", "aliases": ["water", "water type"], "points": 10, "tier": "plankton" },
+        { "label": "Grass", "aliases": ["grass", "grass type"], "points": 10, "tier": "plankton" },
+        { "label": "Electric", "aliases": ["electric", "electric type"], "points": 15, "tier": "too_clever" },
+        { "label": "Psychic", "aliases": ["psychic", "psychic type"], "points": 15, "tier": "too_clever" },
+        { "label": "Dragon", "aliases": ["dragon", "dragon type"], "points": 30, "tier": "schooler" },
+        { "label": "Fairy", "aliases": ["fairy", "fairy type"], "points": 30, "tier": "schooler" },
+        { "label": "Steel", "aliases": ["steel", "steel type"], "points": 60, "tier": "rare" },
+        { "label": "Ghost", "aliases": ["ghost", "ghost type"], "points": 60, "tier": "rare" },
+        { "label": "Dark", "aliases": ["dark", "dark type"], "points": 85, "tier": "deep_cut" },
+        { "label": "Flying", "aliases": ["flying", "flying type"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "pk-d1-p3",
+      "prompt": "Name a Legendary Pokémon",
+      "answers": [
+        { "label": "Mewtwo", "aliases": ["mewtwo"], "points": 10, "tier": "plankton" },
+        { "label": "Lugia", "aliases": ["lugia"], "points": 15, "tier": "too_clever" },
+        { "label": "Rayquaza", "aliases": ["rayquaza"], "points": 15, "tier": "too_clever" },
+        { "label": "Dialga", "aliases": ["dialga"], "points": 30, "tier": "schooler" },
+        { "label": "Palkia", "aliases": ["palkia"], "points": 30, "tier": "schooler" },
+        { "label": "Giratina", "aliases": ["giratina"], "points": 60, "tier": "rare" },
+        { "label": "Zacian", "aliases": ["zacian"], "points": 85, "tier": "deep_cut" },
+        { "label": "Koraidon", "aliases": ["koraidon"], "points": 85, "tier": "deep_cut" },
+        { "label": "Miraidon", "aliases": ["miraidon"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Eternatus", "aliases": ["eternatus"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "pk-d1-p4",
+      "prompt": "Name a Pokémon region",
+      "answers": [
+        { "label": "Kanto", "aliases": ["kanto"], "points": 10, "tier": "plankton" },
+        { "label": "Johto", "aliases": ["johto"], "points": 15, "tier": "too_clever" },
+        { "label": "Hoenn", "aliases": ["hoenn"], "points": 15, "tier": "too_clever" },
+        { "label": "Sinnoh", "aliases": ["sinnoh"], "points": 30, "tier": "schooler" },
+        { "label": "Unova", "aliases": ["unova"], "points": 30, "tier": "schooler" },
+        { "label": "Kalos", "aliases": ["kalos"], "points": 60, "tier": "rare" },
+        { "label": "Alola", "aliases": ["alola"], "points": 60, "tier": "rare" },
+        { "label": "Galar", "aliases": ["galar"], "points": 85, "tier": "deep_cut" },
+        { "label": "Paldea", "aliases": ["paldea"], "points": 85, "tier": "deep_cut" },
+        { "label": "Hisui", "aliases": ["hisui"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "pk-d1-p5",
+      "prompt": "Name a Pokémon move",
+      "answers": [
+        { "label": "Thunderbolt", "aliases": ["thunderbolt"], "points": 10, "tier": "plankton" },
+        { "label": "Flamethrower", "aliases": ["flamethrower"], "points": 10, "tier": "plankton" },
+        { "label": "Hydro Pump", "aliases": ["hydro pump"], "points": 15, "tier": "too_clever" },
+        { "label": "Earthquake", "aliases": ["earthquake"], "points": 15, "tier": "too_clever" },
+        { "label": "Protect", "aliases": ["protect"], "points": 30, "tier": "schooler" },
+        { "label": "U-turn", "aliases": ["u-turn", "uturn", "u turn"], "points": 60, "tier": "rare" },
+        { "label": "Stealth Rock", "aliases": ["stealth rock"], "points": 60, "tier": "rare" },
+        { "label": "Tera Blast", "aliases": ["tera blast"], "points": 85, "tier": "deep_cut" },
+        { "label": "Make It Rain", "aliases": ["make it rain"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Gigaton Hammer", "aliases": ["gigaton hammer"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "pk-d1-p6",
+      "prompt": "Name a Gym Leader or Elite Four member",
+      "answers": [
+        { "label": "Brock", "aliases": ["brock"], "points": 10, "tier": "plankton" },
+        { "label": "Misty", "aliases": ["misty"], "points": 10, "tier": "plankton" },
+        { "label": "Lance", "aliases": ["lance"], "points": 15, "tier": "too_clever" },
+        { "label": "Steven", "aliases": ["steven", "steven stone"], "points": 30, "tier": "schooler" },
+        { "label": "Cynthia", "aliases": ["cynthia"], "points": 30, "tier": "schooler" },
+        { "label": "Iris", "aliases": ["iris"], "points": 60, "tier": "rare" },
+        { "label": "Raihan", "aliases": ["raihan"], "points": 85, "tier": "deep_cut" },
+        { "label": "Larry", "aliases": ["larry"], "points": 85, "tier": "deep_cut" },
+        { "label": "Rika", "aliases": ["rika"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Poppy", "aliases": ["poppy"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "pk-d1-p7",
+      "prompt": "Name a Poké Ball or held item",
+      "answers": [
+        { "label": "Poké Ball", "aliases": ["poke ball", "pokeball", "poké ball"], "points": 10, "tier": "plankton" },
+        { "label": "Great Ball", "aliases": ["great ball"], "points": 15, "tier": "too_clever" },
+        { "label": "Ultra Ball", "aliases": ["ultra ball"], "points": 15, "tier": "too_clever" },
+        { "label": "Master Ball", "aliases": ["master ball"], "points": 30, "tier": "schooler" },
+        { "label": "Leftovers", "aliases": ["leftovers"], "points": 30, "tier": "schooler" },
+        { "label": "Focus Sash", "aliases": ["focus sash"], "points": 60, "tier": "rare" },
+        { "label": "Choice Scarf", "aliases": ["choice scarf"], "points": 60, "tier": "rare" },
+        { "label": "Heavy-Duty Boots", "aliases": ["heavy-duty boots", "heavy duty boots", "hdb"], "points": 85, "tier": "deep_cut" },
+        { "label": "Booster Energy", "aliases": ["booster energy"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Covert Cloak", "aliases": ["covert cloak"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}

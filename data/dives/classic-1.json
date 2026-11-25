@@ -1,0 +1,118 @@
+{
+  "id": "classic-1",
+  "title": "The Endless Dive",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "p1-noodle",
+      "prompt": "Name a noodle dish",
+      "answers": [
+        { "label": "Ramen", "aliases": ["ramen", "ramyeon"], "points": 30, "tier": "schooler" },
+        { "label": "Udon", "aliases": ["udon"], "points": 30, "tier": "schooler" },
+        { "label": "Pho", "aliases": ["pho"], "points": 60, "tier": "rare" },
+        { "label": "Pad Thai", "aliases": ["pad thai", "padthai"], "points": 30, "tier": "schooler" },
+        { "label": "Spaghetti", "aliases": ["spaghetti", "spagetti"], "points": 10, "tier": "plankton" },
+        { "label": "Lasagna", "aliases": ["lasagna", "lasagne"], "points": 15, "tier": "too_clever" },
+        { "label": "Soba", "aliases": ["soba"], "points": 60, "tier": "rare" },
+        { "label": "Laksa", "aliases": ["laksa"], "points": 85, "tier": "deep_cut" },
+        {
+          "label": "Jjajangmyeon",
+          "aliases": ["jjajangmyeon", "jajangmyeon", "zhajiangmian"],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    },
+    {
+      "id": "p2-ape",
+      "prompt": "Name a great ape",
+      "answers": [
+        { "label": "Gorilla", "aliases": ["gorilla"], "points": 10, "tier": "plankton" },
+        { "label": "Chimpanzee", "aliases": ["chimpanzee", "chimp"], "points": 15, "tier": "too_clever" },
+        { "label": "Orangutan", "aliases": ["orangutan", "orang utan", "orangutang"], "points": 30, "tier": "schooler" },
+        { "label": "Bonobo", "aliases": ["bonobo"], "points": 85, "tier": "deep_cut" },
+        { "label": "Human", "aliases": ["human", "homo sapiens"], "points": 60, "tier": "rare" },
+        {
+          "label": "Eastern Lowland Gorilla",
+          "aliases": ["eastern lowland gorilla", "grauers gorilla", "grauer's gorilla"],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    },
+    {
+      "id": "p3-shark",
+      "prompt": "Name a shark",
+      "answers": [
+        { "label": "Shark", "aliases": ["shark"], "points": 10, "tier": "plankton" },
+        {
+          "label": "Great White",
+          "aliases": ["great white", "great white shark", "white shark"],
+          "points": 15,
+          "tier": "too_clever"
+        },
+        { "label": "Hammerhead", "aliases": ["hammerhead", "hammerhead shark"], "points": 30, "tier": "schooler" },
+        { "label": "Tiger Shark", "aliases": ["tiger shark"], "points": 30, "tier": "schooler" },
+        { "label": "Whale Shark", "aliases": ["whale shark"], "points": 60, "tier": "rare" },
+        { "label": "Goblin Shark", "aliases": ["goblin shark"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Thresher Shark", "aliases": ["thresher", "thresher shark"], "points": 85, "tier": "deep_cut" },
+        { "label": "Mako", "aliases": ["mako", "mako shark"], "points": 60, "tier": "rare" }
+      ]
+    },
+    {
+      "id": "p4-planet",
+      "prompt": "Name a planet",
+      "answers": [
+        { "label": "Earth", "aliases": ["earth"], "points": 10, "tier": "plankton" },
+        { "label": "Mars", "aliases": ["mars"], "points": 10, "tier": "plankton" },
+        { "label": "Jupiter", "aliases": ["jupiter"], "points": 15, "tier": "too_clever" },
+        { "label": "Saturn", "aliases": ["saturn"], "points": 15, "tier": "too_clever" },
+        { "label": "Venus", "aliases": ["venus"], "points": 30, "tier": "schooler" },
+        { "label": "Neptune", "aliases": ["neptune"], "points": 60, "tier": "rare" },
+        { "label": "Mercury", "aliases": ["mercury"], "points": 60, "tier": "rare" },
+        { "label": "Uranus", "aliases": ["uranus"], "points": 85, "tier": "deep_cut" },
+        {
+          "label": "Proxima Centauri b",
+          "aliases": ["proxima centauri b", "proxima b"],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    },
+    {
+      "id": "p5-instrument",
+      "prompt": "Name a musical instrument",
+      "answers": [
+        { "label": "Guitar", "aliases": ["guitar"], "points": 10, "tier": "plankton" },
+        { "label": "Piano", "aliases": ["piano"], "points": 10, "tier": "plankton" },
+        { "label": "Drums", "aliases": ["drums", "drum"], "points": 15, "tier": "too_clever" },
+        { "label": "Violin", "aliases": ["violin"], "points": 30, "tier": "schooler" },
+        { "label": "Saxophone", "aliases": ["saxophone", "sax"], "points": 30, "tier": "schooler" },
+        { "label": "Theremin", "aliases": ["theremin"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Hang Drum", "aliases": ["hang drum", "handpan", "hang"], "points": 85, "tier": "deep_cut" },
+        { "label": "Oud", "aliases": ["oud"], "points": 60, "tier": "rare" },
+        { "label": "Bassoon", "aliases": ["bassoon"], "points": 60, "tier": "rare" }
+      ]
+    },
+    {
+      "id": "p6-fruit",
+      "prompt": "Name a tropical fruit",
+      "answers": [
+        { "label": "Banana", "aliases": ["banana"], "points": 10, "tier": "plankton" },
+        { "label": "Mango", "aliases": ["mango"], "points": 15, "tier": "too_clever" },
+        { "label": "Pineapple", "aliases": ["pineapple"], "points": 15, "tier": "too_clever" },
+        { "label": "Papaya", "aliases": ["papaya", "pawpaw"], "points": 30, "tier": "schooler" },
+        {
+          "label": "Dragon Fruit",
+          "aliases": ["dragon fruit", "dragonfruit", "pitaya"],
+          "points": 60,
+          "tier": "rare"
+        },
+        { "label": "Durian", "aliases": ["durian"], "points": 85, "tier": "deep_cut" },
+        { "label": "Rambutan", "aliases": ["rambutan"], "points": 85, "tier": "deep_cut" },
+        { "label": "Mangosteen", "aliases": ["mangosteen"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Lychee", "aliases": ["lychee", "litchi"], "points": 60, "tier": "rare" }
+      ]
+    }
+  ]
+}

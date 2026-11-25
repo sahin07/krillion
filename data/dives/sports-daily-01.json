@@ -1,0 +1,115 @@
+{
+  "id": "sports-daily-01",
+  "title": "Sports Daily",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "sp-d1-p1",
+      "prompt": "Name an NBA franchise",
+      "answers": [
+        { "label": "Lakers", "aliases": ["lakers", "los angeles lakers", "la lakers"], "points": 10, "tier": "plankton" },
+        { "label": "Celtics", "aliases": ["celtics", "boston celtics"], "points": 10, "tier": "plankton" },
+        { "label": "Warriors", "aliases": ["warriors", "golden state warriors", "gsw"], "points": 15, "tier": "too_clever" },
+        { "label": "Bulls", "aliases": ["bulls", "chicago bulls"], "points": 15, "tier": "too_clever" },
+        { "label": "Spurs", "aliases": ["spurs", "san antonio spurs"], "points": 30, "tier": "schooler" },
+        { "label": "Nuggets", "aliases": ["nuggets", "denver nuggets"], "points": 30, "tier": "schooler" },
+        { "label": "Timberwolves", "aliases": ["timberwolves", "minnesota timberwolves", "wolves"], "points": 60, "tier": "rare" },
+        { "label": "Pelicans", "aliases": ["pelicans", "new orleans pelicans"], "points": 85, "tier": "deep_cut" },
+        { "label": "Hornets", "aliases": ["hornets", "charlotte hornets"], "points": 85, "tier": "deep_cut" },
+        { "label": "Grizzlies", "aliases": ["grizzlies", "memphis grizzlies"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sp-d1-p2",
+      "prompt": "Name an NBA player (any era)",
+      "answers": [
+        { "label": "LeBron James", "aliases": ["lebron", "lebron james", "king james"], "points": 10, "tier": "plankton" },
+        { "label": "Michael Jordan", "aliases": ["jordan", "michael jordan", "mj"], "points": 10, "tier": "plankton" },
+        { "label": "Stephen Curry", "aliases": ["curry", "stephen curry", "steph curry", "steph"], "points": 15, "tier": "too_clever" },
+        { "label": "Kobe Bryant", "aliases": ["kobe", "kobe bryant"], "points": 15, "tier": "too_clever" },
+        { "label": "Nikola Jokic", "aliases": ["jokic", "nikola jokic", "jokić"], "points": 30, "tier": "schooler" },
+        { "label": "Giannis Antetokounmpo", "aliases": ["giannis", "antetokounmpo", "greek freak"], "points": 30, "tier": "schooler" },
+        { "label": "Dirk Nowitzki", "aliases": ["dirk", "nowitzki", "dirk nowitzki"], "points": 60, "tier": "rare" },
+        { "label": "Manu Ginobili", "aliases": ["manu", "ginobili", "manu ginobili", "ginóbili"], "points": 85, "tier": "deep_cut" },
+        { "label": "Tony Parker", "aliases": ["tony parker", "parker"], "points": 85, "tier": "deep_cut" },
+        { "label": "Detlef Schrempf", "aliases": ["detlef schrempf", "schrempf"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sp-d1-p3",
+      "prompt": "Name a basketball statistic or advanced metric",
+      "answers": [
+        { "label": "Points", "aliases": ["points", "ppg", "points per game"], "points": 10, "tier": "plankton" },
+        { "label": "Rebounds", "aliases": ["rebounds", "rpg", "boards"], "points": 10, "tier": "plankton" },
+        { "label": "Assists", "aliases": ["assists", "apg"], "points": 15, "tier": "too_clever" },
+        { "label": "Steals", "aliases": ["steals", "spg"], "points": 15, "tier": "too_clever" },
+        { "label": "Blocks", "aliases": ["blocks", "bpg"], "points": 30, "tier": "schooler" },
+        { "label": "Plus-minus", "aliases": ["plus minus", "plus-minus", "+/-"], "points": 60, "tier": "rare" },
+        { "label": "PER", "aliases": ["per", "player efficiency rating"], "points": 60, "tier": "rare" },
+        { "label": "True Shooting %", "aliases": ["true shooting", "ts%", "true shooting percentage"], "points": 85, "tier": "deep_cut" },
+        { "label": "VORP", "aliases": ["vorp", "value over replacement player"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "RAPTOR", "aliases": ["raptor"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sp-d1-p4",
+      "prompt": "Name an NBA award",
+      "answers": [
+        { "label": "MVP", "aliases": ["mvp", "most valuable player"], "points": 10, "tier": "plankton" },
+        { "label": "Finals MVP", "aliases": ["finals mvp", "fmvp"], "points": 15, "tier": "too_clever" },
+        { "label": "Defensive Player of the Year", "aliases": ["dpoy", "defensive player of the year"], "points": 15, "tier": "too_clever" },
+        { "label": "Rookie of the Year", "aliases": ["roy", "rookie of the year"], "points": 30, "tier": "schooler" },
+        { "label": "Sixth Man of the Year", "aliases": ["sixth man", "6moy", "sixth man of the year"], "points": 30, "tier": "schooler" },
+        { "label": "Most Improved Player", "aliases": ["mip", "most improved player"], "points": 60, "tier": "rare" },
+        { "label": "Clutch Player of the Year", "aliases": ["clutch player of the year", "cpoy"], "points": 85, "tier": "deep_cut" },
+        { "label": "Hustle Award", "aliases": ["hustle award", "nba hustle award"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sp-d1-p5",
+      "prompt": "Name a sport other than basketball",
+      "answers": [
+        { "label": "Soccer", "aliases": ["soccer", "football"], "points": 10, "tier": "plankton" },
+        { "label": "American Football", "aliases": ["american football", "nfl", "football"], "points": 10, "tier": "plankton" },
+        { "label": "Baseball", "aliases": ["baseball", "mlb"], "points": 15, "tier": "too_clever" },
+        { "label": "Tennis", "aliases": ["tennis"], "points": 15, "tier": "too_clever" },
+        { "label": "Hockey", "aliases": ["hockey", "ice hockey", "nhl"], "points": 30, "tier": "schooler" },
+        { "label": "Cricket", "aliases": ["cricket"], "points": 30, "tier": "schooler" },
+        { "label": "Rugby", "aliases": ["rugby", "rugby union", "rugby league"], "points": 60, "tier": "rare" },
+        { "label": "Handball", "aliases": ["handball"], "points": 85, "tier": "deep_cut" },
+        { "label": "Futsal", "aliases": ["futsal"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Sepak Takraw", "aliases": ["sepak takraw", "takraw"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sp-d1-p6",
+      "prompt": "Name an NBA arena or city known for basketball",
+      "answers": [
+        { "label": "Los Angeles", "aliases": ["los angeles", "la", "l.a."], "points": 10, "tier": "plankton" },
+        { "label": "Boston", "aliases": ["boston"], "points": 10, "tier": "plankton" },
+        { "label": "Chicago", "aliases": ["chicago"], "points": 15, "tier": "too_clever" },
+        { "label": "Madison Square Garden", "aliases": ["madison square garden", "msg", "the garden"], "points": 30, "tier": "schooler" },
+        { "label": "Crypto.com Arena", "aliases": ["crypto.com arena", "crypto arena", "staples center"], "points": 30, "tier": "schooler" },
+        { "label": "Chase Center", "aliases": ["chase center"], "points": 60, "tier": "rare" },
+        { "label": "Ball Arena", "aliases": ["ball arena", "pepsi center"], "points": 85, "tier": "deep_cut" },
+        { "label": "Frost Bank Center", "aliases": ["frost bank center", "at&t center"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sp-d1-p7",
+      "prompt": "Name an NBA play style, set, or slang term",
+      "answers": [
+        { "label": "Dunk", "aliases": ["dunk", "slam dunk"], "points": 10, "tier": "plankton" },
+        { "label": "Three-pointer", "aliases": ["three", "three pointer", "3-pointer", "triple"], "points": 10, "tier": "plankton" },
+        { "label": "Pick and roll", "aliases": ["pick and roll", "pnr", "pick & roll"], "points": 15, "tier": "too_clever" },
+        { "label": "Fast break", "aliases": ["fast break", "transition"], "points": 15, "tier": "too_clever" },
+        { "label": "Iso", "aliases": ["iso", "isolation"], "points": 30, "tier": "schooler" },
+        { "label": "Euro step", "aliases": ["euro step", "eurostep"], "points": 60, "tier": "rare" },
+        { "label": "Corner three", "aliases": ["corner three", "corner 3"], "points": 60, "tier": "rare" },
+        { "label": "Horn set", "aliases": ["horns", "horn set", "horns set"], "points": 85, "tier": "deep_cut" },
+        { "label": "Spain pick and roll", "aliases": ["spain pick and roll", "spain pnr"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Floppy", "aliases": ["floppy", "floppy action"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}

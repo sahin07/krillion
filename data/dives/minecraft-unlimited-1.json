@@ -1,0 +1,110 @@
+{
+  "id": "minecraft-unlimited-1",
+  "title": "Minecraft Unlimited",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "mc-u1-p1",
+      "prompt": "Name a passive mob in Minecraft",
+      "answers": [
+        { "label": "Cow", "aliases": ["cow"], "points": 10, "tier": "plankton" },
+        { "label": "Pig", "aliases": ["pig"], "points": 10, "tier": "plankton" },
+        { "label": "Sheep", "aliases": ["sheep"], "points": 10, "tier": "plankton" },
+        { "label": "Chicken", "aliases": ["chicken"], "points": 15, "tier": "too_clever" },
+        { "label": "Horse", "aliases": ["horse"], "points": 15, "tier": "too_clever" },
+        { "label": "Axolotl", "aliases": ["axolotl"], "points": 30, "tier": "schooler" },
+        { "label": "Sniffer", "aliases": ["sniffer"], "points": 60, "tier": "rare" },
+        { "label": "Camel", "aliases": ["camel"], "points": 60, "tier": "rare" },
+        { "label": "Armadillo", "aliases": ["armadillo"], "points": 85, "tier": "deep_cut" },
+        { "label": "Happy Ghast", "aliases": ["happy ghast"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "mc-u1-p2",
+      "prompt": "Name a Minecraft item",
+      "answers": [
+        { "label": "Diamond Sword", "aliases": ["diamond sword"], "points": 10, "tier": "plankton" },
+        { "label": "Torch", "aliases": ["torch"], "points": 10, "tier": "plankton" },
+        { "label": "Bow", "aliases": ["bow"], "points": 15, "tier": "too_clever" },
+        { "label": "Elytra", "aliases": ["elytra"], "points": 15, "tier": "too_clever" },
+        { "label": "Totem of Undying", "aliases": ["totem of undying", "totem"], "points": 30, "tier": "schooler" },
+        { "label": "Heart of the Sea", "aliases": ["heart of the sea"], "points": 60, "tier": "rare" },
+        { "label": "Recovery Compass", "aliases": ["recovery compass"], "points": 85, "tier": "deep_cut" },
+        { "label": "Debug Stick", "aliases": ["debug stick"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "mc-u1-p3",
+      "prompt": "Name a potion or status effect in Minecraft",
+      "answers": [
+        { "label": "Speed", "aliases": ["speed", "swiftness"], "points": 10, "tier": "plankton" },
+        { "label": "Strength", "aliases": ["strength"], "points": 10, "tier": "plankton" },
+        { "label": "Invisibility", "aliases": ["invisibility"], "points": 15, "tier": "too_clever" },
+        { "label": "Night Vision", "aliases": ["night vision"], "points": 15, "tier": "too_clever" },
+        { "label": "Fire Resistance", "aliases": ["fire resistance"], "points": 30, "tier": "schooler" },
+        { "label": "Bad Omen", "aliases": ["bad omen"], "points": 60, "tier": "rare" },
+        { "label": "Darkness", "aliases": ["darkness"], "points": 60, "tier": "rare" },
+        { "label": "Oozing", "aliases": ["oozing"], "points": 85, "tier": "deep_cut" },
+        { "label": "Infested", "aliases": ["infested"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "mc-u1-p4",
+      "prompt": "Name a Minecraft update or game drop",
+      "answers": [
+        { "label": "Nether Update", "aliases": ["nether update"], "points": 10, "tier": "plankton" },
+        { "label": "Caves & Cliffs", "aliases": ["caves and cliffs", "caves & cliffs"], "points": 15, "tier": "too_clever" },
+        { "label": "The Wild Update", "aliases": ["the wild update", "wild update"], "points": 15, "tier": "too_clever" },
+        { "label": "Trails & Tales", "aliases": ["trails and tales", "trails & tales"], "points": 30, "tier": "schooler" },
+        { "label": "Tricky Trials", "aliases": ["tricky trials"], "points": 30, "tier": "schooler" },
+        { "label": "Bountiful Update", "aliases": ["bountiful update"], "points": 85, "tier": "deep_cut" },
+        { "label": "Cats and Pandas", "aliases": ["cats and pandas"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Aquatic Update", "aliases": ["aquatic update", "update aquatic"], "points": 60, "tier": "rare" }
+      ]
+    },
+    {
+      "id": "mc-u1-p5",
+      "prompt": "Name a plant, flower, or crop in Minecraft",
+      "answers": [
+        { "label": "Wheat", "aliases": ["wheat"], "points": 10, "tier": "plankton" },
+        { "label": "Carrot", "aliases": ["carrot"], "points": 10, "tier": "plankton" },
+        { "label": "Potato", "aliases": ["potato"], "points": 15, "tier": "too_clever" },
+        { "label": "Poppy", "aliases": ["poppy"], "points": 15, "tier": "too_clever" },
+        { "label": "Torchflower", "aliases": ["torchflower"], "points": 60, "tier": "rare" },
+        { "label": "Pitcher Plant", "aliases": ["pitcher plant"], "points": 60, "tier": "rare" },
+        { "label": "Mangrove Propagule", "aliases": ["mangrove propagule"], "points": 85, "tier": "deep_cut" },
+        { "label": "Eyeblossom", "aliases": ["eyeblossom"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Nether Wart", "aliases": ["nether wart"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "mc-u1-p6",
+      "prompt": "Name a Minecraft dimension or world type",
+      "answers": [
+        { "label": "Overworld", "aliases": ["overworld"], "points": 10, "tier": "plankton" },
+        { "label": "Nether", "aliases": ["nether", "the nether"], "points": 10, "tier": "plankton" },
+        { "label": "The End", "aliases": ["the end", "end"], "points": 15, "tier": "too_clever" },
+        { "label": "Superflat", "aliases": ["superflat", "flat"], "points": 30, "tier": "schooler" },
+        { "label": "Amplified", "aliases": ["amplified"], "points": 60, "tier": "rare" },
+        { "label": "Large Biomes", "aliases": ["large biomes"], "points": 60, "tier": "rare" },
+        { "label": "Debug Mode", "aliases": ["debug mode", "debug"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Single Biome", "aliases": ["single biome", "buffet"], "points": 85, "tier": "deep_cut" }
+      ]
+    },
+    {
+      "id": "mc-u1-p7",
+      "prompt": "Name a tool or weapon material in Minecraft",
+      "answers": [
+        { "label": "Wood", "aliases": ["wood", "wooden", "oak"], "points": 10, "tier": "plankton" },
+        { "label": "Stone", "aliases": ["stone"], "points": 10, "tier": "plankton" },
+        { "label": "Iron", "aliases": ["iron"], "points": 10, "tier": "plankton" },
+        { "label": "Gold", "aliases": ["gold", "golden"], "points": 15, "tier": "too_clever" },
+        { "label": "Diamond", "aliases": ["diamond"], "points": 15, "tier": "too_clever" },
+        { "label": "Netherite", "aliases": ["netherite"], "points": 30, "tier": "schooler" },
+        { "label": "Copper", "aliases": ["copper"], "points": 85, "tier": "deep_cut" },
+        { "label": "Trident", "aliases": ["trident"], "points": 60, "tier": "rare" },
+        { "label": "Mace", "aliases": ["mace"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}

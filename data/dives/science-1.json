@@ -1,0 +1,105 @@
+{
+  "id": "science-1",
+  "title": "Science Krillion · Research Mission",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "sci-1-p1",
+      "prompt": "Name a planet that has rings",
+      "answers": [
+        { "label": "Saturn", "aliases": ["saturn"], "points": 10, "tier": "plankton" },
+        { "label": "Uranus", "aliases": ["uranus"], "points": 20, "tier": "too_clever" },
+        { "label": "Neptune", "aliases": ["neptune"], "points": 20, "tier": "too_clever" },
+        { "label": "Jupiter", "aliases": ["jupiter"], "points": 40, "tier": "schooler" },
+        { "label": "Haumea", "aliases": ["haumea"], "points": 80, "tier": "deep_cut" },
+        { "label": "Chariklo", "aliases": ["chariklo"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Quaoar", "aliases": ["quaoar"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Centaur Chariklo", "aliases": ["centaur chariklo"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sci-1-p2",
+      "prompt": "Name an unusual element on the periodic table",
+      "answers": [
+        { "label": "Gold", "aliases": ["gold", "au"], "points": 10, "tier": "plankton" },
+        { "label": "Iron", "aliases": ["iron", "fe"], "points": 10, "tier": "plankton" },
+        { "label": "Helium", "aliases": ["helium", "he"], "points": 20, "tier": "too_clever" },
+        { "label": "Tungsten", "aliases": ["tungsten", "w"], "points": 40, "tier": "schooler" },
+        { "label": "Technetium", "aliases": ["technetium", "tc"], "points": 60, "tier": "rare" },
+        { "label": "Promethium", "aliases": ["promethium", "pm"], "points": 80, "tier": "deep_cut" },
+        { "label": "Astatine", "aliases": ["astatine", "at"], "points": 80, "tier": "deep_cut" },
+        { "label": "Tennessine", "aliases": ["tennessine", "ts"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sci-1-p3",
+      "prompt": "Name a force or physical phenomenon",
+      "answers": [
+        { "label": "Gravity", "aliases": ["gravity", "gravitation"], "points": 10, "tier": "plankton" },
+        { "label": "Friction", "aliases": ["friction"], "points": 10, "tier": "plankton" },
+        { "label": "Magnetism", "aliases": ["magnetism", "magnetic force"], "points": 20, "tier": "too_clever" },
+        { "label": "Electromagnetism", "aliases": ["electromagnetism", "electromagnetic force"], "points": 40, "tier": "schooler" },
+        { "label": "Surface tension", "aliases": ["surface tension"], "points": 40, "tier": "schooler" },
+        { "label": "Coriolis effect", "aliases": ["coriolis", "coriolis effect", "coriolis force"], "points": 60, "tier": "rare" },
+        { "label": "Casimir effect", "aliases": ["casimir effect", "casimir force"], "points": 80, "tier": "deep_cut" },
+        { "label": "Frame-dragging", "aliases": ["frame dragging", "frame-dragging", "lense-thirring"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sci-1-p4",
+      "prompt": "Name a living organism or biological structure",
+      "answers": [
+        { "label": "Cell", "aliases": ["cell", "cells"], "points": 10, "tier": "plankton" },
+        { "label": "Bacteria", "aliases": ["bacteria", "bacterium"], "points": 10, "tier": "plankton" },
+        { "label": "Virus", "aliases": ["virus", "viruses"], "points": 20, "tier": "too_clever" },
+        { "label": "Mitochondria", "aliases": ["mitochondria", "mitochondrion"], "points": 40, "tier": "schooler" },
+        { "label": "Tardigrade", "aliases": ["tardigrade", "water bear", "moss piglet"], "points": 60, "tier": "rare" },
+        { "label": "Archaea", "aliases": ["archaea", "archaebacteria"], "points": 60, "tier": "rare" },
+        { "label": "Extremophile", "aliases": ["extremophile"], "points": 80, "tier": "deep_cut" },
+        { "label": "Bdelloidea", "aliases": ["bdelloidea", "bdelloid rotifer"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sci-1-p5",
+      "prompt": "Name a chemical compound or reaction type",
+      "answers": [
+        { "label": "Water", "aliases": ["water", "h2o"], "points": 10, "tier": "plankton" },
+        { "label": "Salt", "aliases": ["salt", "sodium chloride", "nacl"], "points": 10, "tier": "plankton" },
+        { "label": "Carbon dioxide", "aliases": ["carbon dioxide", "co2"], "points": 20, "tier": "too_clever" },
+        { "label": "Photosynthesis", "aliases": ["photosynthesis"], "points": 20, "tier": "too_clever" },
+        { "label": "Ozone", "aliases": ["ozone", "o3"], "points": 40, "tier": "schooler" },
+        { "label": "Hydrogen peroxide", "aliases": ["hydrogen peroxide", "h2o2"], "points": 40, "tier": "schooler" },
+        { "label": "Fullerene", "aliases": ["fullerene", "buckyball", "c60"], "points": 80, "tier": "deep_cut" },
+        { "label": "Grignard reagent", "aliases": ["grignard", "grignard reagent"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sci-1-p6",
+      "prompt": "Name something from Earth science (rock, mineral, or process)",
+      "answers": [
+        { "label": "Volcano", "aliases": ["volcano", "volcanoes"], "points": 10, "tier": "plankton" },
+        { "label": "Earthquake", "aliases": ["earthquake", "quake"], "points": 10, "tier": "plankton" },
+        { "label": "Granite", "aliases": ["granite"], "points": 20, "tier": "too_clever" },
+        { "label": "Basalt", "aliases": ["basalt"], "points": 40, "tier": "schooler" },
+        { "label": "Obsidian", "aliases": ["obsidian"], "points": 40, "tier": "schooler" },
+        { "label": "Subduction", "aliases": ["subduction", "subduction zone"], "points": 60, "tier": "rare" },
+        { "label": "Kimberlite", "aliases": ["kimberlite"], "points": 80, "tier": "deep_cut" },
+        { "label": "Komatiite", "aliases": ["komatiite"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "sci-1-p7",
+      "prompt": "Name a star, moon, or cosmic object beyond the obvious",
+      "answers": [
+        { "label": "Moon", "aliases": ["moon", "the moon", "luna"], "points": 10, "tier": "plankton" },
+        { "label": "Sun", "aliases": ["sun", "the sun", "sol"], "points": 10, "tier": "plankton" },
+        { "label": "Black hole", "aliases": ["black hole", "blackhole"], "points": 20, "tier": "too_clever" },
+        { "label": "Nebula", "aliases": ["nebula"], "points": 20, "tier": "too_clever" },
+        { "label": "Pulsar", "aliases": ["pulsar"], "points": 40, "tier": "schooler" },
+        { "label": "Quasar", "aliases": ["quasar"], "points": 60, "tier": "rare" },
+        { "label": "Magnetar", "aliases": ["magnetar"], "points": 80, "tier": "deep_cut" },
+        { "label": "Blazar", "aliases": ["blazar"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}

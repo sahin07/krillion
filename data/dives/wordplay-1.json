@@ -1,0 +1,200 @@
+{
+  "id": "wordplay-1",
+  "title": "Wordplay Krillion · Rare Word Challenge",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "wp-1-p1",
+      "prompt": "Find a word that rhymes with \"blue\"",
+      "rule": { "type": "rhyme", "of": "blue" },
+      "rarityOverrides": {
+        "true": 10,
+        "new": 10,
+        "clue": 20,
+        "glue": 20,
+        "flu": 40,
+        "flue": 40,
+        "cue": 40,
+        "queue": 40,
+        "shoe": 60,
+        "through": 80,
+        "threw": 80,
+        "imbue": 100,
+        "ado": 60
+      }
+    },
+    {
+      "id": "wp-1-p2",
+      "prompt": "Name an unusual word beginning with S",
+      "rule": { "type": "startsWith", "letter": "s" },
+      "rarityOverrides": {
+        "sun": 10,
+        "sea": 10,
+        "soft": 10,
+        "strange": 20,
+        "silent": 20,
+        "serene": 40,
+        "sapphire": 60,
+        "sylph": 80,
+        "sesquipedalian": 100,
+        "syzygy": 100
+      }
+    },
+    {
+      "id": "wp-1-p3",
+      "prompt": "Find a synonym for \"beautiful\"",
+      "rule": {
+        "type": "synonymBank",
+        "of": "beautiful",
+        "bank": [
+          "pretty",
+          "lovely",
+          "gorgeous",
+          "handsome",
+          "attractive",
+          "stunning",
+          "elegant",
+          "graceful",
+          "charming",
+          "fair",
+          "radiant",
+          "exquisite",
+          "magnificent",
+          "splendid",
+          "divine",
+          "beauteous",
+          "pulchritudinous",
+          "resplendent",
+          "ravishing",
+          "comely",
+          "fair",
+          "bonny",
+          "fetching",
+          "striking",
+          "alluring",
+          "aesthetic",
+          "picturesque",
+          "sublime"
+        ]
+      },
+      "rarityOverrides": {
+        "pretty": 10,
+        "lovely": 10,
+        "gorgeous": 20,
+        "handsome": 20,
+        "attractive": 20,
+        "stunning": 40,
+        "elegant": 40,
+        "radiant": 60,
+        "exquisite": 60,
+        "resplendent": 80,
+        "beauteous": 80,
+        "pulchritudinous": 100,
+        "comely": 80
+      }
+    },
+    {
+      "id": "wp-1-p4",
+      "prompt": "Think of a word containing three consecutive vowels",
+      "rule": { "type": "consecutiveVowels", "count": 3 },
+      "rarityOverrides": {
+        "beautiful": 10,
+        "queue": 20,
+        "aqueous": 40,
+        "miaoued": 80,
+        "queueing": 60,
+        "onomatopoeia": 100
+      }
+    },
+    {
+      "id": "wp-1-p5",
+      "prompt": "Name a word that ends with \"ight\"",
+      "rule": { "type": "endsWith", "suffix": "ight" },
+      "rarityOverrides": {
+        "light": 10,
+        "night": 10,
+        "right": 10,
+        "sight": 20,
+        "tight": 20,
+        "bright": 20,
+        "flight": 40,
+        "delight": 40,
+        "twilight": 60,
+        "fortnight": 80,
+        "spotlight": 60,
+        "oversight": 80
+      }
+    },
+    {
+      "id": "wp-1-p6",
+      "prompt": "Find a less obvious word associated with \"ocean\"",
+      "rule": {
+        "type": "associationBank",
+        "of": "ocean",
+        "bank": [
+          "water",
+          "sea",
+          "wave",
+          "beach",
+          "fish",
+          "shark",
+          "whale",
+          "coral",
+          "tide",
+          "salt",
+          "blue",
+          "deep",
+          "current",
+          "reef",
+          "kelp",
+          "brine",
+          "abyss",
+          "pelagic",
+          "benthic",
+          "nautical",
+          "maritime",
+          "plankton",
+          "trench",
+          "lagoon",
+          "atoll",
+          "estuary",
+          "maelstrom",
+          "briny",
+          "thalassic"
+        ]
+      },
+      "rarityOverrides": {
+        "water": 10,
+        "sea": 10,
+        "wave": 10,
+        "beach": 10,
+        "fish": 10,
+        "tide": 20,
+        "coral": 40,
+        "reef": 40,
+        "brine": 60,
+        "abyss": 60,
+        "pelagic": 80,
+        "benthic": 100,
+        "thalassic": 100,
+        "maelstrom": 80
+      }
+    },
+    {
+      "id": "wp-1-p7",
+      "prompt": "Find a word matching this pattern: starts with Q, ends with T",
+      "rule": { "type": "pattern", "regex": "^q.*t$", "flags": "i" },
+      "rarityOverrides": {
+        "quiet": 10,
+        "quilt": 20,
+        "quest": 20,
+        "quart": 40,
+        "quotient": 60,
+        "quaint": 40,
+        "quadrant": 60,
+        "quintet": 80,
+        "quiescent": 100
+      }
+    }
+  ]
+}

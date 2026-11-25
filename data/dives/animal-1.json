@@ -1,0 +1,582 @@
+{
+  "id": "animal-1",
+  "title": "Animal Krillion · Wildlife Rare-Answer Challenge",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "ak-1-p1",
+      "prompt": "Name an animal that lives in the rainforest",
+      "answers": [
+        {
+          "label": "Monkey",
+          "aliases": [
+            "monkey",
+            "monkeys"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Parrot",
+          "aliases": [
+            "parrot",
+            "parrots"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Jaguar",
+          "aliases": [
+            "jaguar"
+          ],
+          "points": 20,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Toucan",
+          "aliases": [
+            "toucan"
+          ],
+          "points": 40,
+          "tier": "schooler"
+        },
+        {
+          "label": "Sloth",
+          "aliases": [
+            "sloth",
+            "three-toed sloth",
+            "two-toed sloth"
+          ],
+          "points": 40,
+          "tier": "schooler"
+        },
+        {
+          "label": "Okapi",
+          "aliases": [
+            "okapi"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Capybara",
+          "aliases": [
+            "capybara"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Quetzal",
+          "aliases": [
+            "quetzal",
+            "resplendent quetzal"
+          ],
+          "points": 80,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Glass frog",
+          "aliases": [
+            "glass frog",
+            "glassfrog"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    },
+    {
+      "id": "ak-1-p2",
+      "prompt": "Name a mammal that can fly or glide",
+      "answers": [
+        {
+          "label": "Bat",
+          "aliases": [
+            "bat",
+            "bats"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Flying squirrel",
+          "aliases": [
+            "flying squirrel",
+            "sugar glider"
+          ],
+          "points": 20,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Sugar glider",
+          "aliases": [
+            "sugar glider"
+          ],
+          "points": 40,
+          "tier": "schooler"
+        },
+        {
+          "label": "Colugo",
+          "aliases": [
+            "colugo",
+            "flying lemur"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Flying fox",
+          "aliases": [
+            "flying fox",
+            "fruit bat"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Siberian flying squirrel",
+          "aliases": [
+            "siberian flying squirrel"
+          ],
+          "points": 80,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Sunda colugo",
+          "aliases": [
+            "sunda colugo"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Gliding possum",
+          "aliases": [
+            "gliding possum",
+            "feathertail glider"
+          ],
+          "points": 80,
+          "tier": "deep_cut"
+        }
+      ]
+    },
+    {
+      "id": "ak-1-p3",
+      "prompt": "Name an animal known for camouflage",
+      "answers": [
+        {
+          "label": "Chameleon",
+          "aliases": [
+            "chameleon"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Octopus",
+          "aliases": [
+            "octopus",
+            "cuttlefish"
+          ],
+          "points": 20,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Stick insect",
+          "aliases": [
+            "stick insect",
+            "walking stick",
+            "phasma"
+          ],
+          "points": 40,
+          "tier": "schooler"
+        },
+        {
+          "label": "Leaf insect",
+          "aliases": [
+            "leaf insect",
+            "walking leaf"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Stonefish",
+          "aliases": [
+            "stonefish"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Pygmy seahorse",
+          "aliases": [
+            "pygmy seahorse",
+            "seahorse"
+          ],
+          "points": 80,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Orchid mantis",
+          "aliases": [
+            "orchid mantis",
+            "flower mantis"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Snow leopard",
+          "aliases": [
+            "snow leopard"
+          ],
+          "points": 40,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "ak-1-p4",
+      "prompt": "Name a creature that lives in the deep ocean",
+      "answers": [
+        {
+          "label": "Shark",
+          "aliases": [
+            "shark",
+            "sharks"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Whale",
+          "aliases": [
+            "whale",
+            "sperm whale"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Squid",
+          "aliases": [
+            "squid",
+            "giant squid"
+          ],
+          "points": 20,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Anglerfish",
+          "aliases": [
+            "anglerfish",
+            "angler fish"
+          ],
+          "points": 40,
+          "tier": "schooler"
+        },
+        {
+          "label": "Goblin shark",
+          "aliases": [
+            "goblin shark"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Vampire squid",
+          "aliases": [
+            "vampire squid"
+          ],
+          "points": 80,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Dumbo octopus",
+          "aliases": [
+            "dumbo octopus",
+            "grimpoteuthis"
+          ],
+          "points": 80,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Barreleye",
+          "aliases": [
+            "barreleye",
+            "barreleye fish",
+            "spookfish"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Gulper eel",
+          "aliases": [
+            "gulper eel"
+          ],
+          "points": 60,
+          "tier": "rare"
+        }
+      ]
+    },
+    {
+      "id": "ak-1-p5",
+      "prompt": "Name an unusual animal someone might keep as a pet",
+      "answers": [
+        {
+          "label": "Snake",
+          "aliases": [
+            "snake",
+            "python"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Lizard",
+          "aliases": [
+            "lizard",
+            "gecko",
+            "bearded dragon"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Ferret",
+          "aliases": [
+            "ferret"
+          ],
+          "points": 20,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Hedgehog",
+          "aliases": [
+            "hedgehog"
+          ],
+          "points": 40,
+          "tier": "schooler"
+        },
+        {
+          "label": "Axolotl",
+          "aliases": [
+            "axolotl"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Fennec fox",
+          "aliases": [
+            "fennec fox",
+            "fennec"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Kinkajou",
+          "aliases": [
+            "kinkajou"
+          ],
+          "points": 80,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Genet",
+          "aliases": [
+            "genet",
+            "small-spotted genet"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Tarantula",
+          "aliases": [
+            "tarantula"
+          ],
+          "points": 40,
+          "tier": "schooler"
+        }
+      ]
+    },
+    {
+      "id": "ak-1-p6",
+      "prompt": "Name an animal that migrates long distances",
+      "answers": [
+        {
+          "label": "Bird",
+          "aliases": [
+            "bird",
+            "birds",
+            "geese",
+            "goose"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Whale",
+          "aliases": [
+            "whale",
+            "humpback whale",
+            "gray whale"
+          ],
+          "points": 20,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Salmon",
+          "aliases": [
+            "salmon"
+          ],
+          "points": 20,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Monarch butterfly",
+          "aliases": [
+            "monarch",
+            "monarch butterfly"
+          ],
+          "points": 40,
+          "tier": "schooler"
+        },
+        {
+          "label": "Caribou",
+          "aliases": [
+            "caribou",
+            "reindeer"
+          ],
+          "points": 40,
+          "tier": "schooler"
+        },
+        {
+          "label": "Arctic tern",
+          "aliases": [
+            "arctic tern"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Wildebeest",
+          "aliases": [
+            "wildebeest",
+            "gnu"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Bar-tailed godwit",
+          "aliases": [
+            "bar-tailed godwit",
+            "godwit"
+          ],
+          "points": 80,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Globe skimmer dragonfly",
+          "aliases": [
+            "globe skimmer",
+            "pantala",
+            "wandering glider"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        }
+      ]
+    },
+    {
+      "id": "ak-1-p7",
+      "prompt": "Name a rare or endangered animal",
+      "answers": [
+        {
+          "label": "Panda",
+          "aliases": [
+            "panda",
+            "giant panda"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Tiger",
+          "aliases": [
+            "tiger",
+            "siberian tiger"
+          ],
+          "points": 10,
+          "tier": "plankton"
+        },
+        {
+          "label": "Rhino",
+          "aliases": [
+            "rhino",
+            "rhinoceros",
+            "white rhino"
+          ],
+          "points": 20,
+          "tier": "too_clever"
+        },
+        {
+          "label": "Orangutan",
+          "aliases": [
+            "orangutan"
+          ],
+          "points": 40,
+          "tier": "schooler"
+        },
+        {
+          "label": "Snow leopard",
+          "aliases": [
+            "snow leopard"
+          ],
+          "points": 40,
+          "tier": "schooler"
+        },
+        {
+          "label": "Vaquita",
+          "aliases": [
+            "vaquita"
+          ],
+          "points": 60,
+          "tier": "rare"
+        },
+        {
+          "label": "Kakapo",
+          "aliases": [
+            "kakapo"
+          ],
+          "points": 80,
+          "tier": "deep_cut"
+        },
+        {
+          "label": "Saola",
+          "aliases": [
+            "saola",
+            "asian unicorn"
+          ],
+          "points": 100,
+          "tier": "one_in_a_krillion"
+        },
+        {
+          "label": "Amur leopard",
+          "aliases": [
+            "amur leopard"
+          ],
+          "points": 60,
+          "tier": "rare"
+        }
+      ]
+    }
+  ]
+}

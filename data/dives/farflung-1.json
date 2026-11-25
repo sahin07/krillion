@@ -1,0 +1,112 @@
+{
+  "id": "farflung-1",
+  "title": "Farflung · Cosmic Exploration Challenge",
+  "diveNumber": 1,
+  "prompts": [
+    {
+      "id": "ff-1-p1",
+      "prompt": "Name a place you might explore on a distant planet",
+      "answers": [
+        { "label": "Crater", "aliases": ["crater", "impact crater"], "points": 10, "tier": "plankton" },
+        { "label": "Cave", "aliases": ["cave", "cavern"], "points": 10, "tier": "plankton" },
+        { "label": "Canyon", "aliases": ["canyon", "gorge"], "points": 15, "tier": "too_clever" },
+        { "label": "Ice field", "aliases": ["ice field", "ice sheet", "glacier"], "points": 30, "tier": "schooler" },
+        { "label": "Lava tube", "aliases": ["lava tube", "lava tubes"], "points": 60, "tier": "rare" },
+        { "label": "Dust sea", "aliases": ["dust sea", "dust ocean"], "points": 60, "tier": "rare" },
+        { "label": "Crystal ridge", "aliases": ["crystal ridge", "crystal mountain"], "points": 85, "tier": "deep_cut" },
+        { "label": "Obsidian basin", "aliases": ["obsidian basin", "obsidian lakebed"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Volcano", "aliases": ["volcano", "volcanic vent"], "points": 15, "tier": "too_clever" }
+      ]
+    },
+    {
+      "id": "ff-1-p2",
+      "prompt": "Name something unexpected you could discover in deep space",
+      "answers": [
+        { "label": "Asteroid", "aliases": ["asteroid", "asteroids"], "points": 10, "tier": "plankton" },
+        { "label": "Comet", "aliases": ["comet"], "points": 15, "tier": "too_clever" },
+        { "label": "Nebula", "aliases": ["nebula"], "points": 15, "tier": "too_clever" },
+        { "label": "Rogue planet", "aliases": ["rogue planet", "orphan planet"], "points": 60, "tier": "rare" },
+        { "label": "Abandoned probe", "aliases": ["probe", "abandoned probe", "space probe"], "points": 30, "tier": "schooler" },
+        { "label": "Ice ring debris", "aliases": ["ring debris", "ice ring", "ring shards"], "points": 60, "tier": "rare" },
+        { "label": "Silent beacon", "aliases": ["beacon", "silent beacon", "distress beacon"], "points": 85, "tier": "deep_cut" },
+        { "label": "Ghost signal archive", "aliases": ["ghost signal", "signal archive"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Black hole", "aliases": ["black hole"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "ff-1-p3",
+      "prompt": "Name a forgotten or hidden place explorers might seek",
+      "answers": [
+        { "label": "Ruins", "aliases": ["ruins", "ancient ruins"], "points": 10, "tier": "plankton" },
+        { "label": "Bunker", "aliases": ["bunker", "underground bunker"], "points": 15, "tier": "too_clever" },
+        { "label": "Shipwreck", "aliases": ["shipwreck", "wreck"], "points": 15, "tier": "too_clever" },
+        { "label": "Buried outpost", "aliases": ["outpost", "buried outpost"], "points": 30, "tier": "schooler" },
+        { "label": "Sealed archive vault", "aliases": ["archive vault", "sealed vault", "vault"], "points": 60, "tier": "rare" },
+        { "label": "Sunken observatory", "aliases": ["sunken observatory", "flooded observatory"], "points": 85, "tier": "deep_cut" },
+        { "label": "Cartographer's cache", "aliases": ["cache", "cartographers cache", "map cache"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Temple", "aliases": ["temple"], "points": 30, "tier": "schooler" },
+        { "label": "Tunnel network", "aliases": ["tunnels", "tunnel network"], "points": 60, "tier": "rare" }
+      ]
+    },
+    {
+      "id": "ff-1-p4",
+      "prompt": "Name an unusual object an explorer might find on an alien moon",
+      "answers": [
+        { "label": "Rock", "aliases": ["rock", "rocks", "stone"], "points": 10, "tier": "plankton" },
+        { "label": "Fossil", "aliases": ["fossil", "fossils"], "points": 15, "tier": "too_clever" },
+        { "label": "Metal fragment", "aliases": ["metal", "metal fragment", "scrap metal"], "points": 30, "tier": "schooler" },
+        { "label": "Crystal shard", "aliases": ["crystal", "crystal shard", "shard"], "points": 30, "tier": "schooler" },
+        { "label": "Ice core sample", "aliases": ["ice core", "core sample"], "points": 60, "tier": "rare" },
+        { "label": "Magnetic ore nodule", "aliases": ["magnetic ore", "ore nodule"], "points": 85, "tier": "deep_cut" },
+        { "label": "Bioluminescent spore", "aliases": ["spore", "bioluminescent spore", "glowing spore"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Footprint", "aliases": ["footprint", "tracks"], "points": 15, "tier": "too_clever" },
+        { "label": "Glass bead", "aliases": ["glass bead", "impact glass"], "points": 60, "tier": "rare" }
+      ]
+    },
+    {
+      "id": "ff-1-p5",
+      "prompt": "Name a way to describe a remote destination far from home",
+      "answers": [
+        { "label": "Far away", "aliases": ["far away", "faraway"], "points": 10, "tier": "plankton" },
+        { "label": "Distant", "aliases": ["distant", "remote"], "points": 10, "tier": "plankton" },
+        { "label": "Outskirts", "aliases": ["outskirts", "frontier"], "points": 15, "tier": "too_clever" },
+        { "label": "Edge of the map", "aliases": ["edge of the map", "off the map"], "points": 30, "tier": "schooler" },
+        { "label": "Beyond the rim", "aliases": ["beyond the rim", "outer rim"], "points": 60, "tier": "rare" },
+        { "label": "Uncharted sector", "aliases": ["uncharted", "uncharted sector"], "points": 60, "tier": "rare" },
+        { "label": "Farflung reach", "aliases": ["farflung", "far flung", "farflung reach"], "points": 85, "tier": "deep_cut" },
+        { "label": "Starlight hinterland", "aliases": ["hinterland", "starlight hinterland"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Deep space", "aliases": ["deep space"], "points": 15, "tier": "too_clever" }
+      ]
+    },
+    {
+      "id": "ff-1-p6",
+      "prompt": "Name a vehicle or craft for cosmic exploration",
+      "answers": [
+        { "label": "Rocket", "aliases": ["rocket", "rocket ship"], "points": 10, "tier": "plankton" },
+        { "label": "Spaceship", "aliases": ["spaceship", "space ship", "starship"], "points": 10, "tier": "plankton" },
+        { "label": "Shuttle", "aliases": ["shuttle", "space shuttle"], "points": 15, "tier": "too_clever" },
+        { "label": "Rover", "aliases": ["rover", "lunar rover", "mars rover"], "points": 15, "tier": "too_clever" },
+        { "label": "Survey drone", "aliases": ["drone", "survey drone"], "points": 30, "tier": "schooler" },
+        { "label": "Drop pod", "aliases": ["drop pod", "landing pod"], "points": 60, "tier": "rare" },
+        { "label": "Sail craft", "aliases": ["solar sail", "sail craft"], "points": 85, "tier": "deep_cut" },
+        { "label": "Jump skiff", "aliases": ["skiff", "jump skiff"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Probe", "aliases": ["probe"], "points": 30, "tier": "schooler" }
+      ]
+    },
+    {
+      "id": "ff-1-p7",
+      "prompt": "Name a surprising discovery from an uncharted region",
+      "answers": [
+        { "label": "Life", "aliases": ["life", "alien life"], "points": 10, "tier": "plankton" },
+        { "label": "Water", "aliases": ["water", "liquid water"], "points": 15, "tier": "too_clever" },
+        { "label": "Map", "aliases": ["map", "star map"], "points": 15, "tier": "too_clever" },
+        { "label": "New mineral", "aliases": ["mineral", "new mineral", "ore"], "points": 30, "tier": "schooler" },
+        { "label": "Ancient signal", "aliases": ["ancient signal", "old signal"], "points": 60, "tier": "rare" },
+        { "label": "Living crystal grove", "aliases": ["crystal grove", "living crystal"], "points": 85, "tier": "deep_cut" },
+        { "label": "Doorway into silence", "aliases": ["doorway", "silent doorway", "door into silence"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "City ruins", "aliases": ["city", "city ruins", "ruined city"], "points": 30, "tier": "schooler" },
+        { "label": "Warm oasis", "aliases": ["oasis", "warm oasis"], "points": 60, "tier": "rare" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "classic-3",
+  "title": "The Endless Dive",
+  "diveNumber": 3,
+  "prompts": [
+    {
+      "id": "c3-p1",
+      "prompt": "Name a Disney animated film",
+      "answers": [
+        { "label": "Frozen", "aliases": ["frozen"], "points": 10, "tier": "plankton" },
+        { "label": "The Lion King", "aliases": ["the lion king", "lion king"], "points": 10, "tier": "plankton" },
+        { "label": "Moana", "aliases": ["moana"], "points": 15, "tier": "too_clever" },
+        { "label": "Tangled", "aliases": ["tangled"], "points": 30, "tier": "schooler" },
+        { "label": "Zootopia", "aliases": ["zootopia", "zootropolis"], "points": 30, "tier": "schooler" },
+        { "label": "Atlantis", "aliases": ["atlantis", "atlantis the lost empire"], "points": 60, "tier": "rare" },
+        { "label": "Treasure Planet", "aliases": ["treasure planet"], "points": 85, "tier": "deep_cut" },
+        { "label": "The Black Cauldron", "aliases": ["the black cauldron", "black cauldron"], "points": 85, "tier": "deep_cut" },
+        { "label": "The Three Caballeros", "aliases": ["the three caballeros", "three caballeros"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "c3-p2",
+      "prompt": "Name a tree",
+      "answers": [
+        { "label": "Oak", "aliases": ["oak", "oak tree"], "points": 10, "tier": "plankton" },
+        { "label": "Pine", "aliases": ["pine", "pine tree"], "points": 10, "tier": "plankton" },
+        { "label": "Maple", "aliases": ["maple", "maple tree"], "points": 15, "tier": "too_clever" },
+        { "label": "Birch", "aliases": ["birch"], "points": 30, "tier": "schooler" },
+        { "label": "Cedar", "aliases": ["cedar"], "points": 30, "tier": "schooler" },
+        { "label": "Baobab", "aliases": ["baobab"], "points": 60, "tier": "rare" },
+        { "label": "Ginkgo", "aliases": ["ginkgo", "gingko", "ginkgo biloba"], "points": 60, "tier": "rare" },
+        { "label": "Wollemi Pine", "aliases": ["wollemi pine", "wollemi"], "points": 100, "tier": "one_in_a_krillion" },
+        { "label": "Dragon Blood Tree", "aliases": ["dragon blood tree", "dracaena cinnabari"], "points": 85, "tier": "deep_cut" }
+      ]
+    },
+    {
+      "id": "c3-p3",
+      "prompt": "Name a cheese",
+      "answers": [
+        { "label": "Cheddar", "aliases": ["cheddar"], "points": 10, "tier": "plankton" },
+        { "label": "Mozzarella", "aliases": ["mozzarella", "mozarella"], "points": 10, "tier": "plankton" },
+        { "label": "Brie", "aliases": ["brie"], "points": 15, "tier": "too_clever" },
+        { "label": "Gouda", "aliases": ["gouda"], "points": 30, "tier": "schooler" },
+        { "label": "Parmesan", "aliases": ["parmesan", "parmigiano", "parmigiano reggiano"], "points": 30, "tier": "schooler" },
+        { "label": "Roquefort", "aliases": ["roquefort"], "points": 60, "tier": "rare" },
+        { "label": "Comté", "aliases": ["comte", "comté"], "points": 85, "tier": "deep_cut" },
+        { "label": "Manchego", "aliases": ["manchego"], "points": 60, "tier": "rare" },
+        { "label": "Époisses", "aliases": ["epoisses", "époisses"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "c3-p4",
+      "prompt": "Name a Greek god or goddess",
+      "answers": [
+        { "label": "Zeus", "aliases": ["zeus"], "points": 10, "tier": "plankton" },
+        { "label": "Athena", "aliases": ["athena"], "points": 15, "tier": "too_clever" },
+        { "label": "Poseidon", "aliases": ["poseidon"], "points": 15, "tier": "too_clever" },
+        { "label": "Apollo", "aliases": ["apollo"], "points": 30, "tier": "schooler" },
+        { "label": "Artemis", "aliases": ["artemis"], "points": 30, "tier": "schooler" },
+        { "label": "Hestia", "aliases": ["hestia"], "points": 60, "tier": "rare" },
+        { "label": "Hephaestus", "aliases": ["hephaestus", "hephaistos"], "points": 60, "tier": "rare" },
+        { "label": "Hecate", "aliases": ["hecate", "hekate"], "points": 85, "tier": "deep_cut" },
+        { "label": "Nyx", "aliases": ["nyx"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "c3-p5",
+      "prompt": "Name a desert",
+      "answers": [
+        { "label": "Sahara", "aliases": ["sahara", "sahara desert"], "points": 10, "tier": "plankton" },
+        { "label": "Gobi", "aliases": ["gobi", "gobi desert"], "points": 30, "tier": "schooler" },
+        { "label": "Mojave", "aliases": ["mojave", "mojave desert", "mohave"], "points": 30, "tier": "schooler" },
+        { "label": "Atacama", "aliases": ["atacama", "atacama desert"], "points": 60, "tier": "rare" },
+        { "label": "Kalahari", "aliases": ["kalahari", "kalahari desert"], "points": 60, "tier": "rare" },
+        { "label": "Namib", "aliases": ["namib", "namib desert"], "points": 85, "tier": "deep_cut" },
+        { "label": "Thar", "aliases": ["thar", "thar desert", "great indian desert"], "points": 85, "tier": "deep_cut" },
+        { "label": "Antarctic Desert", "aliases": ["antarctic desert", "antarctica"], "points": 15, "tier": "too_clever" },
+        { "label": "Taklamakan", "aliases": ["taklamakan", "taklimakan"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    },
+    {
+      "id": "c3-p6",
+      "prompt": "Name a bird of prey",
+      "answers": [
+        { "label": "Eagle", "aliases": ["eagle"], "points": 10, "tier": "plankton" },
+        { "label": "Hawk", "aliases": ["hawk"], "points": 10, "tier": "plankton" },
+        { "label": "Owl", "aliases": ["owl"], "points": 15, "tier": "too_clever" },
+        { "label": "Falcon", "aliases": ["falcon"], "points": 30, "tier": "schooler" },
+        { "label": "Osprey", "aliases": ["osprey"], "points": 60, "tier": "rare" },
+        { "label": "Kestrel", "aliases": ["kestrel"], "points": 60, "tier": "rare" },
+        { "label": "Harrier", "aliases": ["harrier"], "points": 85, "tier": "deep_cut" },
+        { "label": "Secretary Bird", "aliases": ["secretary bird", "secretarybird"], "points": 85, "tier": "deep_cut" },
+        { "label": "Philippine Eagle", "aliases": ["philippine eagle", "monkey eating eagle"], "points": 100, "tier": "one_in_a_krillion" }
+      ]
+    }
+  ]
+}
